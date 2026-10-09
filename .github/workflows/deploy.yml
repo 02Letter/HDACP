@@ -26,6 +26,13 @@ jobs:
           ref: main
 
       - name: Set up Python
+        if: github.event_name == 'push'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Python for sync
+        if: github.event_name != 'push'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
