@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 .backups/
+__pycache__/
+sync-report.json
 
 # Editor directories and files
 .vscode/*

@@ -1,9 +1,17 @@
 name: Deploy to GitHub Pages
 
 on:
+  workflow_dispatch:
+  schedule:
+    # UTC 00:17 = Beijing 08:17; GitHub may delay scheduled runs.
+    - cron: '17 0 * * *'
   push:
     branches:
       - main
+
+concurrency:
+  group: hdacp-publish
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
@@ -13,9 +21,47 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verify sync rules
+        run: python -m unittest discover -s scripts -p "test_sync_content.py"
+
+      - name: Fetch public content
+        id: sync
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python scripts/sync_content.py --report sync-report.json
+
+      - name: Save sync report
+        if: always() && github.event_name != 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: content-sync-report
+          path: sync-report.json
+          retention-days: 30
+
+      - name: Commit new content
+        if: github.event_name != 'push'
+        run: |
+          git add src/data/auto-publications.json src/data/auto-news.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update public lab publications and news"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
 
       - name: Set up Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
@@ -33,3 +79,9 @@ jobs:
         with:
           folder: dist
           branch: gh-pages
+
+      - name: Report source errors
+        if: steps.sync.outcome == 'failure'
+        run: |
+          echo "Some content sources failed. Existing entries were retained; inspect content-sync-report."
+          exit 1

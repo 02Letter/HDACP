@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import teamData from '@/data/team.json'
+import autoPapers from '@/data/auto-publications.json'
 import MemberAvatar from '@/components/MemberAvatar.vue'
 
 const route = useRoute()
@@ -11,6 +12,12 @@ const teacher = computed(() => {
 })
 
 const baseUrl = import.meta.env.BASE_URL
+const recentPapers = computed(() => {
+  if (!teacher.value) return []
+  const normalize = text => String(text).normalize('NFKD').toLowerCase().replace(/[^\p{L}\p{N}]/gu, '')
+  const existing = (teacher.value.papers || []).flatMap(p => p.items || [p]).map(normalize)
+  return autoPapers.filter(p => p.members.includes(teacher.value.name) && !existing.some(text => text.includes(normalize(p.title))))
+})
 </script>
 
 <template>
@@ -119,6 +126,15 @@ const baseUrl = import.meta.env.BASE_URL
           </section>
 
           <!-- Publications -->
+          <section v-if="recentPapers.length" class="detail-section">
+            <h3>近期论文</h3>
+            <ul class="papers-list">
+              <li v-for="paper in recentPapers" :key="paper.id" class="paper-item">
+                <a :href="paper.link" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>
+                <span> · {{ paper.year }}<template v-if="paper.venue"> · {{ paper.venue }}</template></span>
+              </li>
+            </ul>
+          </section>
           <section v-if="teacher.papers?.length" class="detail-section">
             <h3>学术论文</h3>
             <template v-if="teacher.papers[0]?.items">

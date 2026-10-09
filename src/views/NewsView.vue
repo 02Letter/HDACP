@@ -1,9 +1,9 @@
 <script setup>
-import newsData from '@/data/news.json'
+import { newsData, dateValue } from '@/data/content.js'
 const baseUrl = import.meta.env.BASE_URL
 
 const allNews = [...newsData.news, ...newsData.papers].sort((a, b) => {
-  return parseInt(b.date) - parseInt(a.date)
+  return dateValue(b.date) - dateValue(a.date)
 })
 </script>
 

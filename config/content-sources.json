@@ -1,0 +1,29 @@
+{
+  "since": "2025-01-01",
+  "institution": "I116265982",
+  "teachers": [
+    {"memberId": "wxy", "name": "王晓英", "aliases": ["Xiaoying Wang"], "authorIds": ["A5100700839"], "orcids": ["0000-0003-1029-0358"], "evidence": "https://dblp.org/pid/47/807-2.html"},
+    {"memberId": "hjq", "name": "黄建强", "aliases": ["Jianqiang Huang"], "authorIds": ["A5124084329", "A5101945411", "A5101945412"], "orcids": ["0000-0002-4454-7919", "0000-0003-2234-2696"], "evidence": "https://dblp.org/pid/207/1901-2.html"},
+    {"memberId": "jjf", "name": "贾金芳", "aliases": ["Jinfang Jia"], "authorIds": ["A5069035743"], "orcids": ["0000-0002-0139-5126"], "evidence": "https://dblp.org/pid/293/0199.html"},
+    {"memberId": "zgj", "name": "张国晶", "aliases": ["Guojing Zhang"], "authorIds": ["A5052762597"], "orcids": ["0000-0003-2152-4105"], "evidence": "https://doi.org/10.3390/atmos15080914"},
+    {"memberId": "wl", "name": "吴利", "aliases": ["Li Wu"], "authorIds": ["A5019923388"], "orcids": ["0000-0001-5242-3169"], "evidence": "https://doi.org/10.5194/gmd-13-41-2020"},
+    {"memberId": "bhd", "name": "边浩东", "aliases": ["Haodong Bian"], "authorIds": ["A5003261630"], "orcids": ["0000-0003-0907-288X"], "evidence": "https://dblp.org/pid/212/7729.html"},
+    {"memberId": "wzc", "name": "王哲诚", "aliases": ["Zhecheng Wang"], "authorIds": ["A5004817418"], "orcids": ["0000-0003-0142-6495"], "evidence": "https://doi.org/10.1145/3731715.3733489"},
+    {"memberId": "bxj", "name": "白小军", "aliases": ["Xiaojun Bai"], "authorIds": ["A5136925744"], "orcids": [], "evidence": "https://doi.org/10.1007/s11227-026-08591-6"}
+  ],
+  "studentAliases": {
+    "姚自强": ["Ziqiang Yao"], "吴达黎": ["Dali Wu"], "董润婷": ["Runting Dong"],
+    "刘令斌": ["Lingbin Liu", "Linbing Liu"], "黄东强": ["Dongqiang Huang"], "侯天瑞": ["Tianrui Hou"],
+    "姜佳凡": ["Jiafan Jiang"], "张文轩": ["Wenxuan Zhang"], "李博录": ["Bolu Li"], "马晨昱": ["Chenyu Ma"],
+    "唐嘉豪": ["Jiahao Tang"], "余航": ["Hang Yu"], "李博": ["Bo Li"], "宁争胜": ["Zhengsheng Ning"],
+    "李志雄": ["Zhixiong Li"], "刘杰": ["Jie Liu"], "赵海翔": ["Haixiang Zhao"], "潭张杰": ["Zhangjie Tan"],
+    "李金雯": ["Jinwen Li"], "刘君": ["Jun Liu"], "涂进兴": ["Jinxing Tu"], "刘冰燕": ["Bingyan Liu"],
+    "徐澳康": ["Aokang Xu"], "陈闽昊": ["Minhao Chen"], "吴环": ["Huan Wu"], "杨雪娇": ["Xuejiao Yang"],
+    "罗佩聪": ["Peicong Luo"], "李玉玲": ["Yuling Li"], "严文昕": ["Wenxin Yan"], "黄鼎昌": ["Dingchang Huang"],
+    "赵梦梦": ["Mengmeng Zhao"], "张琨": ["Kun Zhang"], "李凯": ["Kai Li"], "杨圣豪": ["Shenghao Yang"],
+    "凌龙": ["Long Ling"], "陈玉婷": ["Yuting Chen"]
+  },
+  "newsIndexes": ["https://cs.qhu.edu.cn/xzjl/index.htm", "https://cs.qhu.edu.cn/xkjs/index.htm", "https://cs.qhu.edu.cn/yxdt/index.htm"],
+  "labKeywords": ["高性能与云计算", "HDACP", "高性能计算与云计算"],
+  "maxArticles": 45
+}

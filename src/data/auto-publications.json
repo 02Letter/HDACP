@@ -1,0 +1,763 @@
+[
+  {
+    "id": "https://openalex.org/W7212371370",
+    "title": "TFS: Tile-Aware SpMM–GeMM Fusion for Accelerating GNN Inference on Intel AMX",
+    "date": "2026-09-13",
+    "year": "2026",
+    "venue": "Proceedings of the International Conference on Parallel Processing",
+    "link": "https://doi.org/10.1145/3832810.3832855",
+    "doi": "https://doi.org/10.1145/3832810.3832855",
+    "authors": [
+      "Xiao Yan",
+      "Haodong Bian",
+      "Xiaoying Wang",
+      "Tengfei Cao",
+      "Jianqiang Huang"
+    ],
+    "members": [
+      "王晓英",
+      "边浩东",
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7212371370"
+  },
+  {
+    "id": "https://openalex.org/W7203473359",
+    "title": "GWBP: Accelerating Weighted Back-Projection for Image Reconstruction via Efficient GPU Parallel Optimization",
+    "date": "2026-08-14",
+    "year": "2026",
+    "venue": "Lecture notes in computer science",
+    "link": "https://doi.org/10.1007/978-3-032-35248-4_40",
+    "doi": "https://doi.org/10.1007/978-3-032-35248-4_40",
+    "authors": [
+      "Hongbo Miao",
+      "Haodong Bian"
+    ],
+    "members": [
+      "边浩东"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7203473359"
+  },
+  {
+    "id": "https://openalex.org/W7169886154",
+    "title": "Residual Embedding for Sparse Subspace Clustering",
+    "date": "2026-07-21",
+    "year": "2026",
+    "venue": "Neurocomputing",
+    "link": "https://doi.org/10.1016/j.neucom.2026.134525",
+    "doi": "https://doi.org/10.1016/j.neucom.2026.134525",
+    "authors": [
+      "Wenyi Feng",
+      "Jianqiang Huang"
+    ],
+    "members": [
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7169886154"
+  },
+  {
+    "id": "https://openalex.org/W7168089161",
+    "title": "OSOW: A Resource-Efficient Parallelization of the Winograd Algorithm on Multicore CPUs",
+    "date": "2026-07-12",
+    "year": "2026",
+    "venue": "Lecture notes in computer science",
+    "link": "https://doi.org/10.1007/978-981-92-2864-5_13",
+    "doi": "https://doi.org/10.1007/978-981-92-2864-5_13",
+    "authors": [
+      "Siyu Ren",
+      "Haodong Bian",
+      "Feng Xue",
+      "Xiaoying Wang"
+    ],
+    "members": [
+      "王晓英",
+      "边浩东"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7168089161"
+  },
+  {
+    "id": "https://openalex.org/W7167011161",
+    "title": "SVSIG: Incremental Streaming Graph Processing with Source Vertex Suppression",
+    "date": "2026-07-02",
+    "year": "2026",
+    "venue": "ACM International Conference on Supercomputing (ICS)",
+    "link": "https://doi.org/10.1145/3797905.3807850",
+    "doi": "https://doi.org/10.1145/3797905.3807850",
+    "authors": [
+      "Jianqiang Huang",
+      "Xiao Yan",
+      "Dapeng Fu",
+      "Haodong Bian",
+      "Tengfei Cao",
+      "Zhixiong Li"
+    ],
+    "members": [
+      "边浩东",
+      "黄建强"
+    ],
+    "studentCoauthors": [
+      "李志雄"
+    ],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7167011161"
+  },
+  {
+    "id": "https://openalex.org/W7164831364",
+    "title": "Parameter-Efficient Adaptation with Proxy Anchors for Cross-Domain Few-Shot Learning",
+    "date": "2026-06-15",
+    "year": "2026",
+    "venue": "International Conference on Multimedia Retrieval",
+    "link": "https://doi.org/10.1145/3805622.3810786",
+    "doi": "https://doi.org/10.1145/3805622.3810786",
+    "authors": [
+      "Song Shi",
+      "Liu Chengqiao",
+      "Jinfang Jia"
+    ],
+    "members": [
+      "贾金芳"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7164831364"
+  },
+  {
+    "id": "https://openalex.org/W7162307771",
+    "title": "Feml: a feature enhancement and machine learning framework for HPC job power consumption prediction",
+    "date": "2026-05-25",
+    "year": "2026",
+    "venue": "The Journal of Supercomputing",
+    "link": "https://doi.org/10.1007/s11227-026-08591-6",
+    "doi": "https://doi.org/10.1007/s11227-026-08591-6",
+    "authors": [
+      "Heng Guo",
+      "Xiaojun Bai",
+      "周继",
+      "Wei Zhang",
+      "Jianqiang Huang"
+    ],
+    "members": [
+      "白小军"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7162307771"
+  },
+  {
+    "id": "https://openalex.org/W4415916008",
+    "title": "Hierarchical fusion of local and global visual features with mixture-of-experts for remote sensing image scene classification",
+    "date": "2026-05-21",
+    "year": "2026",
+    "venue": "Neurocomputing",
+    "link": "https://doi.org/10.1016/j.neucom.2026.134039",
+    "doi": "https://doi.org/10.1016/j.neucom.2026.134039",
+    "authors": [
+      "Yuanhao Tang",
+      "Xuechao Zou",
+      "Z. Y. Hu",
+      "Junliang Xing",
+      "Chengkun Zhang",
+      "Jianqiang Huang"
+    ],
+    "members": [
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4415916008"
+  },
+  {
+    "id": "https://openalex.org/W7155063071",
+    "title": "HEMD-SegNet: A Hierarchical Encoder-Mixer-Decoder Segmentation Network for Extracting Lakes from Remote Sensing Images",
+    "date": "2026-04-21",
+    "year": "2026",
+    "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+    "link": "https://doi.org/10.1109/icassp55912.2026.11463931",
+    "doi": "https://doi.org/10.1109/icassp55912.2026.11463931",
+    "authors": [
+      "Zijie Feng",
+      "Zhecheng Wang",
+      "Jun Ma",
+      "Ruijiang Ma"
+    ],
+    "members": [
+      "王哲诚"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7155063071"
+  },
+  {
+    "id": "https://openalex.org/W7135016088",
+    "title": "Dynamic pivotal node attention for spatio-temporal wind speed forecasting",
+    "date": "2026-03-11",
+    "year": "2026",
+    "venue": "Neurocomputing",
+    "link": "https://doi.org/10.1016/j.neucom.2026.133276",
+    "doi": "https://doi.org/10.1016/j.neucom.2026.133276",
+    "authors": [
+      "Jianlong Zhang",
+      "Li Wu",
+      "Guojing Zhang",
+      "Jianqiang Huang",
+      "Xiaoying Wang"
+    ],
+    "members": [
+      "吴利",
+      "张国晶",
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7135016088"
+  },
+  {
+    "id": "https://openalex.org/W7118167819",
+    "title": "PHFedDA: Personalized Hierarchical Federated Learning Framework Based on Heterogeneous Data Aggregation in Vehicular Networks",
+    "date": "2026-01-05",
+    "year": "2026",
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "link": "https://doi.org/10.1109/tvt.2025.3650582",
+    "doi": "https://doi.org/10.1109/tvt.2025.3650582",
+    "authors": [
+      "Runtian Yin",
+      "Tengfei Cao",
+      "Xiaoying Wang",
+      "Jianqiang Huang",
+      "He Xiao",
+      "Changqiao Xu"
+    ],
+    "members": [
+      "王晓英",
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7118167819"
+  },
+  {
+    "id": "https://openalex.org/W7196929861",
+    "title": "Efficient 3D MAC Array with Pipelining for PIM",
+    "date": "2026-01-01",
+    "year": "2026",
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "link": "https://doi.org/10.1109/tcad.2026.3717166",
+    "doi": "https://doi.org/10.1109/tcad.2026.3717166",
+    "authors": [
+      "Song Wang",
+      "Jindong Liang",
+      "Keao Qiao",
+      "Nianchen Hua",
+      "Sigang Zhao",
+      "Jianqiang Huang",
+      "Huanglong Li"
+    ],
+    "members": [
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7196929861"
+  },
+  {
+    "id": "https://openalex.org/W7160024246",
+    "title": "Spatiotemporal Dual-Graph Interaction Network for Wind-Speed Forecasting",
+    "date": "2025-12-12",
+    "year": "2025",
+    "venue": "International Conference on Big Data, Artificial Intelligence and Risk Management (ICBAR)",
+    "link": "https://doi.org/10.1145/3800227.3800280",
+    "doi": "https://doi.org/10.1145/3800227.3800280",
+    "authors": [
+      "Jianlong Zhang",
+      "Li Wu",
+      "Zhengkun Zhao",
+      "Botao Zhang"
+    ],
+    "members": [
+      "吴利"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7160024246"
+  },
+  {
+    "id": "https://openalex.org/W7124973060",
+    "title": "FE-ES-Transformer: Frequency-Enhanced Exponential Smoothing Transformer for Smart Grid Energy Consumption Forecasting",
+    "date": "2025-12-05",
+    "year": "2025",
+    "venue": "",
+    "link": "https://doi.org/10.1109/icftic68075.2025.11324761",
+    "doi": "https://doi.org/10.1109/icftic68075.2025.11324761",
+    "authors": [
+      "Jinbao Hong",
+      "Guojing Zhang"
+    ],
+    "members": [
+      "张国晶"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7124973060"
+  },
+  {
+    "id": "https://openalex.org/W4416863094",
+    "title": "Redundancy reduction with gradient-weighted pruning for cross-domain few-shot learning",
+    "date": "2025-12-01",
+    "year": "2025",
+    "venue": "CCF Transactions on High Performance Computing",
+    "link": "https://doi.org/10.1007/s42514-025-00264-9",
+    "doi": "https://doi.org/10.1007/s42514-025-00264-9",
+    "authors": [
+      "Jinfang Jia",
+      "Suhang Wei",
+      "Xiang Feng",
+      "Huiqun Yu"
+    ],
+    "members": [
+      "贾金芳"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4416863094"
+  },
+  {
+    "id": "https://openalex.org/W4416765436",
+    "title": "A novel spatiotemporal transformer network with multivariate fusion for short-term precipitation forecasting",
+    "date": "2025-11-27",
+    "year": "2025",
+    "venue": "Scientific Reports",
+    "link": "https://doi.org/10.1038/s41598-025-29415-2",
+    "doi": "https://doi.org/10.1038/s41598-025-29415-2",
+    "authors": [
+      "Kai Zhang",
+      "Guojing Zhang",
+      "Xiaoying Wang",
+      "Yu Zhu",
+      "Wu Li"
+    ],
+    "members": [
+      "张国晶"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4416765436"
+  },
+  {
+    "id": "https://openalex.org/W4416263018",
+    "title": "Enhancing multivariate weather forecasting via temporal attention and spatiotemporal fusion",
+    "date": "2025-11-15",
+    "year": "2025",
+    "venue": "Engineering Applications of Artificial Intelligence",
+    "link": "https://doi.org/10.1016/j.engappai.2025.113133",
+    "doi": "https://doi.org/10.1016/j.engappai.2025.113133",
+    "authors": [
+      "Jun Liu",
+      "Zhibo Kong",
+      "Xiaoying Wang",
+      "Li Wu",
+      "Guojing Zhang"
+    ],
+    "members": [
+      "吴利",
+      "张国晶"
+    ],
+    "studentCoauthors": [
+      "刘君"
+    ],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4416263018"
+  },
+  {
+    "id": "https://openalex.org/W7125959953",
+    "title": "Imputing Missing Temperature Data of Meteorological Stations Based on Global Spatiotemporal Attention Neural Network",
+    "date": "2025-10-05",
+    "year": "2025",
+    "venue": "Conference proceedings/Conference proceedings - IEEE International Conference on Systems, Man, and Cybernetics",
+    "link": "https://doi.org/10.1109/smc58881.2025.11342713",
+    "doi": "https://doi.org/10.1109/smc58881.2025.11342713",
+    "authors": [
+      "Tianrui Hou",
+      "Xinshuai Guo",
+      "Li Wu",
+      "Xiaoying Wang",
+      "Guojing Zhang",
+      "Jianqiang Huang"
+    ],
+    "members": [
+      "张国晶",
+      "黄建强"
+    ],
+    "studentCoauthors": [
+      "侯天瑞"
+    ],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7125959953"
+  },
+  {
+    "id": "https://openalex.org/W4414299600",
+    "title": "TransMambaCNN: A Spatiotemporal Transformer Network Fusing State-Space Models and CNNs for Short-Term Precipitation Forecasting",
+    "date": "2025-09-16",
+    "year": "2025",
+    "venue": "Remote Sensing",
+    "link": "https://doi.org/10.3390/rs17183200",
+    "doi": "https://doi.org/10.3390/rs17183200",
+    "authors": [
+      "Kai Zhang",
+      "Guojing Zhang",
+      "Xiaoying Wang"
+    ],
+    "members": [
+      "张国晶"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4414299600"
+  },
+  {
+    "id": "https://openalex.org/W4413122553",
+    "title": "LSTMConvSR: Joint Long–Short-Range Modeling via LSTM-First–CNN-Next Architecture for Remote Sensing Image Super-Resolution",
+    "date": "2025-08-07",
+    "year": "2025",
+    "venue": "Remote Sensing",
+    "link": "https://doi.org/10.3390/rs17152745",
+    "doi": "https://doi.org/10.3390/rs17152745",
+    "authors": [
+      "Qiwei Zhu",
+      "Guojing Zhang",
+      "Xiaoying Wang",
+      "Jianqiang Huang"
+    ],
+    "members": [
+      "张国晶",
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4413122553"
+  },
+  {
+    "id": "https://openalex.org/W4412564893",
+    "title": "Dynamic adaptive attention optimization for cross-domain few-shot learning",
+    "date": "2025-07-22",
+    "year": "2025",
+    "venue": "Expert Systems with Applications",
+    "link": "https://doi.org/10.1016/j.eswa.2025.129139",
+    "doi": "https://doi.org/10.1016/j.eswa.2025.129139",
+    "authors": [
+      "Jinfang Jia",
+      "Xiang Feng",
+      "Huiqun Yu"
+    ],
+    "members": [
+      "贾金芳"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4412564893"
+  },
+  {
+    "id": "https://openalex.org/W4416251974",
+    "title": "Exploring Linear Attention Alternative for Single Image Super-Resolution*",
+    "date": "2025-06-30",
+    "year": "2025",
+    "venue": "",
+    "link": "https://doi.org/10.1109/ijcnn64981.2025.11227911",
+    "doi": "https://doi.org/10.1109/ijcnn64981.2025.11227911",
+    "authors": [
+      "Rongchang Lu",
+      "Changyu Li",
+      "Donghang Li",
+      "Guojing Zhang",
+      "Jianqiang Huang",
+      "Xilai Li"
+    ],
+    "members": [
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4416251974"
+  },
+  {
+    "id": "https://openalex.org/W4416251068",
+    "title": "Enhanced Short-Term Precipitation Forecasting Using the Advanced TripFormer Measure",
+    "date": "2025-06-30",
+    "year": "2025",
+    "venue": "",
+    "link": "https://doi.org/10.1109/ijcnn64981.2025.11227912",
+    "doi": "https://doi.org/10.1109/ijcnn64981.2025.11227912",
+    "authors": [
+      "Tianjing Liu",
+      "Guojing Zhang",
+      "Xiaoying Wang",
+      "Yu Zhu",
+      "Li Wu",
+      "Qiao Meng"
+    ],
+    "members": [
+      "吴利",
+      "张国晶"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4416251068"
+  },
+  {
+    "id": "https://openalex.org/W4416844310",
+    "title": "The Exploration and Practice of Classroom Teaching of Computer Major Courses in Colleges and Universities under the Innovative Teaching Mode of “Four in One”",
+    "date": "2025-06-27",
+    "year": "2025",
+    "venue": "",
+    "link": "https://doi.org/10.1145/3764206.3764230",
+    "doi": "https://doi.org/10.1145/3764206.3764230",
+    "authors": [
+      "Xiaodan Zhang",
+      "Tengfei Cao",
+      "Chuanqian Tang",
+      "Guojing Zhang"
+    ],
+    "members": [
+      "张国晶"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4416844310"
+  },
+  {
+    "id": "https://openalex.org/W4411523035",
+    "title": "Vector knowledge transfer-driven representation learning for heterogeneous hypernetworks",
+    "date": "2025-06-22",
+    "year": "2025",
+    "venue": "Knowledge and Information Systems",
+    "link": "https://doi.org/10.1007/s10115-025-02512-4",
+    "doi": "https://doi.org/10.1007/s10115-025-02512-4",
+    "authors": [
+      "Yijian Chen",
+      "Yu Zhu",
+      "Xiaoying Wang",
+      "Jianqiang Huang",
+      "Tengfei Cao",
+      "Wei Wang"
+    ],
+    "members": [
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4411523035"
+  },
+  {
+    "id": "https://openalex.org/W4409076302",
+    "title": "CPAT: cross-patch aggregated transformer for time series forecasting",
+    "date": "2025-03-31",
+    "year": "2025",
+    "venue": "Machine Learning",
+    "link": "https://doi.org/10.1007/s10994-025-06758-5",
+    "doi": "https://doi.org/10.1007/s10994-025-06758-5",
+    "authors": [
+      "Bingyan Liu",
+      "Li Wu",
+      "Xiaoying Wang",
+      "Jianqiang Huang",
+      "Guojing Zhang"
+    ],
+    "members": [
+      "吴利",
+      "张国晶",
+      "黄建强"
+    ],
+    "studentCoauthors": [
+      "刘冰燕"
+    ],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4409076302"
+  },
+  {
+    "id": "https://openalex.org/W4408663784",
+    "title": "Parallel solution and optimization of microphysics module in GRAPES physics process",
+    "date": "2025-03-20",
+    "year": "2025",
+    "venue": "",
+    "link": "https://doi.org/10.1117/12.3059237",
+    "doi": "https://doi.org/10.1117/12.3059237",
+    "authors": [
+      "Aokang Xu",
+      "Jinfang Jia"
+    ],
+    "members": [
+      "贾金芳"
+    ],
+    "studentCoauthors": [
+      "徐澳康"
+    ],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4408663784"
+  },
+  {
+    "id": "https://openalex.org/W4408625830",
+    "title": "Research on GPU transplantation optimization of PRM scalar advection scheme in GRAPES global forecast system",
+    "date": "2025-03-19",
+    "year": "2025",
+    "venue": "CCF Transactions on High Performance Computing",
+    "link": "https://doi.org/10.1007/s42514-025-00216-3",
+    "doi": "https://doi.org/10.1007/s42514-025-00216-3",
+    "authors": [
+      "Zhangjie Tan",
+      "Jinfang Jia",
+      "Zhengsheng Ning",
+      "Jianqiang Huang",
+      "Xiaoying Wang"
+    ],
+    "members": [
+      "王晓英",
+      "贾金芳",
+      "黄建强"
+    ],
+    "studentCoauthors": [
+      "宁争胜",
+      "潭张杰"
+    ],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4408625830"
+  },
+  {
+    "id": "https://openalex.org/W4409724119",
+    "title": "A Study on Short-Term Nowcasting Precipitation Forecasting Methods Based on Radar Echo Maps",
+    "date": "2025-03-14",
+    "year": "2025",
+    "venue": "IEEE Information Technology and Mechatronics Engineering Conference (ITOEC)",
+    "link": "https://doi.org/10.1109/itoec63606.2025.10968611",
+    "doi": "https://doi.org/10.1109/itoec63606.2025.10968611",
+    "authors": [
+      "Jie Liu",
+      "Xingchi Wang",
+      "Guojing Zhang"
+    ],
+    "members": [
+      "张国晶"
+    ],
+    "studentCoauthors": [
+      "刘杰"
+    ],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4409724119"
+  },
+  {
+    "id": "https://openalex.org/W4408116205",
+    "title": "Quantization Parameter Cascading for Lossy Point Cloud Attribute Compression in G-PCC",
+    "date": "2025-03-03",
+    "year": "2025",
+    "venue": "APSIPA Transactions on Signal and Information Processing",
+    "link": "https://doi.org/10.1561/116.20240063",
+    "doi": "https://doi.org/10.1561/116.20240063",
+    "authors": [
+      "Lei Wei",
+      "Zhiwei Zhu",
+      "Zhecheng Wang",
+      "Shuai Wan"
+    ],
+    "members": [
+      "王哲诚"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4408116205"
+  },
+  {
+    "id": "https://openalex.org/W4412446533",
+    "title": "A Self-Supervised Pre-Training Method Combining Sequential Reconstruction and Contrastive Learning for Time Series Forecasting",
+    "date": "2025-01-10",
+    "year": "2025",
+    "venue": "International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "link": "https://doi.org/10.1109/nnice64954.2025.11063892",
+    "doi": "https://doi.org/10.1109/nnice64954.2025.11063892",
+    "authors": [
+      "Bingyan Liu",
+      "Li Wu",
+      "Jinwen Li",
+      "Xiaoying Wang"
+    ],
+    "members": [
+      "吴利"
+    ],
+    "studentCoauthors": [
+      "刘冰燕",
+      "李金雯"
+    ],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4412446533"
+  },
+  {
+    "id": "https://openalex.org/W4414856531",
+    "title": "GDSR: Global-Detail Integration Through Dual-Branch Network With Wavelet Losses for Remote Sensing Image Super-Resolution",
+    "date": "2025-01-01",
+    "year": "2025",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "link": "https://doi.org/10.1109/tgrs.2025.3617006",
+    "doi": "https://doi.org/10.1109/tgrs.2025.3617006",
+    "authors": [
+      "Qiwei Zhu",
+      "Kai Li",
+      "Guojing Zhang",
+      "Xiaoying Wang",
+      "Jianqiang Huang",
+      "Xilai Li"
+    ],
+    "members": [
+      "张国晶",
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4414856531"
+  },
+  {
+    "id": "https://openalex.org/W4410602078",
+    "title": "Research on Temperature Forecasting Model Based on BiLSTM-Attention Algorithm",
+    "date": "2025-01-01",
+    "year": "2025",
+    "venue": "Lecture notes in electrical engineering",
+    "link": "https://doi.org/10.1007/978-981-96-2528-4_36",
+    "doi": "https://doi.org/10.1007/978-981-96-2528-4_36",
+    "authors": [
+      "Shun Zhang",
+      "Ming Du",
+      "Guojing Zhang"
+    ],
+    "members": [
+      "张国晶"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4410602078"
+  },
+  {
+    "id": "https://openalex.org/W4410536086",
+    "title": "Mobility-Aware Cooperative Caching in Vehicular Edge Computing Based on Federated Distillation and Deep Reinforcement Learning",
+    "date": "2025-01-01",
+    "year": "2025",
+    "venue": "IEEE Transactions on Network Science and Engineering",
+    "link": "https://doi.org/10.1109/tnse.2025.3571902",
+    "doi": "https://doi.org/10.1109/tnse.2025.3571902",
+    "authors": [
+      "Tengfei Cao",
+      "Nianqing Zhang",
+      "Xiaoying Wang",
+      "Jianqiang Huang"
+    ],
+    "members": [
+      "黄建强"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4410536086"
+  }
+]

@@ -2,14 +2,13 @@
 import { RouterLink } from 'vue-router'
 import MemberAvatar from '@/components/MemberAvatar.vue'
 import HeroAmbient from '@/components/HeroAmbient.vue'
-import newsData from '@/data/news.json'
+import { newsData, papersData, dateValue } from '@/data/content.js'
 import researchData from '@/data/research.json'
-import papersData from '@/data/publications.json'
 import teamData from '@/data/team.json'
 
 const baseUrl = import.meta.env.BASE_URL
 const teachers = teamData.teachers
-const latestNews = [...newsData.news].sort((a, b) => Number(b.date) - Number(a.date)).slice(0, 5)
+const latestNews = [...newsData.news].sort((a, b) => dateValue(b.date) - dateValue(a.date)).slice(0, 5)
 const latestPapers = [...papersData].sort((a, b) => Number(b.year) - Number(a.year))
   .flatMap(group => group.items.map(paper => ({ ...paper, year: group.year }))).slice(0, 5)
 const paperTitle = content => content.replace(/<[^>]*>/g, '').replace(/^\[.*?\]\s*/, '')
@@ -64,7 +63,7 @@ const newsLink = link => /^https?:\/\//.test(link) ? link : baseUrl + link
         <div class="home-heading" v-reveal><h2 id="papers-heading">最新论文</h2><p>我们的近期研究成果</p></div>
         <div class="home-publications">
           <article v-for="(paper, index) in latestPapers" :key="paper.year + '-' + index" class="citation" v-reveal>
-            <div class="citation-main"><span class="citation-year">{{ paper.year }}</span><a v-if="paper.link" :href="paper.link" target="_blank" rel="noopener noreferrer">{{ paperTitle(paper.content) }}</a><span v-else>{{ paperTitle(paper.content) }}</span><span v-if="paperVenue(paper.content)" class="venue-tag">{{ paperVenue(paper.content) }}</span></div>
+            <div class="citation-main"><span class="citation-year">{{ paper.year }}</span><a v-if="paper.link" :href="paper.link" target="_blank" rel="noopener noreferrer">{{ paper.automated ? paper.title : paperTitle(paper.content) }}</a><span v-else>{{ paperTitle(paper.content) }}</span><span v-if="paper.automated ? paper.venue : paperVenue(paper.content)" class="venue-tag">{{ paper.automated ? paper.venue : paperVenue(paper.content) }}</span></div>
             <a v-if="paper.link" :href="paper.link" target="_blank" rel="noopener noreferrer" class="publication-source">源文档 <span aria-hidden="true">↗</span></a>
           </article>
         </div>
