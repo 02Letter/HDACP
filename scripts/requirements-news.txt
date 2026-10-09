@@ -1,0 +1,6 @@
+# CPU OCR with bundled Chinese/English models; no external AI API or key.
+rapidocr-onnxruntime==1.4.4
+Pillow==11.3.0
+onnxruntime==1.31.0
+opencv-python==5.0.0.93
+numpy==2.4.6

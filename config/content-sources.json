@@ -25,5 +25,6 @@
   },
   "newsIndexes": ["https://cs.qhu.edu.cn/xzjl/index.htm", "https://cs.qhu.edu.cn/xkjs/index.htm", "https://cs.qhu.edu.cn/yxdt/index.htm"],
   "labKeywords": ["高性能与云计算", "HDACP", "高性能计算与云计算"],
-  "maxArticles": 45
+  "maxArticles": 45,
+  "newsOCR": {"minConfidence": 0.96, "maxImagesPerArticle": 3}
 }

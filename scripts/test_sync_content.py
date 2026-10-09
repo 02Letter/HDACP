@@ -6,7 +6,8 @@ import unittest
 from urllib.parse import parse_qs, urlparse
 
 from sync_content import (CollegeHTML, fetch_works, merge_records, news_links,
-                          paper_record, parse_news)
+                          paper_record, parse_news, ocr_news_members)
+from news_ocr import CollegeImageRedirect, NewsImageLimit, image_url_allowed
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / 'config/content-sources.json').read_text(encoding='utf-8'))
@@ -80,6 +81,62 @@ class NewsTests(unittest.TestCase):
     def test_links_are_restricted_to_college_articles(self):
         page = '<a href="' + 'a' * 32 + '.htm">报道</a><a href="https://evil.example/' + 'b' * 32 + '.htm">外部</a>'
         self.assertEqual(len(news_links(page, 'https://cs.qhu.edu.cn/xzjl/index.htm')), 1)
+
+    def test_only_article_images_are_collected(self):
+        parser = CollegeHTML()
+        parser.feed('<nav><img src="logo.jpg"></nav><div class="article"><img src="poster.jpg"></div><footer><img src="qr.jpg"></footer>')
+        self.assertEqual(parser.images, ['poster.jpg'])
+
+    def test_low_confidence_name_and_common_student_not_published(self):
+        lines = [{'text': '青海大学学术交流', 'score': 0.99}, {'text': '边浩东老师参加', 'score': 0.72}]
+        self.assertFalse(ocr_news_members(lines, CONFIG, ROSTER)[1])
+        self.assertFalse(ocr_news_members([{'text': '青海大学李博参加活动', 'score': 0.99}], CONFIG, ROSTER)[1])
+
+    def test_school_context_and_exact_names_required(self):
+        self.assertFalse(ocr_news_members([{'text': '边浩东到访其他学校', 'score': 0.99}], CONFIG, ROSTER)[1])
+        self.assertFalse(ocr_news_members([{'text': '青海大学边浩冬指导比赛', 'score': 0.99}], CONFIG, ROSTER)[1])
+        names, verified = ocr_news_members([{'text': '青海大学边浩东指导竞赛', 'score': 0.99}], CONFIG, ROSTER)
+        self.assertTrue(verified)
+        self.assertEqual(names, ['边浩东'])
+
+    def test_english_teacher_names_in_research_posters(self):
+        lines = [{'text': '青海大学联合团队', 'score': 0.99},
+                 {'text': 'Guojing Zhang、Xiaoying Wang、Jianqiang Huang', 'score': 0.99}]
+        names, verified = ocr_news_members(lines, CONFIG, ROSTER)
+        self.assertTrue(verified)
+        self.assertEqual(names, ['张国晶', '王晓英', '黄建强'])
+
+    def test_ocr_publishes_original_metadata_without_copying_body(self):
+        class FakeOCR:
+            def read(self, url):
+                return [{'text': '青海大学边浩东指导竞赛', 'score': 0.99}]
+        html = self.page('<img src="../images/2026-03/poster.jpg">')
+        result, _ = parse_news(html, 'https://cs.qhu.edu.cn/xkjs/a.htm', '活动', CONFIG, ROSTER, TODAY, FakeOCR())
+        self.assertEqual(result['title'], '学术交流')
+        self.assertEqual(result['date'], '2026-03-01')
+        self.assertEqual(result['verification'], 'article-image-ocr')
+        self.assertNotIn('body', result)
+        self.assertEqual(result['evidenceImages'], ['https://cs.qhu.edu.cn/images/2026-03/poster.jpg'])
+
+    def test_no_external_images_are_downloaded(self):
+        for url in ['https://evil.example/images/a.jpg', 'http://cs.qhu.edu.cn/images/a.jpg',
+                    'https://cs.qhu.edu.cn:8000/images/a.jpg', 'https://cs.qhu.edu.cn/images/a.svg',
+                    'https://cs.qhu.edu.cn/avatar.jpg', 'file:///tmp/a.jpg']:
+            self.assertFalse(image_url_allowed(url))
+        self.assertTrue(image_url_allowed('https://cs.qhu.edu.cn/images/2026-03/a.jpg'))
+
+    def test_large_images_remain_candidates(self):
+        class LargeImageOCR:
+            def read(self, url):
+                raise NewsImageLimit('Too large')
+        result, reason = parse_news(self.page('<img src="../images/2026-03/poster.jpg">'),
+                                    'https://cs.qhu.edu.cn/xkjs/a.htm', '活动', CONFIG, ROSTER, TODAY, LargeImageOCR())
+        self.assertIsNone(result)
+        self.assertEqual(reason, 'image-too-large-for-ocr')
+
+    def test_external_redirect_is_blocked_before_request(self):
+        with self.assertRaises(ValueError):
+            CollegeImageRedirect().redirect_request(None, None, 302, 'redirect', {}, 'https://evil.example/images/a.jpg')
 
 
 class SyncTests(unittest.TestCase):

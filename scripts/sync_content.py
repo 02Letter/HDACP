@@ -19,6 +19,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode, urljoin, urlparse
 from urllib.request import Request, urlopen
 
+from news_ocr import NewsOCR, NewsImageLimit, image_url_allowed, qualified_lines
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'src/data'
 USER_AGENT = 'HDACP-public-content-sync/1.0 (+https://github.com/02Letter/HDACP)'
@@ -158,9 +160,12 @@ class CollegeHTML(HTMLParser):
         self.all_text = []
         self.anchor = None
         self.has_body = False
+        self.images = []
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == 'img' and any(b for _, b in self.stack):
+            self.images.append(attrs.get('src', ''))
         if tag in ('br', 'img', 'meta', 'link', 'input', 'hr', 'source', 'wbr'):
             return
         classes = attrs.get('class', '').split()
@@ -191,7 +196,25 @@ class CollegeHTML(HTMLParser):
             self.anchor['text'].append(text)
 
 
-def parse_news(html, url, title, config, roster, today):
+def ocr_news_members(lines, config, roster):
+    qualified = qualified_lines(lines, config.get('newsOCR', {}).get('minConfidence', 0.96))
+    # Keep only high-confidence exact names, with no fuzzy spelling correction.
+    text = ''.join(line['text'] for line in qualified)
+    compact = normalize(text)
+    names = {p['name'] for p in [*roster['teachers'], *roster['students']] if normalize(p['name']) in compact}
+    teacher_names = {p['name'] for p in roster['teachers']}
+    for teacher in config['teachers']:
+        if teacher['name'] in teacher_names and any(normalize(alias) in compact for alias in teacher['aliases']):
+            names.add(teacher['name'])
+    school = '青海大学' in compact or 'qinghaiuniversity' in compact
+    lab = any(normalize(word) in compact for word in config['labKeywords'])
+    # A teacher name needs school context. Student-only matches need two roster names
+    # and an explicit lab name, since short common names occur in unrelated reports.
+    verified = school and (bool(names & teacher_names) or (lab and len(names) >= 2))
+    return sorted(names), verified
+
+
+def parse_news(html, url, title, config, roster, today, ocr=None):
     page = CollegeHTML()
     page.feed(html)
     if not page.has_body:
@@ -207,12 +230,35 @@ def parse_news(html, url, title, config, roster, today):
     names = sorted({p['name'] for p in [*roster['teachers'], *roster['students']] if p['name'] in body})
     lab_match = any(k.lower() in (title + body).lower() for k in config['labKeywords'])
     teachers = {p['name'] for p in roster['teachers']}
+    verification = 'article-text'
+    evidence_images = []
     # A common student name by itself is not enough to establish lab attribution.
     if not (lab_match or bool(set(names) & teachers) or len(names) >= 2):
-        return None, 'insufficient-member-evidence'
+        if ocr is None:
+            return None, 'image-ocr-needed' if page.images else 'insufficient-member-evidence'
+        verified = False
+        limited = False
+        for src in list(dict.fromkeys(page.images))[:config.get('newsOCR', {}).get('maxImagesPerArticle', 3)]:
+            image_url = urljoin(url, src)
+            if not image_url_allowed(image_url):
+                continue
+            try:
+                lines = ocr.read(image_url)
+            except NewsImageLimit:
+                limited = True
+                continue
+            found, belongs_to_lab = ocr_news_members(lines, config, roster)
+            if belongs_to_lab:
+                names = sorted(set(names) | set(found))
+                evidence_images.append(image_url)
+                verified = True
+        if not verified:
+            return None, 'image-too-large-for-ocr' if limited else 'insufficient-high-confidence-ocr-evidence'
+        verification = 'article-image-ocr'
     return {'id': 'college-' + urlparse(url).path.rsplit('/', 1)[-1].split('.')[0],
             'date': published.isoformat(), 'title': title, 'link': url,
-            'members': names, 'source': '青海大学计算机学院'}, None
+            'members': names, 'source': '青海大学计算机学院', 'verification': verification,
+            'evidenceImages': evidence_images}, None
 
 
 def news_links(html, index):
@@ -252,12 +298,20 @@ def merge_records(old, incoming, manual, kind, config, today):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--report', default=str(ROOT / '.backups/sync-report.json'))
+    parser.add_argument('--news-ocr', action='store_true', help='Read college news posters (requires requirements-news.txt)')
+    parser.add_argument('--ocr-cache', default=str(ROOT / '.backups/news-ocr-cache'))
     args = parser.parse_args()
     config = read_json(ROOT / 'config/content-sources.json')
     roster = read_json(DATA / 'team.json')
     today = date.today()
     report = {'date': today.isoformat(), 'rosterNames': [p['name'] for p in [*roster['teachers'], *roster['students']]],
               'teacherSources': config['teachers'], 'errors': [], 'candidates': [], 'counts': {}}
+    ocr = None
+    if args.news_ocr:
+        try:
+            ocr = NewsOCR(args.ocr_cache, relevant=lambda lines: ocr_news_members(lines, config, roster)[1])
+        except Exception as exc:
+            report['errors'].append({'source': 'NewsOCR', 'error': type(exc).__name__})
     papers, articles = [], []
     retracted = set()
     works = {}
@@ -295,20 +349,22 @@ def main():
     def article(item):
         url, title = item
         try:
-            return parse_news(fetch(url), url, title, config, roster, today), None
+            return parse_news(fetch(url), url, title, config, roster, today, ocr), None
         except Exception as exc:
             return (None, None), {'source': url, 'error': type(exc).__name__}
 
-    # Bounded low concurrency; only metadata/title/link, no image downloads.
+    # Bounded downloads and serialized CPU OCR. Images are never copied into the website.
     selected = list(links.items())[:config['maxArticles']]
     with ThreadPoolExecutor(max_workers=3) as pool:
-        for (url, title), ((record, reason), error) in zip(selected, pool.map(article, selected)):
+        for checked, ((url, title), ((record, reason), error)) in enumerate(zip(selected, pool.map(article, selected)), 1):
             if error:
                 report['errors'].append(error)
             elif record:
                 articles.append(record)
             else:
                 report['candidates'].append({'kind': 'news', 'title': title, 'sourceUrl': url, 'reason': reason})
+            if args.news_ocr and (checked % 5 == 0 or checked == len(selected)):
+                print(f'College news checked: {checked}/{len(selected)}; confirmed: {len(articles)}', flush=True)
     manual_papers = [p for g in read_json(DATA / 'publications.json') for p in g['items']]
     news = read_json(DATA / 'news.json')
     manual_news = [*news['news'], *news['papers']]
@@ -322,6 +378,10 @@ def main():
     report['studentsWithoutContextMatch'] = sorted({s['name'] for s in roster['students']} - set(covered_students))
     report['counts'] = {'roster': len(report['rosterNames']), 'apiWorks': len(works), 'verifiedPapers': len(papers),
                         'autoPapers': len(new_papers), 'checkedArticles': len(selected), 'autoNews': len(new_news)}
+    report['newsMatches'] = [{'title': n['title'], 'sourceUrl': n['link'], 'members': n['members'],
+                             'verification': n['verification'], 'evidenceImages': n['evidenceImages']} for n in articles]
+    report['newsOCR'] = {'enabled': args.news_ocr, 'minConfidence': config.get('newsOCR', {}).get('minConfidence', 0.96),
+                         **(ocr.stats if ocr else {})}
     report['coverageNote'] = 'Student aliases are used only with a verified teacher and Qinghai affiliation. Unmatched students are still searched in college news. No standalone student identity is inferred from a name.'
     write_json(Path(args.report), report)
     print(json.dumps(report['counts'], ensure_ascii=False))

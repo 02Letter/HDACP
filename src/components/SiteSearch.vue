@@ -3,8 +3,7 @@ import { computed, nextTick, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import research from '@/data/research.json'
 import team from '@/data/team.json'
-import publications from '@/data/publications.json'
-import news from '@/data/news.json'
+import { papersData as publications, newsData as news } from '@/data/content.js'
 import projects from '@/data/projects.json'
 
 const opened = defineModel({ type: Boolean, default: false })
@@ -15,8 +14,8 @@ const router = useRouter()
 const entries = [
   ...research.directions.map(item => ({ title: item.name, text: item.description, type: '研究方向', path: '/research/' + item.id })),
   ...team.teachers.map(item => ({ title: item.name, text: item.title + ' ' + (item.research || ''), type: '教师', path: '/teacher/' + item.id })),
-  ...publications.flatMap(group => group.items.map(item => ({ title: item.content.replace(/<[^>]*>/g, ''), text: String(group.year), type: '论文', path: '/papers' }))),
-  ...news.news.map(item => ({ title: item.title, text: item.date, type: '动态', path: '/news' })),
+  ...publications.flatMap(group => group.items.map(item => ({ title: item.automated ? item.title : item.content.replace(/<[^>]*>/g, ''), text: [group.year, ...(item.authors || [])].join(' '), type: '论文', path: '/papers' }))),
+  ...news.news.map(item => ({ title: item.title, text: [item.date, ...(item.members || [])].join(' '), type: '动态', path: '/news' })),
   ...projects.projects.map(item => ({ title: item.title, text: item.period + ' ' + item.funding, type: '项目', path: '/projects' }))
 ]
 const results = computed(() => {

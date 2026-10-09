@@ -76,7 +76,7 @@ const newsLink = link => /^https?:\/\//.test(link) ? link : baseUrl + link
         <div class="home-heading" v-reveal><h2 id="news-heading">最新动态</h2><p>实验室新闻与学术交流</p></div>
         <div class="home-news">
           <article v-for="item in latestNews" :key="item.id" class="home-news-item" v-reveal>
-            <time>{{ item.date }}</time><div><h3><a v-if="item.link" :href="newsLink(item.link)" target="_blank" rel="noopener noreferrer">{{ item.title }}</a><span v-else>{{ item.title }}</span></h3><a v-if="item.link" :href="newsLink(item.link)" target="_blank" rel="noopener noreferrer" class="text-link">阅读全文 <span aria-hidden="true">→</span></a></div>
+            <time :datetime="String(item.date).length > 4 ? item.date : undefined">{{ String(item.date).slice(0, 4) }}<span v-if="String(item.date).length > 4" class="news-month-day">{{ String(item.date).slice(5) }}</span></time><div><h3><a v-if="item.link" :href="newsLink(item.link)" target="_blank" rel="noopener noreferrer">{{ item.title }}</a><span v-else>{{ item.title }}</span></h3><a v-if="item.link" :href="newsLink(item.link)" target="_blank" rel="noopener noreferrer" class="text-link">阅读全文 <span aria-hidden="true">→</span></a></div>
           </article>
         </div>
         <div class="section-action" v-reveal><RouterLink to="/news" class="text-link">查看全部动态 <span aria-hidden="true">→</span></RouterLink></div>
@@ -84,3 +84,7 @@ const newsLink = link => /^https?:\/\//.test(link) ? link : baseUrl + link
     </section>
   </div>
 </template>
+
+<style scoped>
+.news-month-day { display: block; font-size: 0.8rem; white-space: nowrap; }
+</style>
