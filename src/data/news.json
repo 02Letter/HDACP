@@ -1,0 +1,107 @@
+{
+    "news": [
+         {
+            "id": 1,
+            "date": "2026",
+            "title": "青海大学高性能与云计算团队在国际顶级会议PPoPP 2026发表重要成果",
+            "link": "news/news_ppopp2026.html"
+        },
+         {
+            "id": 2,
+            "date": "2025",
+            "title": "青海大学计算机学院研究成果在高性能计算领域国际顶级期刊《IEEE TPDS》发表",
+            "link": "https://cs.qhu.edu.cn/xzjl/352e8a7feb8246c7b20ce94a28a44bb5.htm"
+        },
+        {
+            "id": 3,
+            "date": "2025",
+            "title": "青海大学“优化少年”队伍在2025年“先导杯”全国总决赛中首创佳绩",
+            "link": "https://mp.weixin.qq.com/s/lv84g4VtMPiBdE11bi-k4Q"
+        },
+       
+        {
+            "id": 4,
+            "date": "2025",
+            "title": "我院学子在第二届清华大学超算竞赛中荣获佳绩",
+            "link": "https://cs.qhu.edu.cn/xkjs/9eb7358294e94bc18db241f3417b788e.htm"
+        },
+        {
+            "id": 5,
+            "date": "2025",
+            "title": "青海大学超算队蝉联ASC一等奖",
+            "link": "news/news_ASC2025.html"
+        },
+        {
+            "id": 6,
+            "date": "2024",
+            "title": "The 26th IEEE International Conference on High Performance Computing and Communications(IEEE HPCC 2024) will be held in 13-15 December, 2024",
+            "link": "http://www.ieee-hust-ncc.org/2024/HPCC/index.html"
+        },
+        {
+            "id": 7,
+            "date": "2022",
+            "title": "恭喜：我组黄建强老师论文 Large-Scale Graph Triangle-Counting on a single Machine using GPUs被TPDS(CCF A, 国际顶级期刊)收录",
+            "link": ""
+        },
+        {
+            "id": 8,
+            "date": "2022",
+            "title": "第十四届中国计算机图形学大会在我校顺利召开",
+            "link": ""
+        },
+        {
+            "id": 9,
+            "date": "2021",
+            "title": "恭喜：我校超算团队在ASC世界大学生超级计算机竞赛中获得一等奖",
+            "link": ""
+        },
+        {
+            "id": 10,
+            "date": "2022",
+            "title": "祝贺: 实验室王晓英教授遴选为青海大学博士生导师",
+            "link": ""
+        },
+        {
+            "id": 11,
+            "date": "2022",
+            "title": "祝贺: 实验室黄建强教授遴选为青海大学博士生导师",
+            "link": ""
+        }
+       
+        
+    ],
+    "papers": [
+        {
+            "id": 1,
+            "date": "2022",
+            "title": "祝贺：本组硕士生张琨同学论文被计算机工程(中文核心)录用",
+            "link": ""
+        },
+        {
+            "id": 2,
+            "date": "2022",
+            "title": "祝贺：本组硕士生黄东强同学论文被郑州大学学报工学版(中文核心)录用",
+            "link": ""
+        },
+        {
+            "id": 3,
+            "date": "2022",
+            "title": "祝贺：本组硕士生张琨同学论文被小型微型计算机系统(中文核心)录用",
+            "link": ""
+        },
+        {
+            "id": 4,
+            "date": "2021",
+            "title": "祝贺：本组硕士生赵梦梦同学论文被sci期刊Energies录用",
+            "link": ""
+        },
+        {
+            "id": 5,
+            "date": "2021",
+            "title": "祝贺：本组硕士生边浩东同学论文被sci期刊Future Generation Computer Systems录用",
+            "link": ""
+        }
+       
+
+    ]
+}

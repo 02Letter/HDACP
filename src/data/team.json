@@ -1,0 +1,923 @@
+{
+    "teachers": [
+        {
+            "id": "wxy",
+            "name": "王晓英",
+            "title": "教授",
+            "photo": "wxy.jpg",
+            "email": "Wxy_cta@qhu.edu.cn",
+            "education": "清华大学(博士)",
+            "research": "高性能计算、绿色可持续计算、零碳/低碳数据中心等",
+            "academicTitle": "CCF 高级会员、青海省科学技术协会第十一届常委",
+            "bio": [
+                "吉林双辽人，博士，教授，曾任青海大学副校长、计算机技术与应用系常务副主任（2013.6-2019.3），现任青海理工学院党委书记。1999年考入清华大学计算机科学与技术系计算机科学与技术专业，于2003年获得学士学位。2003年9月以免试资格进入清华大学计算机系攻读博士学位。2008年7月获博士学位，并被评为“清华大学优秀博士毕业生”。2008年8月到青海大学计算机技术与应用系工作至今。2008年12月进入清华大学博士后流动站从事在职博士后研究工作，2010年12月完成博士后工作出站。2013年任青海大学计算机系常务副主任。2014.8-2015.2被国家留学基金委选派赴Rutgers, The State University of New Jersey，USA计算机科学系做访问学者。2023年6月-2024年8月任青海省科学技术协会党组书记。",
+                "主讲课程包括《计算机系统平台》《计算机体系结构》等，作为项目负责人完成国家级项目3项，省科技厅应用基础研究计划项目2项，校级科研项目2项，横向课题5项，省级教改项目1项，校级一类课程建设项目1项等；目前作为项目负责人正在承担国家级项目1项，青海省自然科学基金面上项目1项。完成科技成果评价鉴定及成果登记5项，其中国际领先1项，国际先进3项。主要在数据中心资源管理、数据中心能耗管理与可再生能源利用等方面开展了研究工作并取得相应成果。2022年获霍英东教育基金会第18届高等院校青年科学奖二等奖。入选国务院2023年度享受政府特殊津贴人员。2024年获青海省科学技术奖自然科学奖三等奖。发表研究论文100余篇，获批授权发明专利10项，软件著作权6项。"
+            ],
+            "awards": [
+                "2024年4月, “智能电网环境中数据中心资源管理与能源系统调控理论与方法”, 青海省科学技术奖自然科学奖三等奖",
+                "2024年2月，入选2023年度享受政府特殊津贴人员",
+                "2024年2月, 获2023 FGCS Outstanding Reviewer Award",
+                "2022年7月, 霍英东教育基金会第18届高等院校青年科学奖二等奖",
+                "2021年12月，入选青海省“高端创新人才千人计划”领军人才（培养）",
+                "2021年8月，“借助东部优势资源对口支援西部的‘清青’专业共建模式探索与实践”获青海省教学成果奖二等奖",
+                "2021年1月, 获首届青海省科学成果奖“青年科技奖状”"
+            ],
+            "projects": [
+                {
+                    "name": "国家自然科学基金项目",
+                    "title": "融合人工智能技术和数值模式的三江源区中短期降水预测方法研究",
+                    "period": "2022.01-2025.12",
+                    "role": "项目负责人",
+                    "funding": "No. 62162053，36万元"
+                },
+                {
+                    "name": "青海省科技计划项目",
+                    "title": "基于气象数据驱动的青海省黄河流域短期时空降水预测方法研究",
+                    "period": "2023.01-2025.12",
+                    "role": "项目负责人",
+                    "funding": "No. 2023-ZJ-906M，30万元"
+                },
+                {
+                    "name": "国家自然科学基金项目",
+                    "title": "智能电网影响感知的数据中心需求响应策略与机制研究",
+                    "period": "2018.01-2021.12",
+                    "role": "项目负责人",
+                    "funding": "No.61762074，39万元"
+                },
+                {
+                    "name": "国家自然科学基金项目",
+                    "title": "应用间歇性可再生能源的数据中心资源与能耗管理模型与算法研究",
+                    "period": "2014.01-2017.12",
+                    "role": "项目负责人",
+                    "funding": "No.61363019，45万元"
+                },
+                {
+                    "name": "国家自然科学基金项目",
+                    "title": "基于虚拟化技术的资源自主管理模型与机制",
+                    "period": "2010.1-2012.12",
+                    "role": "项目负责人",
+                    "funding": "60963005，20万元"
+                },
+                {
+                    "name": "青海省科技计划项目",
+                    "title": "GRAPES数值天气预报模式动力框架大规模并行算法与优化技术研究",
+                    "period": "2019.01-2021.12",
+                    "role": "项目负责人",
+                    "funding": "No.2019-ZJ-7034，35万元"
+                },
+                {
+                    "name": "清华大学-宁夏银川水联网数字治水联合研究院横向课题",
+                    "title": "基于深度学习和数值模式的短临降水预测系统",
+                    "period": "2021.1-2023.1",
+                    "role": "项目负责人",
+                    "funding": "SKL-IOW-2020TC2004-01，20万元"
+                },
+                {
+                    "name": "清华大学国家重点实验室开放基金",
+                    "title": "基于多源卫星的天河工程数据集成平台",
+                    "period": "2017.1-2018.12",
+                    "role": "项目负责人",
+                    "funding": "No. sklhse-2017-A-05，15万元"
+                },
+                {
+                    "name": "赛尔网络下一代互联网技术创新项目",
+                    "title": "基于IPv6的光伏电站监控数据共享平台",
+                    "period": "2017.1-2018.12",
+                    "role": "项目负责人",
+                    "funding": "No.NGII20160505，5万元"
+                },
+                {
+                    "name": "青海省科技计划项目",
+                    "title": "高压设备热图像在线监测故障诊断策略研究及应用",
+                    "period": "2014.07-2017.07",
+                    "role": "项目负责人",
+                    "funding": "No. 2014-ZJ-718，15万元"
+                }
+            ],
+            "achievements": [
+                {
+                    "name": "智能电网影响感知的数据中心需求响应策略与机制研究",
+                    "desc": "以接入可再生能源的智能电网环境中部署和运行的数据中心为研究对象，成果达到国际领先水平。"
+                },
+                {
+                    "name": "GRAPES数值天气预报模式动力框架大规模并行算法与优化技术研究",
+                    "desc": "选取对GRAPES动力框架中的热点函数赫姆霍兹方程求解进行性能优化研究，成果达到国际先进水平。"
+                },
+                {
+                    "name": "应用间歇性可再生能源的数据中心资源与能耗管理模型与算法",
+                    "desc": "从模型、策略、算法及系统入手，对数据中心混合类型应用进行了性能建模和功耗建模，成果达到国际先进水平。"
+                },
+                {
+                    "name": "基于虚拟化技术的资源自主管理模型与机制",
+                    "desc": "对虚拟资源的自主管理模型与机制进行了研究，设计和构建了云仿真中心系统，成果达到国内领先水平。"
+                },
+                {
+                    "name": "高压设备热图像在线监测故障诊断策略研究及应用",
+                    "desc": "建立红外图像温度场分布模型，建立必要的红外图像库，成果达到国内领先水平。"
+                }
+            ],
+            "patents": [
+                "专利授权：智能电网环境中数据中心功耗调节方法、系统、介质及设备 (ZL202110141041.2)",
+                "专利授权：一种面向智能电网的数据中心需求响应方法和系统 (ZL202010209948.3)",
+                "专利授权：对光伏电站和数据中心进行位置部署和容量规划方法 (ZL201811562978.1)",
+                "专利授权：一种基于需求响应合同的数据中心的功耗调控方法及系统 (ZL 202011205373.4)",
+                "专利授权：一种面向电网稳定性的动态负载管理方法及计算机设备 (ZL 202010442923.8)",
+                "专利授权：一种移动云计算中的资源分配预测方法及系统 (ZL 201711131885.9)",
+                "专利授权：一种可再生能源数据中心管理方法及装置 (ZL 2019 1 0171263.1)",
+                "专利授权：一种数据中心能耗的管理方法及装置 (ZL 2017 1 0053681.1)",
+                "专利授权：一种面向新能源并网的动态负载管理方法及系统 (ZL 2018 1 1639180.2)",
+                "软件著作权：基于IPv6的光伏电站监控数据共享平台V1.0 (2018SR375159)",
+                "软件著作权：基于Hadoop的多源异构数据实时自动存储软件V2.0 (2018SR777474)",
+                "软件著作权：基于IPv6的光伏电站监控数据共享平台V2.0 (2019SR0494346)",
+                "专利授权：5G网络环境下的流媒体资源动态调度方法及装置 (ZL 202010246081.9)"
+            ],
+            "papers": [
+                {
+                    "year": "2024",
+                    "items": [
+                        "Xiaoying Wang, Haixiang Zhao, Guojing Zhang, Qin Guan, Yu Zhu. Spatio-Temporal Predictive Learning for Radar-Based Precipitation Nowcasting. Atmosphere, 2024, 15(8): 914.",
+                        "Chenyu Ma, Jinfang Jia, Jianqiang Huang, Li Wu and Xiaoying Wang. DisRot: boosting the generalization capability of few-shot learning via knowledge distillation and self-supervised learning. Machine Vision and Applications, 2024, 35(51): 1-13.",
+                        "Jun Liu, Li Wu, Tao Zhang, Jianqiang Huang, Xiaoying Wang, and Fang Tian. STFM: Accurate Spatio-Temporal Fusion Model for Weather Forecasting. Atmosphere, 2024,15(10): 1176.",
+                        "李博;黄东强;贾金芳;吴利;王晓英;黄建强. 基于异构平台的稀疏矩阵向量乘自适应计算优化，计算机应用. (2024年3月1日网络首发）",
+                        "Tengfei Cao, Jie Yi, Xiaoying Wang, Han Xiao, Changqiao Xu. Interaction Trust-driven Data Distribution for Vehicle Social Networks: A Matching Theory Approach. IEEE Transactions on Computational Social Systems, 2024,11(3): 4071 - 4086 .",
+                        "Tengfei Cao, Zizhen Zhang, Xiaoying Wang, Han Xiao, Changqiao Xu. PTCC: A Privacy-preserving and Trajectory Clustering-based Approach for Cooperative Caching Optimization in Vehicular Networks. IEEE Transactions on Sustainable Computing 2024, 9(4): 615 - 630.",
+                        "J. Wang, T. Cao, X. Chen, X. Wang. Optimization of the Age of Correlated Information in V2X Networks with Edge Computing. Computer Communications. (2024.10.3网络首发)",
+                        "陈志强;仇瑜;朱宇;王晓英. 基于先验知识引导提示学习的自监督分类法补全, 计算机工程（2024年3月15日网络首发）。",
+                        "夏青青，朱宇，王晓英，黄建强，曹腾飞 基于重要性采样的异质超网络表示学习 计算机工程.（2024年8月8日网络首发）。",
+                        "Qiwei Zhu, Guojing Zhang, Xuechao Zou, Xiaoying Wang, Jianqiang Huang, and Xilai Li. ConvMambaSR: Leveraging State-Space Models and CNNs in a Dual-Branch Architecture for Remote Sensing Imagery Super-Resolution. Remote Sensing, 2024, 16(17): 3254.",
+                        "Keke Wang , Yu Zhu, Xiaoying Wang, Jianqiang Huang, Tengfei Cao. Heterogeneous Hypernetwork Representation Learning with Hyperedge Fusion. IEEE Transactions on Computational Social Systems.（2024年8月9日网络首发）",
+                        "王威;朱宇;王晓英;黄建强;曹腾飞;陈毅艰 基于超边注意力的双边约束超网络表示学习, 中文信息学报, 2024. (已录用)",
+                        "Wenxuan Zhang, Xuechao Zou, Li Wu, Xiaoying Wang, Jianqiang Huang, Junliang Xing. ARFA: An Asymmetric Receptive Field Autoencoder Model for Spatiotemporal Prediction. 2024 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024), 2024, Seoul, Korea, pp.3230-3234."
+                    ]
+                },
+                {
+                    "year": "2023",
+                    "items": [
+                        "Mengmeng Zhao, Xiaoying Wang*, Junrong Mo. Workload and Energy Management of Geo-distributed Datacenters Considering Demand Response Programs. Sustainable Energy Technologies and Assessments, Volume 55, February 2023, 102851.",
+                        "董润婷,吴利,王晓英等.深度学习在天气预报领域的应用分析及研究进展综述[J/OL].计算机应用:1-13（2023年1月网络首发)",
+                        "刘贞国,朱宇,王晓英等.基于集合约束的异质超网络表示学习[J/OL].计算机工程:1-11（2023年2月网络首发）",
+                        "Lingbin Liu, Jianqiang Huang, Dongqiang Huang, Haodong Bian, Xiaoying Wang. \"Design and Implementation of External Storage Large-Scale Graph Computing System \", 2023 7th International Conference on High Performance Compilation, Computing and Communications (HP3C 2023) , 2023（已录用）"
+                    ]
+                },
+                {
+                    "year": "2022",
+                    "items": [
+                        "Dali Wu, Li Wu, Tao Zhang, Wenxuan Zhang, Jianqiang Huang and Xiaoying Wang. Short-Term Rainfall Prediction Based on Radar Echo Using an Improved Self-Attention PredRNN Deep Learning Model. Atmosphere, 2022, 13(12):1963.",
+                        "Chenyu Ma, Jinfang Jia, Zhen Liu, Kun Zhang, Jianqiang Huang, Xiaoying Wang. Simulation of three-dimensional phase field model with LBM method using OpenCL, The Journal of Supercomputing, 2022:78(8), 11092–11110.",
+                        "张琨,贾金芳,严文昕,黄建强,王晓英.GRAPES动力框架中大规模稀疏线性系统并行求解及优化[J/OL].计算机工程: 2022,48(01):149-154+162.",
+                        "Zizhen Zhang; Tengfei Cao; Xiaoying Wang; Han Xiao; Jianfeng Guan. VC-PPQ: Privacy-preserving Q-learning Based Video Caching Optimization in Mobile Edge Networks. IEEE Transactions on Network Science and Engineering,2022, 9(6): 4129-4144.",
+                        "J. Huang, H. Wang, X. Fei, Xiaoying Wang and W. Chen, TC-Stream: Large-Scale Graph Triangle Counting on a Single Machine Using GPUs,' in IEEE Transactions on Parallel and Distributed Systems, vol. 33, no. 11, pp. 3067-3078, 1 Nov. 2022.",
+                        "曹腾飞，刘延亮，王晓英. 基于改进深度强化学习的边缘计算服务卸载算法, 计算机应用, 2022年7月1日.",
+                        "Yu Zhu, Haixing Zhao *, Jianqiang Huang, Xiaoying Wang. Hypernetwork Representation Learning with Common Constraints of the Set and Translation. Symmetry, 2022, 14(8), 1745.",
+                        "Yu Zhu, Haixing Zhao*, Xiaoying Wang, Jianqiang Huang. Hypernetwork Representation Learning Based on Hyperedge Modeling Symmetry. 2022, 14(12): 2584.",
+                        "Yanping Li, Lu Wang, Lei Zhang, Haiwen Chen, Shiying Wang, Xiaoying Wang. HrreNet: semantic segmentation network for moderate and high-resolution satellite images. International Journal of Remote Sensing, 2022: 43(11), pp.4065-4086.",
+                        "黄东强，黄建强，贾金芳，吴利，刘令斌，王晓英. 基于CPU+GPU 异构并行的广义共轭余差算法性能优化. 郑州大学学报(工学版) , 2022, 43(6): 15-21.",
+                        "李博,黄东强,贾金芳,吴利，王晓英，黄建强.基于CPU+GPU异构的模板计算优化研究[J/OL].计算机工程:1-9( 2022年6月网络首发).",
+                        "Yu Zhu, Haixing Zhao, Jianqiang Huang, Xiaoying Wang. Hypernetwork Representation Learning with the Transformation Strategy. 2022 6th International Conference on High Performance Compilation, Computing and Communications, 2022, June 23-25.",
+                        "Jian Wang, Tengfei Cao, Xiaoying Wang, Man Zhang, Jianfeng Guan. Resource Scheduling in Vehicular Networks with Age of Information and Channel Awareness. IEEE/CIC International Conference on Communications in China. 2022，11–13 August 2022."
+                    ]
+                },
+                {
+                    "year": "2021",
+                    "items": [
+                        "Mengmeng Zhao, Xiaoying Wang*. A Synthetic Approach for Datacenter Power Consumption Regulation towards Specific Targets in Smart Grid Environment. Energies, 2021, 14(9), 2602.",
+                        "Haodong Bian, Jianqiang Huang*, Lingbin Liu, Dongqiang Huang, Xiaoying Wang. ALBUS: A Method for Efﬁciently Processing SpMV Using SIMD and Load Balancing. Future Generation Computer Systems.Volume 116, March 2021, Pages 371-392.",
+                        "Haodong Bian, Jianqiang Huang, Jiahao Tang, Runting Dong, Li Wu, Xiaoying Wang. PAS: A new powerful and simple quantum computing simulator. Software: Practice and Experience, 2021: 1- 18.",
+                        "J. Huang, W. Xue, H. Bian, W. Yan, X. Wang and W. Chen. Helmholtz solving and performance optimization in global/regional assimilation and prediction system. Tsinghua Science and Technology, 2021, 26(3):335-346.",
+                        "张琨,贾金芳,黄建强,王晓英,严文昕. 预处理共轭梯度算法异构并行求解及优化[J/OL].小型微型计算机系统:1-6. 2021-08网络首发",
+                        "郭渝洛,边浩东,董润婷,唐嘉豪,王晓英,黄建强.基于SIMD高效并行傅里叶空间图像相似度计算研究[J/OL].计算机工程, 2021,47(11),247-253",
+                        "江翠丽,曹腾飞,李长哲,王晓英.基于SVM的视频用户需求预测算法[J].计算机技术与发展,2021,31(05): 38-42.",
+                        "Zhao Mengmeng, Wang Xiaoying*. Datacenter Power Consumption Regulation towards Specific Targets in Smart Grid Environment, 2021 Asia-Pacific Conference on Communications Technology and Computer Science (ACCTCS 2021), 2021, pp.33-36.",
+                        "Dingchang Huang, Runting Dong, Xiaoying Wang*. Modeling and Analysis of Demand Response Strategies for Datacenters in Smart Grid Environment. CONF-CDS 2021: The 2nd International Conference on Computing and Data Science, 2021, No.41, pp.1-6.",
+                        "Wenxin Yan, Jinfang Jia, Kun Zhang, Jianqiang Huang, and Xiaoying Wang. Solving algorithm and parallel optimization of Helmholtz equation in GRAPES model. In The 2nd International Conference on Computing and Data Science (CONF-CDS 2021)."
+                    ]
+                },
+                {
+                    "year": "2020",
+                    "items": [
+                        "Peicong Luo, Xiaoying Wang* and Yuling Li. The Impact of Datacenter Load Regulation on the Stability of Integrated Power Systems. Sustainable Energy Technologies and Assessments, Volume 42, 2020, 100875.",
+                        "Yuling Li, Xiaoying Wang*, Peicong Luo. Strategies for Datacenters Participating in Demand Response by Two-Stage Decisions. Mathematical Problems in Engineering, 2020, No. 5206082, pp.1-15.",
+                        "Jianqiang Huang, Wentao Han, Xiaoying Wang, Wenguang Chen. Heterogeneous Parallel Algorithm Design and Performance Optimization for WENO on the Sunway TaihuLight Supercomputer, TSINGHUA SCIENCE AND TECHNOLOGY, 2020, 25(1):56-67.",
+                        "Jianqiang Huang, Wei Qin, Xiaoying Wang, Wenguang Chen. Survey of external memory large‑scale graph processing on a multi‑core system. The Journal of Supercomputing, 2020, 76(1): 549-579.",
+                        "Zhao Mengmeng, Xiaoying Wang* . A Survey of Research on Datacenters Using Energy Storage Devices to Participate in Smart Grid Demand Response. 2020 IEEE International Conference on Power, Intelligent Computing and Systems (ICPICS 2020).",
+                        "Peicong Luo, Xiaoying Wang*. Dynamic Power Management Strategies for Datacenters towards Maintaining Grid Stability. 2020 4th High Performance Computing and Cluster Technologies Conference (HPCCT 2020).",
+                        "Yuling Li, Xiaoying Wang*, Peicong Luo, Dingchang Huang, Mengmeng Zhao. A Two-stage Demand Response Strategy for Datacenters in the Smart Grid Environment. 2020 the 3rd International Conference on Energy, Electrical and Power Engineering (CEEPE 2020).",
+                        "Dingchang Huang, Xuejiao Yang, Xiaoying Wang*. Location and cost optimization of datacenters and solar power plants. 2020 4th International Conference on Computer Science and Artificial Intelligence (CSAI 2020)."
+                    ]
+                },
+                {
+                    "year": "2019",
+                    "items": [
+                        "Peicong Luo, Xiaoying Wang*, Hailong Jin, Yuling Li and Xuejiao Yang. Smart-Grid-Aware Load Regulation of Multiple Datacenters towards the Variable Generation of Renewable Energy. Applied Sciences, 2019, 9(3): 518.",
+                        "Yuling Li, Xiaoying Wang*, Peicong Luo and Qingyi Pan. Thermal-Aware Hybrid Workload Management in a Green Datacenter towards Renewable Energy Utilization. Energies 2019, 12(8), 1494.",
+                        "Yuling Li, Xiaoying Wang*, Peicong Luo and Xuejiao Yang. Temperature-aware Workload Management for Sustainable Datacenters Powered by Renewable Energy. 2019 the 3rd International Conference on High Performance Compilation, Computing and Communications (HP3C-2019).",
+                        "Jiangwei Sheng, Xiaoying Wang*, Tengfei Cao, Xiaodan Zhang. Study on Different Parameterization Schemes to Simulate the Physical Process of a Heavy Rainfall on Qinghai-Tibet Plateau. 2019 International Conference on Energy, Power, Environment and Computer Application (ICEPECA2019).",
+                        "Guojing Zhang, Xiaoying Wang*, and Yuling Li. Implementation and Improvement of Solar Power Data Monitoring and Sharing Platform based on IPv6. The 9th International Workshop on Computer Science and Engineering (WCSE 2019)."
+                    ]
+                },
+                {
+                    "year": "2018",
+                    "items": [
+                        "Qingyi Pan, Xiaoying Wang*. Independent travel recommendation algorithm based on analytical hierarchy process and simulated annealing for professional tourist. Applied Intelligence, 2018, 48(6): 1565-1581.",
+                        "PeiCong Luo, Xiaoying Wang*. Research on the Resource Allocation Algorithm based on Forecasting in Mobile Cloud Computing. Journal of Intelligent & Fuzzy Systems, 2018, 35(2):1315-1324.",
+                        "Peicong Luo, Xiaoying Wang*, Hailong Jin, Xuejiao Yang and Yuling Li. Load Management for Multiple Datacenters towards Demand Response in the Smart Grid Integrating Renewable Energy. 2018 2nd International Conference on Computer Science and Artificial Intelligence (CSAI 2018).",
+                        "Guojing Zhang，Xiaoying Wang，Jie Li，Xuejiao Yang. Design and Implementation of the Data Sharing Platform of a Photovoltaic Power Station over IPv6. 2018 5th International Conference on Mechatronics Engineering and Computer Sciences (ICMECS 2018).",
+                        "Xuejiao Yang, Xiaoying Wang*, Hailong Jin, Yuling Li and Peicong Luo. Research on Location and Capacity Planning of Datacenters in Smart Grids with Renewable Sources. 2018 International Conference on Computer, Communications and Mechatronics Engineering (CCME 2018).",
+                        "Xuejiao Yang, Xiaoying Wang*, Jiangwei Sheng, Yuling Li, Peicong Luo. Parallelization and Performance Optimization of the Jacobi Stencil Algorithm. 2018 International Conference on Sensing, Diagnostics, Prognostics, and Control, 2018."
+                    ]
+                },
+                {
+                    "year": "2017",
+                    "items": [
+                        "Peng Cui, Xiaoying Wang*. Modeling the Decision Process of Optimal Travel Route based on Analytic Hierarchy Process. Internet Journal of Grid and Distributed Computing. 2017, 10(2): 21-36.",
+                        "Guojing Zhang, Xiaoying Wang*, Mengqin Yang. Managing and Scheduling Approximate Applications to Utilize Renewable Energy in Cloud Computing Datacenters. APPLIED ECOLOGY AND ENVIRONMENTAL RESEARCH, 2017, 15(3):307-321.",
+                        "Fengyu Guo, Xiaoying Wang*. Research on Energy Consumption Modeling Method for Multi-Type Hybrid Applications. 2017 International Conference on Applied, Mathematics, Modelling and Statistics Application (AMMSA 2017).",
+                        "张国晶，王晓英，杨雪娇. 面向太阳能利用的云数据中心资源调度算法研究. 2017全国高性能学术年会(HPCChina2017).",
+                        "杨雪娇，王晓英，盛江玮. Jacobi Stencil算法的并行化实现及性能优化研究. 2017全国高性能学术年会(HPCChina2017).",
+                        "盛江玮，王晓英，曹腾飞，张小丹. WRF模式中物理过程参数化方案对青藏高原一次强降水模拟的影响研究. 2017全国高性能学术年会(HPCChina2017).",
+                        "Xiaoying Wang, Guojing Zhang, Mengqin Yang. Chapter title: Green-aware Virtual Machine Migration Strategy in Sustainable Cloud Computing Environments. Cloud Computing - Architecture and Applications. 2017, Chapter 3, pp. 53-70."
+                    ]
+                },
+                {
+                    "year": "2016",
+                    "items": [
+                        "Qingyi Pan, Xiaoying Wang*. Performance Evaluation and Optimization of HPCG benchmark on CPU + MIC platform. International Journal of Hybrid Information Technology, 2016, 9(11): 239-254.",
+                        "Xiaoying Wang, Kunchang Li, Guojing Zhang, Lei Zhang. Modeling the Power Consumption of Multiple Typical Applications based on Linux. Proceedings of the 2016 International Conference on Communications, Information, Management and Network Security (CIMNS2016).",
+                        "Wang Xiaoying, Yi Zhengming, Liu Xiaojing, Cao Tengfei. Establishing the Platform of Operating System Experiments for Application-oriented Talent Cultivation. EBMEI 2016.",
+                        "MENG Qiao, WANG Xiaoying, ZHANG Yu_an. Research on a Least Squares Thresholding Algorithm for Pavement Crack Detection. 6th International Conference on Information Science and Technology, May 2016.",
+                        "Huang, Jianqiang, Wu, Huan; Wang, Xiaoying and Yi, Zhengming. Research and application of online monitoring fault diagnosis for infrared image and visible image registration. WCSE 2016."
+                    ]
+                },
+                {
+                    "year": "2015",
+                    "items": [
+                        "Xiaoying Wang; Zhihui Du; Yinong Chen; Mengqin Yang. A Green-aware Virtual Machine Migration Strategy for Sustainable Datacenter Powered by Renewable Energy. Simulation Modelling Practice and Theory, 2015, vol.58.",
+                        "Guojing Zhang, Xiaoying Wang*, Zhihui Du. Research on the Prediction of Solar Energy Generation based on Measured Environmental Data. International Journal of u- and e- Service, Science and Technology. 2015: 8(5): 385-402.",
+                        "解辉，王晓英，金鑫. 数据中心间歇性绿色能源供给管理策略研究. 微型机与应用， 2015， 34(18): 69-72.",
+                        "解辉，王晓英，金鑫. 基于模板知识的带噪音半结构文本数据自动分词方法研究. 微型机与应用，2015，34(17)：89-95.",
+                        "解辉，王晓英，金鑫.数据中心间歇性绿色能源功率变化模型设计, 2015, 34(16): 11-14.",
+                        "Guojing Zhang, Xiaoying Wang*, Zhihui Du. Review of Heterogeneous Computing based on GPU. 2015 International Conference on Informatics, Control and Automation (ICA2015).",
+                        "Xiaoying Wang, Divya Kurthakoti Chandrashekhara, Md Haque, Inigo Goiri, Ricardo Bianchini, Thu Nguyen. Grid-Aware Placement of Datacenters and Wind Farms. IGSC 2015.",
+                        "Xiaoying Wang, Yu-an Zhang, Xiaojing Liu, Tengfei Cao. Exploiting the potential of data centers in the smart grid. International Conference on Intelligent Manufacturing and Computational Technology (IMCT2015).",
+                        "王晓英，沈茜，孟永伟，李东. 数据中心与风电厂在电网中的部署及交互建模仿真研究. 全国高性能计算学术年会， CCF HPC China 2015."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hjq",
+            "name": "黄建强",
+            "title": "教授",
+            "photo": "hjq_new.jpg",
+            "email": "hjqxaly@163.com",
+            "education": "清华大学(博士)",
+            "research": "高性能计算、大规模图计算、智能计算系统等",
+            "academicTitle": "中国计算机学会高性能计算专业委员会委员、CCF 高级会员",
+            "bio": [
+                "黄建强，青海大学计算机学院常务副院长，教授、博士生导师、毕业于清华大学计算机系。兼任青海省青联副主席、国家超算（无锡）中心青海大学分中心主任、青海省绿色算力工程技术研究中心主任、国家高层次人才、青海省领军人才、中科院“西部之光-青年学者”人才,全国宝钢优秀教师奖获得者。",
+                "长期从事高性能计算、绿色算力等研究，在PPoPP、TPDS、DASFAA、FGCS等国际顶级会议和期刊发表论文80余篇，主持国家重点研发计划课题、国家自然科学基金、青海省重大专项课题等项目10余项，相关科研成果获得青海省自然科学奖。对课程体系进行创新，增强系统能力，致力于打造具有工程实践能力的绿色算力师资队伍，塑造育人文化，激发内在动力，以推动绿算科技创新以及人才培养，彰显教学改革和人才培养的成效，所指导的青海大学超算队多次在ASC世界大学生超算竞赛上获得总决赛全球一等奖，相关成果获得青海省教学成果一等奖，培养优秀超算人才的同时支撑了青海大学计算机学科与医学、新能源、生态等领域的智能交叉研究。"
+            ],
+            "awards": [
+                "宝钢优秀教师奖",
+                "青海省小岛奖励金",
+                "青海省教学成果一等奖",
+                "青海大学教学成果奖一等奖",
+                "青海省自然科学奖",
+                "青海省“最美科技工作者",
+                "ASC 世界大学生超级计算机竞赛全球一等奖",
+                "全国大学生计算机系统能力培养大赛优秀指导教师"
+            ],
+            "projects": [
+                {   
+                    "name": "1、国家重点研发计划子课题  ",
+                    "title": "面向“一带一路”国家的AI智能气象预报应用示范",
+                    "period": "时期：2026\n"
+                },
+                {
+                    "name": "2、教育部  ",
+                    "title": "  入选国家高层次人才计划",
+                    "period": "时期：2025\n"
+                },
+                {
+                    "name": "3、青海省人民政府  ",
+                    "title": "  入选青海省领军人才计划",
+                    "period": "时期：2025\n"
+                },
+           
+            
+                {
+                    "name": "4、中央引导地方科技发展计划  ",
+                    "title": "  基于超算服务的智慧水务平台研发与应用示范",
+                    "period":"时期：2025\n"
+                },
+                {
+                    "name": "5、青海大学创新团队  ",
+                    "title": "  面向绿色算力中心的能源系统调控和任务调度策略",
+                    "period":"时期：2025\n"
+                },
+                {
+                    "name": "6、CCF-蚂蚁绿色计算项目  ",
+                    "title": "  算力资源动态优化调度与在线服务稳定性保障研究",
+                    "period":"时期：2025\n"
+                },
+                {
+                    "name": "7、国家自然科学基金  ",
+                    "title": "  基于异构平台的动态图计算系统关键技术研究",
+                    "period":"时期：2024\n"
+                },
+                {
+                    "name": "8、青海省“揭榜挂帅”项目课题  ",
+                    "title": "  算力互联网应用研究",
+                    "period":"时期：2024"
+                },
+                {
+                    "name": "9、国家重点研发计划子课题  ",
+                    "title": "  交互意图高效推理引擎及集成器件装置研发",
+                    "period":"时期：2024\n"
+                },
+                {
+                    "name":"10、青海省重点研发计划  ",
+                    "title":"  地球系统模式公共软件平台在青藏高原气候诊断评估的应用与推广",
+                    "period":"时期：2023\n"
+                },
+
+                {
+                    "name": "11、中科院  ",
+                    "title": "  入选中科院西部之光青年学者",
+                    "period":"时期：2023"
+
+                }
+            ],
+            "papers": [
+                {
+                    "year":"2025",
+                    "items":[
+                        "EDTC: Exact triangle counting system for GPU dynamic graphs based on updated edges（CCF A）",
+                        "Qklu: a two-dimensional block-cyclic sparse direct solver（SCI、CCF C）",
+                        "Robust low-rank representation on anchor graph with self-attention（SCI、CCF B）",
+                        "Octree-STCM: Octree-Based Spatio-Temporal Context Model for Lossless Geometry Compression of Dynamic Point Cloud（CCF B）",
+                        "面向 AVS 点云压缩标准的八叉树上下文模型优化（CSCD）",
+                        "基于 YOLOv5 和改进 DeeplabV3 + 的青藏高原植被提取算法（CSCD）", 
+                        "基于梯度提升回归树的三江源植被指数预测方法研究（CSCD）", 
+                        "A Fast and Lightweight Model for Causal Audio-Visual Speech Separation（CCF B）",
+                        "Single Image Super-Resolution Through Image Pixel Information Clustering and Generative Adversarial Network（SCI、中科院一区）", 
+                        "Plastic Distillation and Local Class Augment for Federated Class Incremental Learning（SCI、中科院一区）", 
+                        "Collaborative pseudo-label transfer for few-shot unsupervised domain adaptation（SCI、CCF C）", 
+                        "Research on Parallel Weighted Back-Projection Algorithm on Multi-CPU（CCF C）", 
+                        "An Efficient Parallel Ordered Depth‐First Search Strategy for Directed Acyclic Graphs"
+
+                    ]
+                },
+                {
+                    "year":"2024",
+                    "items":[
+                        "StepTC: Stepwise Triangle Counting on GPU with Two Efficient Set Intersection Methods（CCF B）",
+                        "DisRot: boosting the generalization capability of few-shot learning（SCI）",
+                        "A dual-difference change detection network for detecting building changes on high-resolution remote sensing images（SCI）"
+                    ]
+                },
+                {
+                    "year": "2022",
+                    "items": [
+                        "Large-Scale Graph Triangle-Counting on a single Machine using GPUs（CCF A）",
+                        "Helmholtz solving and performance optimization in the Global/Regional Assimilation and Prediction System（SCI一区）"]
+                       
+                },
+                 {
+                    "year": "2021",
+                    "items": [
+                        "DFOGraph: An I/O- and Communication-Efficient System for Distributed Fully-out-of-Core Graph Processing（CCF A）"
+                    ]
+                },
+                {
+                    "year": "2020",
+                    "items": [
+                        "CSR2: A New Format for SIMD-accelerated SpMV（CCGRID）",
+                        "ALBUS: A Method for Efficiently Processing SpMV Using SIMD and Load Balancing（SCI 一区）",
+                        "A Survey of Single Image Super Resolution Reconstruction（SCI）"
+                    ]
+                }
+               
+              
+                
+                
+            ]
+        },
+        {
+            "id": "jjf",
+            "name": "贾金芳",
+            "title": "副教授",
+            "photo": "jjf.jpg",
+            "email": "qhu_jf@163.com",
+            "education": "华东理工大学博士（在读）",
+            "research": "高性能计算、并行算法优化、机器学习",
+            "academicTitle": "中国计算机学会（CCF）会员",
+            "bio": [
+                "贾金芳，讲师，目前在华东理工大学攻读博士学位。主要从事高性能计算、并行算法优化及机器学习等领域的研究工作。担任国际知名SCI期刊 Journal of supercomputing 的审稿人。",
+                "在科研方面，主持了教育部春晖计划科研基金项目、青海大学中青年科研基金项目等多项课题。曾指导学生获得世界大学生超算竞赛全球二等奖。"
+            ],
+            "awards": [
+                "本科毕设优秀指导教师",
+                "世界大学生超算竞赛全球二等奖"
+            ],
+            "projects": [
+                {
+                    "name": "教育部春晖计划科研基金项目",
+                    "title": "基于OpenCL异构并行算法的材料微观组织模拟研究",
+                    "role": "主持"
+                },
+                {
+                    "name": "青海大学中青年科研基金项目",
+                    "title": "MPI/CUDA并行技术在材料模拟计算中的应用",
+                    "role": "主持"
+                },
+                {
+                    "name": "横向课题",
+                    "title": "青海电网数值天气预报子系统部署与运维保障",
+                    "role": "主持"
+                }
+            ],
+            "papers": [
+                {
+                    "year": "近期论文",
+                    "items": [
+                        "Ma, Chenyu, Jia, Jinfang*, et al. Simulation of three-dimensional phase field model with LBM method using OpenCL. The Journal of Supercomputing, 2022. (CCF C, SCI)",
+                        "张琨, 贾金芳*, et al. 预处理共轭梯度算法异构并行求解及优化. 小型微型计算机系统, 2021. (CCF B)",
+                        "张琨, 贾金芳*, et al. GRAPES动力框架中大规模稀疏线性系统并行求解及优化. 计算机工程, 2022. (CCF C)"
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "id": "zgj",
+            "name": "张国晶",
+            "title": "实验师",
+            "photo": "zgj_icon1.png",
+            "email": "Zhanggj@qhu.edu.cn",
+            "education": "青海大学(硕士)",
+            "research": "深度学习、草地信息化方向",
+            "bio": [
+                "青海人，硕士，博士生在读，实验师。2014年9月至2017年6月在青海大学机械设计及专业攻读硕士研究生。目前担任《计算机系统平台》、《数据库技术及其应用》等课程的主讲工作。",
+                "科研方面关注深度学习在草地信息化、降水预测等领域的应用。主持校级青年科研基金和生态学世界一流学科自主课题。"
+            ],
+            "projects": [
+                {
+                    "name": "校级青年科研基金",
+                    "title": "基于深度学习技术的青海省黄河流域短期水预报方法研究",
+                    "period": "2023",
+                    "role": "主持"
+                },
+                {
+                    "name": "生态学世界一流学科自主课题",
+                    "title": "家畜和啮齿动物互作对高寒草甸生产力的影响研究",
+                    "role": "主持"
+                },
+                {
+                    "name": "青海省科技厅基础研究计划",
+                    "title": "基于气象数据驱动的青海省黄河流域短期时空降水预测方法研究",
+                    "period": "2023-2025",
+                    "role": "第一参与人"
+                }
+            ],
+            "papers": [
+                {
+                    "year": "近期论文",
+                    "items": [
+                        "Xiaoying Wang, Haixiang Zhao, Guojing Zhang*, et al. Spatio-Temporal Predictive Learning for Radar-Based Precipitation Nowcasting. Atmosphere, 2024.",
+                        "Qiwei Zhu, Guojing Zhang*, et al. ConvMambaSR: Leveraging State-Space Models and CNNs in a Dual-Branch Architecture for Remote Sensing. Remote Sensing, 2024.",
+                        "Haixiang Zhao, Guojing Zhang*, et al. Improving Global Precipitation in NWP Systems based on DL. HPCC, 2023."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wl",
+            "name": "吴利",
+            "title": "讲师",
+            "photo": "wl.jpg",
+            "email": "wuli_qhu@163.com",
+            "education": "清华大学(硕士)",
+            "research": "高性能计算、深度学习、优化算法",
+            "bio": [
+                "2019年7月在清华大学高性能所获得硕士学位，并在阿里巴巴担任一年算法工程师，从事高性能计算、深度学习，优化算法等相关研究。2020年9月到青海大学计算机技术与应用系工作。",
+                "参与多项国家自然科学基金项目，重点研究基于深度学习的多源数据降水预报方法及在三江源地区的应用。"
+            ],
+            "projects": [
+                {
+                    "name": "国家自然科学基金",
+                    "title": "基于深度学习的多源数据降水预报方法及在三江源地区的应用",
+                    "period": "2023-2026",
+                    "role": "参与"
+                },
+                {
+                    "name": "清华大学横向项目",
+                    "title": "基于深度学习和数值模式的短临降水预测模型研究",
+                    "period": "2021-2023",
+                    "role": "参与"
+                }
+            ],
+            "papers": [
+                {
+                    "year": "学术成果",
+                    "items": [
+                        "Li Wu, et al. An effective parameter optimization with radiation balance constraint in CAM5. GMD, 2020.",
+                        "Wu, D.; Li Wu; et al. Short-Term Rainfall Prediction Based on Radar Echo Using an Improved Self-Attention PredRNN. Atmosphere, 2022.",
+                        "董润婷, 吴利, et al. 深度学习在天气预报领域的应用分析及研究进展综述. 计算机应用, 2023."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bhd",
+            "name": "边浩东",
+            "title": "讲师",
+            "photo": "bhd.jpg",
+            "email": "hpc_bhd@163.com",
+            "education": "青海大学(硕士)",
+            "research": "体系结构与高性能计算、图计算系统",
+            "bio": [
+                "曾就职于北京旷视科技有限公司（MEGVII），担任资深研发工程师，主要从事高性能计算优化等相关工作。目前以第一作者在SPE、FGCS、CCGRID、ICA3PP等国际重要期刊会议上发表文章。",
+                "对各种编程类学科竞赛（ASC、PAC、CPC、ICPC等）具有狂热兴趣，欢迎志同道合的同学联系。"
+            ],
+            "awards": [
+                "2022年第十届PAC并行应用挑战赛总决赛全国二等奖",
+                "2022年第三届IPCC并行应用挑战赛总决赛教育基金奖",
+                "2020年“华为杯”第十七届中国研究生数学建模竞赛全国三等奖",
+                "2020年 ICPC China Northwest Provincial Programming Contest 金奖"
+            ],
+            "papers": [
+                {
+                    "year": "发表论文",
+                    "items": [
+                        "H. Bian, et al. PAS: A new powerful and simple quantum computing simulator. Softw Pract Exper. 2021. (CCF B)",
+                        "H. Bian, et al. ALBUS: A method for efficiently processing SpMV using SIMD and Load balancing. FGCS, 2021. (SCI 1区, Top)",
+                        "H. Bian, et al. CSR2: A New Format for SIMD-accelerated SpMV. CCGRID, 2020. (CCF C)"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wzc",
+            "name": "王哲诚",
+            "title": "讲师",
+            "photo": "wzc.png",
+            "email": "zhecheng.wang@qhu.edu.cn",
+            "education": "西北工业大学工学博士",
+            "research": "数据压缩和存储、多媒体通信、计算机视觉",
+            "bio": [
+                "2024 年 09月进入青海大学计算机技术与应用学院工作，2025年09月任校聘副教授，2025年09月任IEEE信号处理学会多媒体信号处理技术委员会审稿人,。"
+                
+            ],
+            "awards": [
+                "2024 年度青海省“昆仑英才·高端创新创业人才”直接引进拔尖人才。"
+            ],
+            "papers": [
+                {
+                    "year": "2025",
+                    "items": [
+                        "WANG Z, WAN S, HUANG J. Octree-STCM: Octree-Based Spatio-TemporalContext Model for Lossless Geometry Compression of Dynamic PointCloud[C]//Proceedings of the 2025 International Conference on Multimedia Retrieval.New York,NY,USA:Association for Computing Machinery，2025：2073-2077.(CCF B)",
+                        "WEI L, ZHU Z, WANG Z, et al. Quantization Parameter Cascading for LossyPoint Cloud Attribute Compression in G-PCC1. APSIPA Transactions onSignal and Information Processing, 2025, 14(2).(中科院三区, JCR O2, IF: 3.2)",
+                        "王哲诚,杜正君，万帅,张伟,黄建强.面向 AVS 点云压缩标准的八叉树上下文模型优化[J].计算机辅助设计与图形学学报.DOI: 10.3724/SP.J.10892025-00010.(CCFA 中文期刊.IF:2.023)"
+                    ]
+                },
+                {
+                    "year": "2024",
+                    "items": [
+                        "WEI L, WAN S, WANG Z, et al. Near-Lossless Compression of Point CloudAttribute Using Quantization Parameter Cascading and Rate-DistortionOptimization[1l.IEEE Transactions on Multimedia, 2024,26:3317-3330.(中科院一区 Top, JCR Q1, IF: 9.7)",
+                        "WANG Z,WAN S,WEI L.  Optimized octree codec for geometry-based pointcloud compression[J. Signal, Image and Video Processing, 2024, 18: 761-772.(中科院四区, JCR Q3, IF: 2.1)"
+
+                    ]
+                },
+                {
+                    "year": "2023",
+                    "items": [
+                        "WANG Z, WAN S,WEI L. Local geometry-based intra predictionfor6]oetree-structured geometry coding of point clouds[J]. IEEE Transactions011Circuits and Systems for Video Technology,2023,33(2):886-896.(中科院-区Top, JCR Q1, IF: 11.1)",
+                        "王哲诚,万帅，魏磊.八叉树结构下动态点云的无损几何编码方法[J.西安交通大学学报,2023,57(12):11-19.(EI期刊,IF:2.55)",
+                        "WEI L,WAN S,DING X,YANG F, WANG Z. Adaptive GeometryReconstruction for Geometry-based Point Cloud Compression[C]//2023 IEEEInternational Conference on Multimedia and Expo (ICME). 2023: 1985-1990.(CCF B)",
+                        "WEI L, WAN S, DING X, WANG Z. Optimization of octree-based adaptivegeometry quantization via up-sampling for G-PCC[C]//2023 IEEE InternationalConference on Visual Communications and Image Processing (VCIP). 2023:1-5.(EI会议)"
+                       
+                    ]
+                     
+                },
+                {
+                    "year": "2022",
+                    "items":[
+                        "WANG Z, WAN S, WEl L. Logistic regression guided coding of single childmode for point cloud geometry compression[C]//2022 Picture CodingSymposium (PCS).IEEE,2022:145-149.(EI会议)",
+                        "WANG Z, WAN S, WEI L. Entropy coding of point cloud geometry usingmemory channel[C]//2022 EEE 8th International Conference on Computer andCommunications (ICCC).IEEE,2022:962-966.(EI会议)",
+                        "WEI L, WAN S, YANG F, WANG 2. Content-Adaptive Level of Detail forLossless Point Cloud Compression1. APSIPA Transactions on Signal andInformation Processing,2022,11(1).(中科院三区, JCR Q2, IF: 3.2)",
+                        "CHEN Z, WAN S, WANG Z, Geometry reconstruction for spatial scalability inpoint cloud compression based on neighbour occupancies[C]//InternationalWorkshop on Advanced Imaging Technology (IWAIT), SPIE, 2022, 121(77).(EI会议)"
+                    ]
+                },
+                {
+                    "year": "2021",
+                    "items":[
+                        "魏磊，万帅，王哲诚,等.面向点云无损压缩的快速细节层次优化方法[J.西安交通大学学报,2021,55(09):88-96.(EI期刊,IF:2.55)"
+                    ]
+
+                }
+            ],
+            "patents":[
+                "万帅，王哲诚.点云编解码方法、编码器、解码器以及计算机存储介质P].2024-12-27，中国,ZL202080103910.6.",
+                "万帅，陈章，王哲诚.基于平面拟合中心坐标投影的点云空间可伸缩编码几何重构方法[P1.2023-02-10，中国,ZL202110753985.5.",
+                "万帅，陈章，王哲诚、等.基于拟合平面几何误差最小的点云空间可伸缩编码几何重构方法|P1.2023-02-14，中国,ZL202110753984.0.",
+                "WANG Z, WAN S. [G-PCC] INew Proposal] On improving the eligibility ofplanar mode[EB.ISO/EC JTC1/SC29/WG7 m59001.2022.(被第二代 G-PCC国际标准采纳)",
+                "WANG Z, WAN S.[G-PCC| EE13.57 Test l Report on planar modelEB].27ISO/EC JTC1/SC29 WG7 m59533,2022.(被第二代 G-PCC 国际标准采纳)",
+                "WAN S, WANG Z, YU Y, et al. [G-PCC] INew Proposal] On geometryoccupancy intra predictionEB].ISO/EC JTC1/SC29 WG11 m52327, 2020.(被第一代 G-PCC 国际标准采纳)",
+                "WAN S, WANG Z, YU Y, et al. [G-PCC] CE13.1l report on Intra occupancyprediction|EB,.ISO/EC JTC1/SC29 WG11 m53328,2020.(被第一代 G-PCC国际标准采纳)",
+                "WAN S, WANG Z, YU Y, et al. [G-PCClSoftware] Harmonization for planar[57mode and occupancy intra predictionEB]. ISO/EC JTC1/SC29 WG11 m537232020.(被第一代 G-PCC 国际标准采纳)",
+                "TIAN T, HAO S, WANG Z, et al. [G-PCc]INew Proposal] On the initial probability ofbinary coders in dynamic OBUFEB].ISO/EC ITC1/SC29 WG7 m61098.2022.(被第代 G-PCC 国际标准采纳)"
+            ],
+            "projects": [
+                {
+                    "name": "国家自然科学基金",
+                    "title": "藏毯图像生成及颜色编辑关键技术研究",
+                    "period": "2026-2029",
+                    "role": "参与"
+                },
+                {
+                    "name": "浪潮存储青蓝基金，企业合作",
+                    "title": "智能存储算法关键技术研究",
+                    "period": "2025-2026",
+                    "role": "第一参与人"
+                },
+                {
+                    "name": "TCL 创新科技基金,产学研专项基金",
+                    "title": "下一代国际视频编码标准关键技术研究",
+                    "period": "2023-至今",
+                    "role": "第一参与人"
+                },
+                {
+                    "name": "T上海海思技术有限公司，企业合作",
+                    "title": "VVC编码算法优化技术研究技术合作项目",
+                    "period": "2022-2023",
+                    "role": "第一参与人"
+                },
+                {
+                    "name": "OPPO广东移动通信有限公司，企业合作",
+                    "title": "未来视频标准技术合作项目",
+                    "period": "2020-2021",
+                    "role": "第一参与人"
+                }
+                
+            ]
+    },
+    {
+            "id": "bxj",
+            "name": "白小军",
+            "title": "讲师",
+            "photo": "bxj.png",
+            "email": "xiaojunbai2023@163.com",
+            "education": "燕山大学工学博士",
+            "research": "云计算、边缘计算、排队论、多目标优化方法、联邦深度强化学习",
+            "bio": [
+                "主要从事绿色算力中心以及云边端协同环境的资源分配和任务调度的应用基础研究，担任Frontiers of InformationTechnology& Electronic Engineering 期刊审稿人。主要研究方向为算电协同、云边缘计算、排队论、多目标优化方法、深度强化学习。"
+            ],
+
+            "papers": [
+                {
+                    "year": "发表论文",
+                    "items": [
+                        "Xiaojun Bai, et al. Performance analysis of an energy-saving strategy in cloud data centers based on a MMAP[K]/M[K]/N1+N2 non-preemptive priority queue, Future Generation Computer Systems, 2022, 136: 205-220. (CCF C/中科院SCI二区Top期刊 / IF= 6.2)",
+                        "Xiaojun Bai, et al. A cloud-edge-device collaborative offloading strategy with heterogeneous tasks and its performance evaluation, Frontiers of Information Technology & Electronic Engineering, 2024, 25(05): 664-684. (CCF C/中科院SCI三区期刊 / IF= 2.7)"
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "name": "国家自然科学基金",
+                    "title": "青海省 2024 年“揭榜挂帅”项目:青海省绿电溯源与异构算力一体化关键技术研究与应用",
+                    "period": "2024",
+                    "role": "参与"
+                }
+            ],
+             "patents":[
+            "金顺福，白小军，等.云数据中心中基于双阈值滞后集群调度机制的节能策略:中国,202210665311.4[P1.2023-09-15.(已授权)。"
+            ],
+            "awards": [
+                "2022 年获得燕山大学博士研究生国家奖学金。"
+            ]
+          
+
+    }
+    ],
+    "students": [
+        {
+            "name": "姚自强",
+            "year": "2020-present",
+            "research": "人工智能与深度学习",
+            "photo": "yaoziqiang.jpg"
+        },
+        {
+            "name": "吴达黎",
+            "year": "2020-present",
+            "research": "人工智能与深度学习",
+            "photo": "wudali.jpg"
+        },
+        {
+            "name": "董润婷",
+            "year": "2020-present",
+            "research": "人工智能与深度学习",
+            "photo": "dongrunting.jpg"
+        },
+        {
+            "name": "刘令斌",
+            "year": "2020-present",
+            "research": "大规模图计算系统",
+            "photo": "liulingbin.jpg"
+        },
+        {
+            "name": "黄东强",
+            "year": "2020-present",
+            "research": "高性能计算",
+            "photo": "huangdongqiang.jpg"
+        },
+        {
+            "name": "侯天瑞",
+            "year": "2021-present",
+            "research": "人工智能与深度学习",
+            "photo": "houtianrui.jpg"
+        },
+        {
+            "name": "姜佳凡",
+            "year": "2021-present",
+            "research": "高性能计算",
+            "photo": "jiangjiafan.jpg"
+        },
+        {
+            "name": "张文轩",
+            "year": "2021-present",
+            "research": "人工智能与深度学习",
+            "photo": "zhangwenxuan.jpg"
+        },
+        {
+            "name": "李博录",
+            "year": "2021-present",
+            "research": "人工智能与深度学习",
+            "photo": "libolu.jpg"
+        },
+        {
+            "name": "马晨昱",
+            "year": "2021-present",
+            "research": "人工智能与深度学习",
+            "photo": "machenyu.jpg"
+        },
+        {
+            "name": "唐嘉豪",
+            "year": "2021-present",
+            "research": "高性能计算",
+            "photo": "tangjiahao.jpg"
+        },
+        {
+            "name": "余航",
+            "year": "2021-present",
+            "research": "高性能计算",
+            "photo": "yuhang.jpg"
+        },
+        {
+            "name": "李博",
+            "year": "2021-present",
+            "research": "高性能计算",
+            "photo": "libo.jpg"
+        },
+        {
+            "name": "宁争胜",
+            "year": "2022-present",
+            "research": "高性能计算",
+            "photo": "ningzhengsheng.jpg"
+        },
+        {
+            "name": "李志雄",
+            "year": "2022-present",
+            "research": "高性能计算",
+            "photo": "lizhixiong.jpg"
+        },
+        {
+            "name": "刘杰",
+            "year": "2022-present",
+            "research": "人工智能与深度学习",
+            "photo": "liujie.jpg"
+        },
+        {
+            "name": "赵海翔",
+            "year": "2022-present",
+            "research": "人工智能与深度学习",
+            "photo": "zhaohaixiang.jpg"
+        },
+        {
+            "name": "潭张杰",
+            "year": "2022-present",
+            "research": "高性能计算",
+            "photo": "tanzhangjie.jpg"
+        },
+        {
+            "name": "李金雯",
+            "year": "2022-present",
+            "research": "人工智能与深度学习",
+            "photo": "lijinwen.jpg"
+        },
+        {
+            "name": "刘君",
+            "year": "2022-present",
+            "research": "人工智能与深度学习",
+            "photo": "liujun.jpg"
+        },
+        {
+            "name": "涂进兴",
+            "year": "2022-present",
+            "research": "高性能计算",
+            "photo": "tujinxing.jpg"
+        },
+        {
+            "name": "刘冰燕",
+            "year": "2022-present",
+            "research": "人工智能与深度学习",
+            "photo": "liubingyan.jpg"
+        },
+        {
+            "name": "徐澳康",
+            "year": "2022-present",
+            "research": "高性能计算与深度学习",
+            "photo": "xuaokang.jpg"
+        },
+        {
+            "name": "陈闽昊",
+            "year": "2022-present",
+            "research": "高性能计算",
+            "photo": "chenminghao.jpg"
+        },
+        {
+            "name": "吴环",
+            "year": "2018届毕业生",
+            "research": "美国波特兰州立大学",
+            "photo": "wuhuan.jpg"
+        },
+        {
+            "name": "杨雪娇",
+            "year": "2019届毕业生",
+            "research": "新华三集团",
+            "photo": "yangxuejiao.jpg"
+        },
+        {
+            "name": "罗佩聪",
+            "year": "2020届毕业生",
+            "research": "中国人民银行",
+            "photo": "luopeicong.jpg"
+        },
+        {
+            "name": "李玉玲",
+            "year": "2020届毕业生",
+            "research": "青海省电力公司电力科学研究院",
+            "photo": "liyuling.jpg"
+        },
+        {
+            "name": "严文昕",
+            "year": "2021届毕业生",
+            "research": "广州北羊信息技术有限公司",
+            "photo": "yanwenxin.jpg"
+        },
+        {
+            "name": "黄鼎昌",
+            "year": "2021届毕业生",
+            "research": "国家电投五凌电力有限公司",
+            "photo": "huangdingchang.jpg"
+        },
+        {
+            "name": "赵梦梦",
+            "year": "2022届毕业生",
+            "research": "小米公司",
+            "photo": "zhaomengmeng.jpg"
+        },
+        {
+            "name": "张琨",
+            "year": "2022届毕业生",
+            "research": "联想公司",
+            "photo": "zhangkun.jpg"
+        },
+        {
+            "name": "李凯",
+            "year": "2020届毕业生（本科）",
+            "research": "清华大学",
+            "photo": "likai.jpg",
+            "link": "https://cslikai.cn"
+        },
+        {
+            "name": "杨圣豪",
+            "year": "2020届毕业生（本科）",
+            "research": "清华大学",
+            "photo": "yangshenghao.jpg"
+        },
+        {
+            "name": "凌龙",
+            "year": "2021届毕业生（本科）",
+            "research": "北京航空航天大学",
+            "photo": "linglong.jpg"
+        },
+        {
+            "name": "陈玉婷",
+            "year": "2021届毕业生（本科）",
+            "research": "青海电信",
+            "photo": "chenyuting.jpg"
+        }
+    ]
+}

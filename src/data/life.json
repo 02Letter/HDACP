@@ -1,0 +1,85 @@
+{
+    "honors": [
+        {
+            "category": "超算类",
+            "images": [
+                "ASC2025_1.png",
+                "h1.png",
+                "h2.png",
+                "h7.png"
+                
+            ]
+        },
+        {
+            "category": "创新设计类",
+            "images": [
+                "h4.png",
+                "h5.jpg",
+                "h3.png"
+            ]
+        },
+        {
+            "category": "大数据类",
+            "images": [
+                "h6.png"
+            ]
+        }
+    ],
+    "academic": [
+        {
+            "event": "PPoPP 2026",
+            "images": [
+                "ppopp1.jpg",
+                "ppopp2.jpg",
+                "ppopp3.jpg"
+            ]
+        },
+        {
+            "event": "CNCC 2019",
+            "images": [
+                "x1.jpg",
+                "x2.jpg",
+                "x3.jpg",
+                "x4.jpg",
+                "x5.jpg",
+                "x6.jpg",
+                "x7.jpg",
+                "x8.jpg",
+                "x9.jpg"
+            ]
+        },
+        {
+            "event": "HPC China 2019",
+            "images": [
+                "x107.jpg",
+                "x108.jpg",
+                "x110.jpg",
+                "x109.jpg",
+                "x104.jpg",
+                "x105.jpg",
+                "x106.jpg",
+                "x111.jpg",
+                "x101.jpg",
+                "x102.jpg",
+                "x103.jpg"
+            ]
+        }
+    ],
+    "competitions": [
+        {
+            "name": "ASC Student Supercomputer Challenge",
+            "logo": "asc.png",
+            "link": "http://www.asc-events.org/"
+        },
+        {
+            "name": "PAC HPC Challenge",
+            "logo": "PAC.png",
+            "link": "http://www.pac-hpc.com/"
+        },
+        {
+            "name": "CPC HPC Challenge",
+            "logo": "CPC.jpg",
+            "link": "http://www.cpc-hpc.com/"
+        }
+    ]
+}

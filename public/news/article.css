@@ -1,0 +1,19 @@
+body { background: #fff; color: #253445; font-size: 17px; line-height: 1.9; }
+.article-nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 0 max(24px, calc((100vw - 1160px) / 2)); border-bottom: 1px solid #e0e7ec; }
+.article-nav a { color: #17699c; text-decoration: none; font-size: 15px; }
+.article-nav .article-brand { font-size: 25px; font-weight: 750; color: #073254; }
+.article-brand span { color: #0d91b3; font-size: 17px; font-weight: 500; }
+.container { max-width: 1040px; padding: 54px 28px; }
+.header, .title-section { padding: 0 0 24px; margin-bottom: 30px; border-bottom: 1px solid #e0e7ec; text-align: left; }
+.header h1, .main-title { font-size: clamp(24px, 3vw, 36px); line-height: 1.55; color: #073254; font-weight: 650; }
+.header .meta, .publish-info { text-align: left; color: #75818e; font-size: 14px; }
+.content, .content-section { padding: 0; background: #fff; border-radius: 0; box-shadow: none; }
+.content p, .content-section p { line-height: 2; font-size: 17px; margin-bottom: 24px; }
+.image-group { display: grid; grid-template-columns: 1fr; gap: 28px; margin: 36px 0; }
+.image-item { width: 100%; max-width: 850px; margin: auto; }
+.image-item img { width: 100%; height: auto; border-radius: 4px; box-shadow: none; }
+.image-caption, figcaption { margin-top: 10px; color: #75818e; font-size: 14px; text-align: center; }
+.footer { border-top: 1px solid #e0e7ec; margin-top: 50px; padding-top: 24px; color: #75818e; font-size: 13px; }
+.highlight { color: #17699c; }
+a:focus-visible { outline: 3px solid #148bcb; outline-offset: 5px; }
+@media(max-width: 600px) { .container { padding: 35px 20px; } .article-nav { padding: 0 20px; min-height: 68px; } .content p, .content-section p { font-size: 16px; } }
