@@ -94,102 +94,127 @@
     "year": "2020",
     "items": [
       {
+        "title": "Supporting Multi-dimensional and Arbitrary Numbers of Ranks for Software Packet Scheduling",
         "content": "[IWQoS] Jiaqi Zheng, Ya-nan Jiang, Bingchuan Tian, Huaping Zhou, Chen Tian, Guihai Chen, and Wanchun Dou. Supporting Multi-dimensional and Arbitrary Numbers of Ranks for Software Packet Scheduling. In Proceedings of IEEE IWQoS, 2020.",
         "link": ""
       },
       {
+        "title": "Optimizing NFV Chain Deployment in Software-defined Cellular Core",
         "content": "[JSAC] Jiaqi Zheng, Chen Tian, Haipeng Dai, Qiufang Ma, Wei Zhang, Guihai Chen, Gong Zhang. \"Optimizing NFV Chain Deployment in Software-defined Cellular Core\". IEEE Journal on Selected Areas in Communications (JSAC), 2020, Accepted.",
         "link": ""
       },
       {
+        "title": "Dynamic Speed Warping: Similarity-Based One-shot Learning for Device-free Gesture Signals",
         "content": "[INFOCOM] Xun Wang, Ke Sun, Ting Zhao, Wei Wang, Qing Gu, \"Dynamic Speed Warping: Similarity-Based One-shot Learning for Device-free Gesture Signals\", IEEE INFOCOM, 2020Paper",
         "link": "res/paper/infocom20_wang_camera.pdf"
       },
       {
+        "title": "SpiderMon: Towards Using Cell Towers as Illuminating Sources for Keystroke Monitoring",
         "content": "[INFOCOM] Kang Ling, Yuntang Liu, Ke Sun, Wei Wang, Lei Xie, Qing Gu, “SpiderMon: Towards Using Cell Towers as Illuminating Sources for Keystroke Monitoring”, IEEE INFOCOM, 2020Paper",
         "link": "res/paper/Infocom20_Ling_camera.pdf"
       },
       {
+        "title": "An Adaptive and Fast Convergent Approach to Differentially Private Deep Learning",
         "content": "[INFOCOM] Zhiying Xu, Shuyu Shi, Alex X. Liu, Jun Zhao, Lin Chen: An Adaptive and Fast Convergent Approach to Differentially Private Deep Learning.IEEE INFOCOM 2020",
         "link": ""
       },
       {
+        "title": "Charging Task Scheduling for Directional Wireless Charger Networks",
         "content": "[TMC] Haipeng Dai, Ke Sun, Alex X. Liu, Lijun Zhang, Jiaqi Zheng and Guihai Chen. \"Charging Task Scheduling for Directional Wireless Charger Networks\" , IEEE Transactions on Mobile Computing (TMC), 2020. TBD",
         "link": ""
       },
       {
+        "title": "Placement of Unmanned Aerial Vehicles for Directional Coverage in 3D Space",
         "content": "[TNET] Weijun Wang, Haipeng Dai, Chao Dong, Xiao Cheng, Xiaoyu Wang, Panlong Yang, Guihai Chen and Wanchun Dou. \"Placement of Unmanned Aerial Vehicles for Directional Coverage in 3D Space\". IEEE/ACM Transactions on Networking (TNET), 2020. TBD",
         "link": ""
       },
       {
+        "title": "Thresholded Monitoring in Distributed Data Streams",
         "content": "[TNET] Meng Li, Haipeng Dai, Xiaoyu Wang, Rui Xia, Alex X. Liu and Guihai Chen. \"Thresholded Monitoring in Distributed Data Streams\". IEEE/ACM Transactions on Networking (TNET), 2020. TBD",
         "link": ""
       },
       {
+        "title": "CHASE: Charging and Scheduling Scheme for Stochastic Event Capture in Wireless Rechargeable Sensor Networks",
         "content": "[TMC] Haipeng Dai, Qiufang Ma, Xiaobing Wu, Guihai Chen, David K. Y. Yau, ShaoJie Tang, Xiang-Yang Li and Chen Tian. \"CHASE: Charging and Scheduling Scheme for Stochastic Event Capture in Wireless Rechargeable Sensor Networks\" , IEEE Transactions on Mobile Computing (TMC), Vol. 19, No. 1, pages 44-59, 2020.",
         "link": ""
       },
       {
+        "title": "Area Charging for Wireless Rechargeable Sensors",
         "content": "[ICCCN'20] Haipeng Dai, Xiaoyu Wang, Lijie Xu, Chao Dong, Qian Liu, Lei Meng and Guihai Chen. \"Area Charging for Wireless Rechargeable Sensors\". In Proceedings of the 29nd International Conference on Computer Communications and Networks (ICCCN), Honolulu, Hawaii, USA, August 3-6, 2020.",
         "link": ""
       },
       {
+        "title": "Scheduling of Wireless Charging Tasks with Precedence Constraints",
         "content": "[ISCC'20] Lanlan Li, Linfeng Yue, Haipeng Dai, Nan Yu and Guihai Chen. \"Scheduling of Wireless Charging Tasks with Precedence Constraints\". In Proceedings of the 26th IEEE symposium on Computers and Communications (ISCC), Rennes, France, July 7-10, 2020.  TBD",
         "link": ""
       },
       {
+        "title": "Chronus+: Minimizing Switch Buffer Size during Network Updates in Timed SDNs",
         "content": "[ICDCS'20] Xin He, Jiaqi Zheng, Haipeng Dai, Yuhu Sun, Wanchun Dou and Guihai Chen. \"Chronus+: Minimizing Switch Buffer Size during Network Updates in Timed SDNs\". In Proceedings of the 40th IEEE International Conference on Distributed Computing (ICDCS), Singapore, July 8-10, 2020. Acceptance rate: 18.0%. TBD",
         "link": ""
       },
       {
+        "title": "Learning for Exception: Dynamic Service Caching in 5G-Enabled MECs with Bursty User Demands",
         "content": "[ICDCS'20] Zichuan Xu, Shengnan Wang, Shipei Liu, Haipeng Dai, Qiufen Xia, Weifa Liang and Guowei Wu. \"Learning for Exception: Dynamic Service Caching in 5G-Enabled MECs with Bursty User Demands\". In Proceedings of the 40th IEEE International Conference on Distributed Computing (ICDCS), Singapore, July 8-10, 2020. Acceptance rate: 18.0%. TBD",
         "link": ""
       },
       {
+        "title": "Mining Robust Frequent Items in Data Streams",
         "content": "[JCC'20] Rui Xia, Haipeng Dai, Zhanchao Du, Meng Li, Alex X. Liu and Guihai Chen. \"Mining Robust Frequent Items in Data Streams\". In Proceedings of the IEEE International Conference on Jointcloud Computing (JCC), Keble College, Oxford, United Kingdom, August 3-8, 2020. TBD",
         "link": ""
       },
       {
+        "title": "Robust Server Placement for Edge Computing",
         "content": "[IPDPS'20] Dongyu Lu, Yuben Qu, Fan Wu, Haipeng Dai, Chao Dong and Guihai Chen. \"Robust Server Placement for Edge Computing\". In Proceedings of the 34th IEEE International Parallel and Distributed Processing Symposium (IPDPS), New Orleans, USA, May 18-22, 2020. TBD",
         "link": ""
       },
       {
+        "title": "Packet-in Request Redirection for Minimizing Control Plane Response Time",
         "content": "[IPDPS'20] Rui Xia, Haipeng Dai, Jiaqi Zheng, Hong Xu, Meng Li and Guihai Chen. \"Packet-in Request Redirection for Minimizing Control Plane Response Time\". In Proceedings of the 34th IEEE International Parallel and Distributed Processing Symposium (IPDPS), New Orleans, USA, May 18-22, 2020. TBD",
         "link": ""
       },
       {
+        "title": "Placing Wireless Chargers with Limited Mobility",
         "content": "[INFOCOM'20] Haipeng Dai, Chaofeng Wu, Xiaoyu Wang, Wanchun Dou, and Yunhuai Liu. \"Placing Wireless Chargers with Limited Mobility\". In Proceedings of the 39th Annual IEEE International Conference on Computer Communications (INFOCOM), Beijing, China, April 27-30, 2020. Acceptance rate: 19.8%. TBD",
         "link": ""
       },
       {
+        "title": "Coeus: Consistent and Continuous Network Update in Software-Defined Networks",
         "content": "[INFOCOM'20] Xin He, Jiaqi Zheng, Haipeng Dai, Chong Zhang, Wajid Rafique, Geng Li, Wanchun Dou, and Qiang Ni. \"Coeus: Consistent and Continuous Network Update in Software-Defined Networks\". In Proceedings of the 39th Annual IEEE International Conference on Computer Communications (INFOCOM), Beijing, China, April 27-30, 2020. Acceptance rate: 19.8%. TBD",
         "link": ""
       },
       {
+        "title": "Maximizing Charging Utility with Obstacles through Fresnel Diffraction Model",
         "content": "[INFOCOM'20] Chi Lin, Feng Gao, Haipeng Dai, Jiankang Ren, Lei Wang, and Guowei Wu. \"Maximizing Charging Utility with Obstacles through Fresnel Diffraction Model\". In Proceedings of the 39th Annual IEEE International Conference on Computer Communications (INFOCOM), Beijing, China, April 27-30, 2020. Acceptance rate: 19.8%. TBD",
         "link": ""
       },
       {
+        "title": "Chronus+ : Minimizing Switch Buffer Size during Network Updates in Timed SDNs",
         "content": "[ICDCS] Xin He, Jiaqi Zheng, Haipeng Dai, Yuhu Sun, Wanchun Dou, Guihai Chen. \"Chronus+ : Minimizing Switch Buffer Size during Network Updates in Timed SDNs\".In Proceedings of the 40th IEEE International Conference on Distributed Computing (ICDCS), Singapore, July 8-10, 2020.",
         "link": ""
       },
       {
+        "title": "oeus: Consistent and Continuous Network Update in Software-Defined Networks",
         "content": "[INFOCOM] Xin He, Jiaqi Zheng, Haipeng Dai, Chong Zhang, Wajid Rafique, Geng Li, Wanchun Dou, Qiang Ni. \"oeus: Consistent and Continuous Network Update in Software-Defined Networks\". In Proceedings of the 39th IEEE International Conference on Computer Communications (INFOCOM), Toronto, Canada, July 6-9, 2020.",
         "link": ""
       },
       {
+        "title": "An Application Development Framework for Internet of Things Service Orchestration",
         "content": "W. Rafique, X. Zhao, S. Yu, I. Yaqoob, M. Imran and W. Dou, \"An Application Development Framework for Internet of Things Service Orchestration,\" in IEEE Internet of Things Journal, doi: 10.1109/JIOT.2020.2971013.",
         "link": ""
       },
       {
+        "title": "RAOA: A Relay-Assisted Ofﬂoading Approach in Edge Computing Environment",
         "content": "[CSCWD] Song Zhang, Xutong Jiang, Jiabang Liu, Lianyong Qi, WanChun Dou*. RAOA: A Relay-Assisted Ofﬂoading Approach in Edge Computing Environment. IEEE International Conference on Computer Supported Cooperative Work in Design (CSCWD), 2020. Accepted",
         "link": ""
       },
       {
+        "title": "Multi-Request Scheduling and Collaborative Service Processing for DASH-Video Optimization in Cloud-Edge Network",
         "content": "[CLOUD] Xuan Zhao, Song Zhang and Wanchun Dou. Multi-Request Scheduling and Collaborative Service Processing for DASH-Video Optimization in Cloud-Edge Network. IEEE International Conference on Cloud Computing (CLOUD),2020. Accepted.",
         "link": ""
       },
       {
+        "title": "Internet of Things Services Orchestration Using Software-Defined Networking and Edge Computing: A Survey on Architecture, Requirements, Standardization, and Security",
         "content": "Wajid Rafique, Lianyong Qi, Ibrar Yaqoob, Muhammad Imran, Raihan ur Rasool, Wanchun Dou. \"Internet of Things Services Orchestration Using Software-Defined Networking and Edge Computing: A Survey on Architecture, Requirements, Standardization, and Security\". IEEE Communications Surveys and Tutorials. 2020. Accepted",
         "link": ""
       },
@@ -208,186 +233,232 @@
     "year": "2019",
     "items": [
       {
+        "title": "Safely and Automatically Updating In-Network ACL Configurations with Intent Language",
         "content": "[SIGCOMM] Bingchuan Tian, Xinyi Zhang, Ennan Zhai, Hongqiang Harry Liu, Qiaobo Ye, Chunsheng Wang, Xin Wu, Zhiming Ji, Yihong Sang, Ming Zhang, Da Yu, Chen Tian, Heather Zheng, Ben Y. Zhao. Safely and Automatically Updating In-Network ACL Configurations with Intent Language. In Proceedings of ACM SIGCOMM, 2019.",
         "link": ""
       },
       {
+        "title": "RDMA Load Balancing via Data Partition",
         "content": "[ICCCN] Yi Wang, Ya-Nan Jiang, Qiufang Ma, Chen Tian, Gong Zhang and Bo Bai. RDMA Load Balancing via Data Partition. In Proceedings of IEEE ICCCN, 2019.",
         "link": ""
       },
       {
+        "title": "Error Recovery of RDMA Packets in Data Center Networks",
         "content": "[ICCCN] Yi Wang, Kexin Liu, Chen Tian, Bo Bai and Gong Zhang. Error Recovery of RDMA Packets in Data Center Networks. In Proceedings of IEEE ICCCN, 2019.",
         "link": ""
       },
       {
+        "title": "Synthesizing Wider WiFi Bandwidth for Respiration Rate Monitoring in Dynamic Environments",
         "content": "[INFOCOM] Shuyu Shi, Yaxiong Xie, Mo Li, Alex X. Liu, Jun Zhao: Synthesizing Wider WiFi Bandwidth for Respiration Rate Monitoring in Dynamic Environments. INFOCOM 2019: 181-189",
         "link": ""
       },
       {
+        "title": "Privacy-preserving Crowd-guided AI Decision-making in Ethical Dilemmas",
         "content": "[CIKM] Teng Wang, Jun Zhao, Han Yu, Jinyan Liu, Xinyu Yang, Xuebin Ren, Shuyu Shi: Privacy-preserving Crowd-guided AI Decision-making in Ethical Dilemmas. CIKM 2019: 1311-1320",
         "link": ""
       },
       {
+        "title": "WiTrace: Centimeter-Level Passive Gesture Tracking Using OFDM Signals",
         "content": "[TMC] Lei Wang, Ke Sun, Haipeng Dai, Wei Wang, Kang Huang, Alex X. Liu, Xiaoyu Wang and Qing Gu. \"WiTrace: Centimeter-Level Passive Gesture Tracking Using OFDM Signals\", IEEE Transactions on Mobile Computing (TMC), 2019. TBD",
         "link": ""
       },
       {
+        "title": "Completion Time Minimization for Multi-UAV Information Collection via Trajectory Planning",
         "content": "[Sensors] Zhen Qin, Aijing Li, Chao Dong, Haipeng Dai and Zhengqin Xu. \"Completion Time Minimization for Multi-UAV Information Collection via Trajectory Planning\", Sensors, Vol. 19, No. 18, pages 4032, 2019. TBD",
         "link": ""
       },
       {
+        "title": "Trajectory Planning for Data Collection of Energy-constrained Heterogeneous UAVs",
         "content": "[Sensors] Zhen Qin, Chao Dong, Hai Wang, Aijing Li, Haipeng Dai, Weihao Sun and Zhengqin Xu. \"Trajectory Planning for Data Collection of Energy-constrained Heterogeneous UAVs\", Sensors, Vol. 19, No. 22, pages 4884, 2019. TBD",
         "link": ""
       },
       {
+        "title": "Optimizing NFV Chain Deployment in Software-defined Cellular Core",
         "content": "[JSAC] Jiaqi Zheng, Chen Tian, Haipeng Dai, Qiufang Ma, Wei Zhang, Guihai Chen and Gong Zhang. \"Optimizing NFV Chain Deployment in Software-defined Cellular Core\", IEEE Journal on Selected Areas in Communications (JSAC), 2019. TBD",
         "link": ""
       },
       {
+        "title": "Connectivity-constrained Placement of Wireless Chargers",
         "content": "[TMC] Nan Yu, Haipeng Dai, Guihai Chen, Alex X. Liu, Bingchuan Tian and Tian He. \"Connectivity-constrained Placement of Wireless Chargers\", IEEE Transactions on Mobile Computing (TMC), 2019. TBD",
         "link": ""
       },
       {
+        "title": "Finding Persistent Items in Distributed Datasets",
         "content": "[TNET] Haipeng Dai, Meng Li, Alex X. Liu, Jiaqi Zheng and Guihai Chen. \"Finding Persistent Items in Distributed Datasets\". IEEE/ACM Transactions on Networking (TNET), 2019. TBD",
         "link": ""
       },
       {
+        "title": "Scheduling Dependent Coflows to Minimize the Total Weighted Job Completion Time in Datacenters",
         "content": "[COMNET] Bingchuan Tian, Chen Tian, Bingquan Wang, Bo Li, Zehao He, Haipeng Dai, Kexin Liu, Wanchun Dou and Guihai Chen. \"Scheduling Dependent Coflows to Minimize the Total Weighted Job Completion Time in Datacenters\", Elsevier Computer Networks (COMNET), 2019. TBD",
         "link": ""
       },
       {
+        "title": "Practical Heterogeneous Wireless Charger Placement with Obstacles",
         "content": "[TMC] Xiaoyu Wang, Haipeng Dai, Weijun Wang, Jiaqi Zheng, Guihai Chen, Wanchun Dou and Xiaobing Wu. \"Practical Heterogeneous Wireless Charger Placement with Obstacles\", IEEE Transactions on Mobile Computing (TMC), 2019. TBD",
         "link": ""
       },
       {
+        "title": "Posted Pricing for Chance Constrained Robust Crowdsensing",
         "content": "[TMC] Yuben Qu, Shaojie Tang, Chao Dong, Peng Li, Song Guo, Haipeng Dai and Fan Wu. \"Posted Pricing for Chance Constrained Robust Crowdsensing\", IEEE Transactions on Mobile Computing (TMC), 2019. TBD",
         "link": ""
       },
       {
+        "title": "Radiation Constrained Fair Charging for Wireless Power Transfer",
         "content": "[TOSN] Lanlan Li, Haipeng Dai, Guihai Chen, Jiaqi Zheng, Wanchun Dou and Xiaobing Wu. \"Radiation Constrained Fair Charging for Wireless Power Transfer\", ACM Transactions on Sensor Networks (TOSN), Vol. 15, No. 2, 2019. TBD",
         "link": ""
       },
       {
+        "title": "Maximizing D2D-Based Offloading Efficiency with Throughput Guarantee and Buffer Constraint",
         "content": "[TVT] Yuben Qu, Chao Dong, Haipeng Dai, Zhenhua Wei and Qihui Wu. \"Maximizing D2D-Based Offloading Efficiency with Throughput Guarantee and Buffer Constraint\", IEEE Transactions on Vehicular Technology (TVT), Vol. 68, No. 1, pages 832-842, 2019. TBD",
         "link": ""
       },
       {
+        "title": "Congestion-Minimizing Network Update in Data Centers",
         "content": "[TSC] Jiaqi Zheng, Hong Xu, Guihai Chen, Haipeng Dai and Jie Wu. \"Congestion-Minimizing Network Update in Data Centers\", IEEE Transactions on Service Computing (TSC), Vol. 12, No. 5, pages: 800-812, 2019. TBD",
         "link": ""
       },
       {
+        "title": "A K-Anonymity Based Schema for Location Privacy Preservation",
         "content": "[TSUSC] Fan Fei, Shu Li, Haipeng Dai, Chunhua Hu, Wanchun Dou and Qiang Ni. \"A K-Anonymity Based Schema for Location Privacy Preservation\", IEEE Transactions on Sustainable Computing (TSUSC), Vol. 4, No. 2, pages 156-167, 2019. TBD",
         "link": ""
       },
       {
+        "title": "IGATA: An Attraction-Based Online Task Recommendation Framework in Freemium-Crowdsourcing Platform",
         "content": "[ICPADS'19] Yuchen Xia, Shenwei Chen, Xiaofeng Gao, Haipeng Dai and Guihai Chen. \"IGATA: An Attraction-Based Online Task Recommendation Framework in Freemium-Crowdsourcing Platform\". In Proceedings of the 25th IEEE International Conference on Parallel and Distributed Systems (ICPADS), Tianjin, China, December 4-16, 2019. TBD",
         "link": ""
       },
       {
+        "title": "Recognizing Driver Talking Direction in Running Vehicles with a Smartphone",
         "content": "[MASS'19] Haipeng Dai, Alex X. Liu, Zeshui Li, Wei Wang, Fengmin Zhang and Chao Dong. \"Recognizing Driver Talking Direction in Running Vehicles with a Smartphone\". In Proceedings of the 16th IEEE International Conference on Mobile Ad-Hoc and Sensor Networks (MASS), pages 10-18, Monterey, CA, USA, November 4-9, 2019. TBD",
         "link": ""
       },
       {
+        "title": "Incentive Mechanisms for Spatio-temporal Tasks in Mobile Crowdsensing",
         "content": "[MASS'19] Jia Xu, Chengcheng Guan, Haipeng Dai, Dejun Yang, Lijie Xu and Jianyi Kai. \"Incentive Mechanisms for Spatio-temporal Tasks in Mobile Crowdsensing\". In Proceedings of the 16th IEEE International Conference on Mobile Ad-Hoc and Sensor Networks (MASS), pages 10-18, Monterey, CA, USA, November 4-9, 2019. TBD",
         "link": ""
       },
       {
+        "title": "SAFE: Service Availability via Failure Elimination through VNF Scaling",
         "content": "[ICPP'19] Rui Xia, Haipeng Dai, Jiaqi Zheng, Rong Gu, Xiaoyu Wang and Guihai Chen. \"SAFE: Service Availability via Failure Elimination through VNF Scaling\". In Proceedings of the 47th International Conference on Parallel Processing (ICPP), Kyoto, Japan, August 5-8, 2019. TBD",
         "link": ""
       },
       {
+        "title": "Orchestrating Service Chain Deployment with Plutus in Next Generation Cellular Core",
         "content": "[IWQoS'19] Jiaqi Zheng, Qiufang Ma, Chen Tian, Haipeng Dai, Wei Zhang, Guihai Chen and Gong Zhang. \"Orchestrating Service Chain Deployment with Plutus in Next Generation Cellular Core\". In Proceedings of the 26th IEEE/ACM International Symposium on Quality of Service (IWQoS), Phoenix, Arizona, USA, June 24-25, 2019. Acceptance rate: 42/153 = 27.4%. TBD",
         "link": ""
       },
       {
+        "title": "Speech Based Human Authentication on Smartphones",
         "content": "[SECON'19] Haipeng Dai, Wei Wang, Alex X. Liu, Kang Ling and Jiajun Sun. \"Speech Based Human Authentication on Smartphones\". In Proceedings of the 16th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON), Boston, Massachusetts, USA, June 10-13, 2019. Acceptance rate: 54/189 = 28.6%. TBD",
         "link": ""
       },
       {
+        "title": "VISIT: Placement of Unmanned Aerial Vehicles for Anisotropic Monitoring Tasks",
         "content": "[SECON'19] Weijun Wang, Haipeng Dai, Chao Dong, Fu Xiao, Xiao Chen and Guihai Chen. \"VISIT: Placement of Unmanned Aerial Vehicles for Anisotropic Monitoring Tasks\". In Proceedings of the 16th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON), Boston, Massachusetts, USA, June 10-13, 2019. Acceptance rate: 54/189 = 28.6%. TBD",
         "link": ""
       },
       {
+        "title": "When Wireless Charging Meets Fresnel Zones: Even Obstacles Can Enhance Charging Efficiency",
         "content": "[SECON'19] Chi Lin, Feng Gao, Haipeng Dai, Lei Wang and Wu Guowei. \"When Wireless Charging Meets Fresnel Zones: Even Obstacles Can Enhance Charging Efficiency\". In Proceedings of the 16th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON), Boston, Massachusetts, USA, June 10-13, 2019. Acceptance rate: 54/189 = 28.6%. TBD",
         "link": ""
       },
       {
+        "title": "Thresholded Monitoring in Distributed Data Streams",
         "content": "[ICDCS'19] Meng Li, Haipeng Dai, Xiaoyu Wang, Rui Xia, Alex X. Liu and Guihai Chen. \"Thresholded Monitoring in Distributed Data Streams\". In Proceedings of the 39th IEEE International Conference on Distributed Computing (ICDCS), Dallas, Texas, USA, July 7-10, 2019. Acceptance rate: 19.6%. TBD",
         "link": ""
       },
       {
+        "title": "Bundle Charging: Wireless Charging Energy Minimization in Dense Wireless Sensor Networks",
         "content": "[ICDCS'19] Ning Wang, Jie Wu and Haipeng Dai. \"Bundle Charging: Wireless Charging Energy Minimization in Dense Wireless Sensor Networks\". In Proceedings of the 39th IEEE International Conference on Distributed Computing (ICDCS), Dallas, Texas, USA, July 7-10, 2019. Acceptance rate: 19.6%. TBD",
         "link": ""
       },
       {
+        "title": "Near Optimal Charging Scheduling for 3-D Wireless Rechargeable Sensor Networks with Energy Constraints",
         "content": "[ICDCS'19] Chi Lin, Chunyang Guo, Haipeng Dai, Lei Wang and Guowei Wu. \"Near Optimal Charging Scheduling for 3-D Wireless Rechargeable Sensor Networks with Energy Constraints\". In Proceedings of the 39th IEEE International Conference on Distributed Computing (ICDCS), Dallas, Texas, USA, July 7-10, 2019. Acceptance rate: 19.6%. TBD",
         "link": ""
       },
       {
+        "title": "Robust Scheduling for Wireless Charger Networks",
         "content": "[INFOCOM'19] Xiaoyu Wang, Haipeng Dai, He Huang, Yunhuai Liu, Guihai Chen and Wanchun Dou. \"Robust Scheduling for Wireless Charger Networks\". In Proceedings of the 38th Annual IEEE International Conference on Computer Communications (INFOCOM), Paris, France, April 29-May 2, 2019. Acceptance rate: 19.7%.",
         "link": ""
       },
       {
+        "title": "PANDA: Placement of Unmanned Aerial Vehicles Achieving 3D Directional Coverage",
         "content": "[INFOCOM'19] Weijun Wang, Haipeng Dai, Chao Dong, Xiao Cheng, Xiaoyu Wang, Guihai Chen and Wanchun Dou. \"PANDA: Placement of Unmanned Aerial Vehicles Achieving 3D Directional Coverage\". In Proceedings of the 38th Annual IEEE International Conference on Computer Communications (INFOCOM), Paris, France, April 29-May 2, 2019. Acceptance rate: 19.7%.",
         "link": ""
       },
       {
+        "title": "Charging Oriented Sensor Placement and Flexible Scheduling in Rechargeable WSN",
         "content": "[INFOCOM'19] Tao Wu, Panlong Yang, Haipeng Dai, Wanru Xu and Mingxue Xu. \"Charging Oriented Sensor Placement and Flexible Scheduling in Rechargeable WSN\". In Proceedings of the 38th Annual IEEE International Conference on Computer Communications (INFOCOM), Paris, France, April 29-May 2, 2019. Acceptance rate: 19.7%.",
         "link": ""
       },
       {
+        "title": "Collaborated Tasks-driven Mobile Charging and Scheduling: A Near Optimal Result",
         "content": "[INFOCOM'19] Tao Wu, Panlong Yang, Haipeng Dai, Wanru Xu and Mingxue Xu. \"Collaborated Tasks-driven Mobile Charging and Scheduling: A Near Optimal Result\". In Proceedings of the 38th Annual IEEE International Conference on Computer Communications (INFOCOM), Paris, France, April 29-May 2, 2019. Acceptance rate: 19.7%.",
         "link": ""
       },
       {
+        "title": "PCIAS: Precise and Contactless Measurement of Instantaneous Angular Speed using a Smartphone",
         "content": "[Ubicomp'19] Zeshui Li, Haipeng Dai, Wei Wang, Alex X. Liu and Guihai Chen. \"PCIAS: Precise and Contactless Measurement of Instantaneous Angular Speed using a Smartphone\". In Proceedings of the ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp), 2019. TBD",
         "link": ""
       },
       {
+        "title": "SocioRank*: A community and Role Detection Method in Social Networks",
         "content": "Wajid Rafique, Maqbool Khan, Nadeem Sarwar, Wanchun Dou*.\"SocioRank*: A community and Role Detection Method in Social Networks\".Computers & Electrical Engineering,2019.",
         "link": ""
       },
       {
+        "title": "An Energy-Aware Computation Offloading Method for Smart Edge Computing in Wireless Metropolitan Area Networks",
         "content": "Xiaolong Xu, Yuancheng Li, Tao Huang, Yuan Xue, Kai Peng, Lianyong Qi, Wanchun Dou.\"An Energy-Aware Computation Offloading Method for Smart Edge Computing in Wireless Metropolitan Area Networks\".J. Network and Computer Applications,2019.",
         "link": ""
       },
       {
+        "title": "TrCMP: A Dependable App Usage Inference Design for User Behavior Analysis Through Cyber-Physical Parameters",
         "content": "Xuan Zhao, Md Zakirul Alam Bhuiyan, Lianyong Qi, Hongli Nie, Wenda Tang, Wanchun Dou*.\"TrCMP: A Dependable App Usage Inference Design for User Behavior Analysis Through Cyber-Physical Parameters\".Journal of Systems Architecture,2019.",
         "link": ""
       },
       {
+        "title": "Finding All You Need: Web APIs Recommendation in Web of Things Through Keywords Search",
         "content": "Lianyong Qi, Qiang He, Feifei Chen, Wanchun Dou, Shaohua Wan, Xuyun Zhang, Xiaolong Xu.\"Finding All You Need: Web APIs Recommendation in Web of Things Through Keywords Search\".IEEE Trans. Comput. Social Systems,2019.",
         "link": ""
       },
       {
+        "title": "A K-Anonymity Based Schema for Location Privacy Preservation",
         "content": "[T-SUSC] Fan Fei, Shu Li, Haipeng Dai, Chunhua Hu, Wanchun Dou*, Qiang Ni.\"A K-Anonymity Based Schema for Location Privacy Preservation\".T-SUSC,2019.",
         "link": ""
       },
       {
+        "title": "CFADefense: A Security Solution to Detect and Mitigate Crossfire Attacks in Software-Defined IoT-Edge Infrastructure",
         "content": "Wajid Rafique, Xin He, Zifan Liu, Yuhu Sun, Wanchun Dou.\"CFADefense: A Security Solution to Detect and Mitigate Crossfire Attacks in Software-Defined IoT-Edge Infrastructure\".HPCC/SmartCity/DSS,2019.",
         "link": ""
       },
       {
+        "title": "Load-Aware Edge Server Placement for Mobile Edge Computing in 5G Networks",
         "content": "[ICSOC] Xiaolong Xu, Yuan Xue, Lianyong Qi, Xuyun Zhang, Shaohua Wan, Wanchun Dou, Victor Chang.\"Load-Aware Edge Server Placement for Mobile Edge Computing in 5G Networks\".ICSOC,2019.",
         "link": ""
       },
       {
+        "title": "A Multi-Objective Crowdsourcing Method for Mobile Video Streaming",
         "content": "[ICWS] Xiaolong Xu, Shucun Fu, Lianyong Qi, Xuyun Zhang, Wanchun Dou.\"A Multi-Objective Crowdsourcing Method for Mobile Video Streaming\".ICWS,2019.",
         "link": ""
       },
       {
+        "title": "PANDA: Placement of Unmanned Aerial Vehicles Achieving 3D Directional Coverage",
         "content": "[INFOCOM2019] Weijun Wang, Haipeng Dai, Chao Dong, Xiao Cheng, Xiaoyu Wang, Guihai Chen, Wanchun Dou.\"PANDA: Placement of Unmanned Aerial Vehicles Achieving 3D Directional Coverage\".IEEE International Conference on Computer Communications (INFOCOM2019),2019.",
         "link": ""
       },
       {
+        "title": "A Heuristic Line Piloting Method to Disclose Malicious Taxicab Driver's Privacy over GPS Big Data",
         "content": "Wanchun Dou*, Wenda Tang, Shu Li, Shui Yu, Kim-Kwang Raymond Choo.\"A Heuristic Line Piloting Method to Disclose Malicious Taxicab Driver's Privacy over GPS Big Data\".Information Sciences,2019.",
         "link": ""
       },
       {
+        "title": "An Offloading Method Using Decentralized P2P-Enabled Mobile Edge Servers in Edge Computing",
         "content": "Wenda Tang, Xuan Zhao, Wajid Rafique, Lianyong Qi, Wanchun Dou*, Qiang Ni.\"An Offloading Method Using Decentralized P2P-Enabled Mobile Edge Servers in Edge Computing\".Journal of Systems Architecture - Embedded Systems Design,2019.",
         "link": ""
       },
       {
+        "title": "User Grouping for Sharing Services with Capacity Limit",
         "content": "Xiping Liu, Dou Wanchun, Xin Wang.\"User Grouping for Sharing Services with Capacity Limit\".IEEE Transactions on Services Computing,2019.",
         "link": ""
       }
@@ -397,154 +468,192 @@
     "year": "2018",
     "items": [
       {
+        "title": "VSkin: Sensing Touch Gestures on Surfaces of Mobile Devices Using Acoustic Signals",
         "content": "[MobiCom] Ke Sun, Ting Zhao, Wei Wang, and Lei Xie, \"VSkin: Sensing Touch Gestures on Surfaces of Mobile Devices Using Acoustic Signals”, in proceedings of ACM MobiCom 2018Paper",
         "link": "res/paper/mobicom2018_kesun.pdf"
       },
       {
+        "title": "Unlock With Your Heart: Heartbeat-based Authentication on Commercial Mobile Phones",
         "content": "[UbiComp] Lei Wang, Kang Huang, Ke Sun, Wei Wang, Chen Tian, Lei Xie, and Qing Gu, \"Unlock With Your Heart: Heartbeat-based Authentication on Commercial Mobile Phones”, in Proceedings of ACM UbiComp, 2018Paper",
         "link": "res/paper/Ubicomp2018_leiwang.pdf"
       },
       {
+        "title": "Accurate Location Tracking From CSI-Based Passive Device-Free Probabilistic Fingerprinting",
         "content": "[Trans] Shuyu Shi, Stephan Sigg, Lin Chen, Yusheng Ji: Accurate Location Tracking From CSI-Based Passive Device-Free Probabilistic Fingerprinting. IEEE Trans. Vehicular Technology 67(6): 5217-5230 (2018)",
         "link": ""
       },
       {
+        "title": "On heterogeneous duty cycles for neighbor discovery in wireless sensor networks",
         "content": "[Ad Hoc Networks] Lin Chen, Ruolin Fan, Yangbin Zhang, Shuyu Shi, Kaigui Bian, Lin Chen, Pan Zhou, Mario Gerla, Tao Wang, Xiaoming Li: On heterogeneous duty cycles for neighbor discovery in wireless sensor networks. Ad Hoc Networks 77: 54-68 (2018)",
         "link": ""
       },
       {
+        "title": "Multicast in Multi-Channel Cognitive Radio Ad Hoc Networks: Challenges and Research Aspects",
         "content": "[COMCOM] Yuben Qu, Chao Dong, Haipeng Dai and Song Guo. \"Multicast in Multi-Channel Cognitive Radio Ad Hoc Networks: Challenges and Research Aspects\", Computer Communications (COMCOM), Vol. 132, pages 10-16, 2018. TBD",
         "link": ""
       },
       {
+        "title": "Identifying and Estimating Persistent Items in Data Streams",
         "content": "[TNET] Haipeng Dai, Muhammad Shahzad, Alex X. Liu, Meng Li and Yuankun Zhong. \"Identifying and Estimating Persistent Items in Data Streams\". IEEE/ACM Transactions on Networking (TNET), 2018.",
         "link": ""
       },
       {
+        "title": "Near Optimal Bounded Route Association for Drone-Enabled Rechargeable WSNs",
         "content": "[COMNET] Tao Wu, Panlong Yang, Haipeng Dai, Ping Li and Xunpeng Rao. \"Near Optimal Bounded Route Association for Drone-Enabled Rechargeable WSNs\", Elsevier Computer Networks (COMNET), 2018. TBD",
         "link": ""
       },
       {
+        "title": "Wireless Charger Placement for Directional Charging",
         "content": "[TNET] Haipeng Dai, Xiaoyu Wang, Alex X. Liu, Huizhen Ma and Guihai Chen. \"Wireless Charger Placement for Directional Charging\", IEEE/ACM Transactions on Networking (TNET), 2018. Accepted",
         "link": ""
       },
       {
+        "title": "Achieving adaptive broadcasting performance tradeoff for energy-critical sensor networks: a bottom-up approach",
         "content": "[COMNET] Lijie Xu, Geng Yang, Jia Xu, Lei Wang and Haipeng Dai. \"Achieving adaptive broadcasting performance tradeoff for energy-critical sensor networks: a bottom-up approach\", Elsevier Computer Networks (COMNET), 2018. TBD",
         "link": ""
       },
       {
+        "title": "SCAPE: Safe Charging with Adjustable PowEr",
         "content": "[TNET] Haipeng Dai, Yunhuai Liu, Guihai Chen, Xiaobing Wu, Tian He, Alex X. Liu and Yang Zhao. \"SCAPE: Safe Charging with Adjustable PowEr\", IEEE/ACM Transactions on Networking (TNET), Vol. 26, No. 1, pages 520-533, 2018. TBD",
         "link": ""
       },
       {
+        "title": "Radiation Constrained Scheduling of Wireless Charging Tasks",
         "content": "[TNET] Haipeng Dai, Huizhen Ma, Alex X. Liu and Guihai Chen. \"Radiation Constrained Scheduling of Wireless Charging Tasks\", IEEE/ACM Transactions on Networking (TNET), Vol. 26, No. 1, pages 314-327, 2018. TBD",
         "link": ""
       },
       {
+        "title": "Efficient Coflow Scheduling of Multi-stage Jobs with Isolation Guarantee",
         "content": "[ISPA'18] Zifan Liu, Haipeng Dai, Bingchuan Tian, Wajid Rafique and Wanchun Dou. \"Efficient Coflow Scheduling of Multi-stage Jobs with Isolation Guarantee\". In Proceedings of the 16th IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA), Melbourne, Australia, December 11-13, 2018. TBD",
         "link": ""
       },
       {
+        "title": "Fair-Energy Trajectory Plan for Reconnaissance Mission Based on UAVs Cooperation",
         "content": "[WCSP'18] Zhen Qin, Aijing Li, Chao Dong, Haipeng Dai and Ai Xu. \"Fair-Energy Trajectory Plan for Reconnaissance Mission Based on UAVs Cooperation\". In Proceedings of the 10th International Conference on Wireless Communications and Signal Processing (WCSP), Hangzhou, China, October 18-20, 2018. TBD",
         "link": ""
       },
       {
+        "title": "Hermes: Utility-aware Network Update in Software-defined WANs",
         "content": "[ICNP'18] Jiaqi Zheng, Qiufang Ma, Chen Tian, Bo Li, Haipeng Dai, Hong Xu, Guihai Chen and Qiang Ni. \"Hermes: Utility-aware Network Update in Software-defined WANs\". In Proceedings of the 26rd IEEE International Conference on Network Protocols (ICNP), Cambridge, UK, September 24-27, 2018. TBD",
         "link": ""
       },
       {
+        "title": "Using the Macroflow Abstraction to Minimize Machine Slot-time Spent on Networking in Hadoop",
         "content": "[APNet'18] Bingchuan Tian, Chen Tian, Jiajun Sun, Junhua Yan, Yizhou Tang, Wei Wang, Haipeng Dai, Nai Xia, Guihai Chen and Wanchun Dou. \"Using the Macroflow Abstraction to Minimize Machine Slot-time Spent on Networking in Hadoop\". In the 2nd Asia-Pacific Workshop on Networking (APNet), Beijing, China, August 2-3, 2018. TBD",
         "link": ""
       },
       {
+        "title": "Charging Task Scheduling for Directional Wireless Charger Networks",
         "content": "[ICPP'18] Haipeng Dai, Ke Sun, Alex X. Liu, Lijun Zhang, Jiaqi Zheng and Guihai Chen. \"Charging Task Scheduling for Directional Wireless Charger Networks\". In Proceedings of the 47th International Conference on Parallel Processing (ICPP), Eugene, Oregon, USA, August 13-16, 2018. TBD",
         "link": ""
       },
       {
+        "title": "Heterogeneous Wireless Charger Placement with Obstacles",
         "content": "[ICPP'18] Xiaoyu Wang, Haipeng Dai, Weijun Wang, Jiaqi Zheng, Guihai Chen, Wanchun Dou and Xiaobing Wu. \"Heterogeneous Wireless Charger Placement with Obstacles\". In Proceedings of the 47th International Conference on Parallel Processing (ICPP), Eugene, Oregon, USA, August 13-16, 2018. TBD",
         "link": ""
       },
       {
+        "title": "Cache Assisted Randomized Sharing Counters in Network Measurement",
         "content": "[ICPP'18] Qian Liu, Haipeng Dai, Alex X. Liu, Qi Li, Xiaoyu Wang and Jiaqi Zheng. \"Cache Assisted Randomized Sharing Counters in Network Measurement\". In Proceedings of the 47th International Conference on Parallel Processing (ICPP), Eugene, Oregon, USA, August 13-16, 2018. TBD",
         "link": ""
       },
       {
+        "title": "MPF: Prolonging Network Lifetime of Wireless Rechargeable Sensor Networks by Mixing Partial Charge and Full Charge",
         "content": "[SECON'18] Chi Lin, Yanhong Zhou, Haipeng Dai, Jing Deng and Wu Guowei. \"MPF: Prolonging Network Lifetime of Wireless Rechargeable Sensor Networks by Mixing Partial Charge and Full Charge\". In Proceedings of the 15th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON), Hong Kong, China, June 11-13, 2018. Acceptance rate: 49/211 = 23.2%. TBD",
         "link": ""
       },
       {
+        "title": "WiTrace: Centimeter-Level Passive Gesture Tracking Using WiFi Signals",
         "content": "[SECON'18] Lei Wang, Ke Sun, Haipeng Dai, Alex X. Liu and Xiaoyu Wang. \"WiTrace: Centimeter-Level Passive Gesture Tracking Using WiFi Signals\". In Proceedings of the 15th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON), Hong Kong, China, June 11-13, 2018. Acceptance rate: 49/211 = 23.2%. TBD",
         "link": ""
       },
       {
+        "title": "UltraGesture: Fine-Grained Gesture Sensing and Recognition",
         "content": "[SECON'18] Ling Kang, Haipeng Dai, Yuntang Liu and Alex X. Liu. \"UltraGesture: Fine-Grained Gesture Sensing and Recognition\". In Proceedings of the 15th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON), Hong Kong, China, June 11-13, 2018. Acceptance rate: 49/211 = 23.2%. TBD",
         "link": ""
       },
       {
+        "title": "MOOC: A Mobility Control based Clustering Scheme for Area Coverage in FANETs",
         "content": "[WoWMoM'18] Xiao Cheng, Chao Dong, Haipeng Dai and Guihai Chen. \"MOOC: A Mobility Control based Clustering Scheme for Area Coverage in FANETs\". In Proceedings of the 19th IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM), Chania, Greece, June 12-15, 2018. TBD",
         "link": ""
       },
       {
+        "title": "Depth Aware Finger Tapping on Virtual Displays",
         "content": "[MobiSys'18] Ke Sun, Wei Wang, Alex X. Liu and Haipeng Dai. \"Depth Aware Finger Tapping on Virtual Displays\". In Proceedings of the 16th ACM International Conference on Mobile Systems, Applications, and Services (MobiSys), Munich, Germany, June 10-15, 2018. Acceptance rate: 37/138 = 26.8%. TBD",
         "link": ""
       },
       {
+        "title": "Robustly Safe Charging for Wireless Power Transfer",
         "content": "[INFOCOM'18] Haipeng Dai, Yang Zhao, Guihai Chen, Wanchun Dou, Chen Tian, Xiaobing Wu and Tian He. \"Robustly Safe Charging for Wireless Power Transfer\". In Proceedings of the 37th Annual IEEE International Conference on Computer Communications (INFOCOM), Honolulu, HI, USA, April 15-19, 2018. Acceptance rate: 309/1606 = 19.2%. TBD",
         "link": ""
       },
       {
+        "title": "Finding Persistent Items in Distributed Datasets",
         "content": "[INFOCOM'18] Haipeng Dai, Meng Li and Alex X. Liu. \"Finding Persistent Items in Distributed Datasets\". In Proceedings of the 37th Annual IEEE International Conference on Computer Communications (INFOCOM), Honolulu, HI, USA, April 15-19, 2018. Acceptance rate: 309/1606 = 19.2%. TBD",
         "link": ""
       },
       {
+        "title": "Placement of Connected Wireless Chargers",
         "content": "[INFOCOM'18] Nan Yu, Haipeng Dai, Alex X. Liu and Bingchuan Tian. \"Placement of Connected Wireless Chargers\". In Proceedings of the 37th Annual IEEE International Conference on Computer Communications (INFOCOM), Honolulu, HI, USA, April 15-19, 2018. Acceptance rate: 309/1606 = 19.2%. TBD",
         "link": ""
       },
       {
+        "title": "Scheduling Coflows of Multi-stage Jobs to Minimize the Total Weighted Job Completion Time",
         "content": "[INFOCOM'18] Bingchuan Tian, Chen Tian, Haipeng Dai and Bingquan Wang. \"Scheduling Coflows of Multi-stage Jobs to Minimize the Total Weighted Job Completion Time\". In Proceedings of the 37th Annual IEEE International Conference on Computer Communications (INFOCOM), Honolulu, HI, USA, April 15-19, 2018. Acceptance rate: 309/1606 = 19.2%. TBD",
         "link": ""
       },
       {
+        "title": "An Insurance Theory based Optimal Cyber-Insurance Contract Against Moral Hazard",
         "content": "Wanchun Dou*, Wenda Tang, Xiaotong Wu, Lianyong Qi, Xiaolong Xu, Xuyun Zhang, Chunhua Hu.\"An Insurance Theory based Optimal Cyber-Insurance Contract Against Moral Hazard\".Information Sciences,2018.",
         "link": ""
       },
       {
+        "title": "MRMondrian: Scalable Multidimensional Anonymisation for Big Data Privacy Preservation",
         "content": "Zhang Xuyun, Qi Lianyong, Dou Wanchun, He Qiang, Christopher Leckie, Kotagiri Ramamohanarao, Zoran Salcic.\"MRMondrian: Scalable Multidimensional Anonymisation for Big Data Privacy Preservation\".IEEE Transactions on Big Data,2018.accepted",
         "link": ""
       },
       {
+        "title": "Dynamic Resource Allocation for Load Balancing in Fog Environment",
         "content": "Xiaolong Xu, Shucun Fu, Qing Cai, Wei Tian, Wen-Jie Liu, Wanchun Dou, Xingming Sun, Alex X. Liu.\"Dynamic Resource Allocation for Load Balancing in Fog Environment\".Wireless Communications and Mobile Computing,2018.in press(accepted)",
         "link": ""
       },
       {
+        "title": "Hybrid Computation Offloading for Smart Home Automation in Mobile Cloud Computing",
         "content": "Zhang Jie, Zhili Zhou, Shu Li, Leilei Gan, Xuyun Zhang, Lianyong Qi, Xiaolong Xu, Wanchun Dou*.\"Hybrid Computation Offloading for Smart Home Automation in Mobile Cloud Computing\".Personal and Ubiquitous Computing,2018.",
         "link": ""
       },
       {
+        "title": "A Resource Co-Allocation Method for Load-Balance Scheduling over Big Data Platforms",
         "content": "Dou Wanchun*, Xiaolong Xu, Xiang Liu, Laurence T. Yang, Yiping Wen.\"A Resource Co-Allocation Method for Load-Balance Scheduling over Big Data Platforms\".Future Generation Computer Systems,2018.",
         "link": ""
       },
       {
+        "title": "A Two-Stage Locality-Sensitive Hashing Based Approach for Privacy-Preserving Mobile Service Recommendation in Cross-Platform Edge Environment",
         "content": "Lianyong Qi, Xuyun Zhang, Wanchun Dou*, Chunhua Hu, Chi Yang, Jinjun Chen.\"A Two-Stage Locality-Sensitive Hashing Based Approach for Privacy-Preserving Mobile Service Recommendation in Cross-Platform Edge Environment\".Future Generation Computer Systems,2018.",
         "link": ""
       },
       {
+        "title": "Structural Balance Theory-Based E-Commerce Recommendation over Big Rating Data",
         "content": "Lianyong Qi, Xiaolong Xu, Xuyun Zhang, Wanchun Dou, Chunhua Hu, Yuming Zhou, Jiguo Yu.\"Structural Balance Theory-Based E-Commerce Recommendation over Big Rating Data\".IEEE Transactions on Big Data,2018.",
         "link": ""
       },
       {
+        "title": "High Quality Participant Recruitment of Mobile Crowdsourcing over Big Data",
         "content": "[GLOBECOM2018] Shu Li, Jie Zhang, Dongqing Xie, Shui Yu, Wanchun Dou*.\"High Quality Participant Recruitment of Mobile Crowdsourcing over Big Data\".IEEE Global Communications Conference (GLOBECOM2018),2018.",
         "link": ""
       },
       {
+        "title": "A Deadline-Aware Coflow Scheduling Approach for Big Data Applications",
         "content": "[ICC2018] Wenda Tang, Song Wang, Duanchao Li, Taigui Huang, Wanchun Dou*, Shui Yu.\"A Deadline-Aware Coflow Scheduling Approach for Big Data Applications\".IEEE International Conference on Communications (ICC2018),2018.",
         "link": ""
       },
       {
+        "title": "Temporal-Sparsity Aware Service Recommendation Method via Hybrid Collaborative Filtering Techniques",
         "content": "[ICSOC2018] Shunmei Meng, Qianmu Li, Shiping Chen, Shui Yu, Lianyong Qi, Wenmin Lin, Xiaolong Xu, Wanchun Dou.\"Temporal-Sparsity Aware Service Recommendation Method via Hybrid Collaborative Filtering Techniques\".International Conference on Service-Oriented Computing (ICSOC2018),2018.",
         "link": ""
       },
       {
+        "title": "An Offloading Approach in Fog Computing Environment",
         "content": "Wenda Tang, Shu Li, Wajid Rafique, Wanchun Dou*, Shui Yu.\"An Offloading Approach in Fog Computing Environment\".IEEE SmartWorld, Ubiquitous Intelligence & Computing, Advanced & Trusted Computing, Scalable Computing & Communications, Cloud & Big Data Computing, Internet of People and Smart City Innovation (SmartWorld/SCALCOM/UIC/ATC/CBDCom/IOP/SCI2018),2018.",
         "link": ""
       }
@@ -554,94 +663,117 @@
     "year": "2017",
     "items": [
       {
+        "title": "Safe Charging for Wireless Power Transfer",
         "content": "[TNET] Haipeng Dai, Yunhuai Liu, Guihai Chen, Xiaobing Wu, Tian He, Alex X. Liu and Huizhen Ma. \"Safe Charging for Wireless Power Transfer\", IEEE/ACM Transactions on Networking (TNET), Vol. 25, No. 6, pages 3531-3544, 2017. TBD",
         "link": ""
       },
       {
+        "title": "Scheduling Congestion- and Loop-free Network Update in Timed SDNs",
         "content": "[JSAC] Jiaqi Zheng, Guihai Chen, Stefan Schmid, Haipeng Dai, Jie Wu and Qiang Ni. \"Scheduling Congestion- and Loop-free Network Update in Timed SDNs\", IEEE Journal on Selected Areas in Communications (JSAC), Vol. 35, No. 11, pages 2542-2552, 2017.",
         "link": ""
       },
       {
+        "title": "Multicast in Multihop CRNs Under Uncertain Spectrum Availability: A Network Coding Approach",
         "content": "[TNET] Yuben Qu, Chao Dong, Haipeng Dai, Fan Wu, Shaojie Tang, Hai Wang and Chang Tian. \"Multicast in Multihop CRNs Under Uncertain Spectrum Availability: A Network Coding Approach\", IEEE/ACM Transactions on Networking (TNET), Vol. 25, No. 4, pages 2026-2039, 2017.",
         "link": ""
       },
       {
+        "title": "Radiation Constrained Scheduling of Wireless Charging Tasks",
         "content": "[MobiHoc'17] Haipeng Dai, Huizhen Ma and Alex X. Liu. \"Radiation Constrained Scheduling of Wireless Charging Tasks.\" In Proceedings of the 18th ACM International Symposium on Moblie Ad Hoc Networking and Computing (MobiHoc), IIT Madras, Chennai, India, July 10-14, 2017. Acceptance rate: 17%.",
         "link": ""
       },
       {
+        "title": "Radiation Constrained Fair Wireless Charging",
         "content": "[SECON'17] Lanlan Li, Haipeng Dai, Guihai Chen, Jiaqi Zheng, Yang Zhao and Pengxiang Zeng. \"Radiation Constrained Fair Wireless Charging\". In Proceedings of the 37th IEEE International Conference on Sensing, Communication and Networking (SECON), San Diego, CA, USA, June 12-14, 2017. Acceptance rate: 45/170 = 26.5%.",
         "link": ""
       },
       {
+        "title": "Chronus: Consistent Data Plane Updates in Timed SDNs",
         "content": "[ICDCS'17] Jiaqi Zheng, Guihai Chen, Stefan Schmid, Haipeng Dai and Jie Wu. \"Chronus: Consistent Data Plane Updates in Timed SDNs\". In Proceedings of the 37th IEEE International Conference on Distributed Computing (ICDCS), Atlanta, GA, USA, June 5-8, 2017. Acceptance rate: 90/531 = 16.9%.",
         "link": ""
       },
       {
+        "title": "Optimizing Wireless Charger Placement for Directional Charging",
         "content": "[INFOCOM'17] Haipeng Dai, Xiaoyu Wang, Alex X. Liu, Huizhen Ma and Guihai Chen. \"Optimizing Wireless Charger Placement for Directional Charging\". In Proceedings of the 36th Annual IEEE International Conference on Computer Communications (INFOCOM), Atlanta, GA, USA, May 1-4, 2017. Acceptance rate: 292/1395 = 20.93%.",
         "link": ""
       },
       {
+        "title": "Finding Persistent Items in Data Streams",
         "content": "[VLDB'17] Haipeng Dai, Muhammad Shahzad, Alex X. Liu and Yuankun Zhong. \"Finding Persistent Items in Data Streams\". In Proceedings of the 43rd International Conference on Very Large Data Bases(VLDB), Munich, Germany, Aug 28-Sep 1, 2017.",
         "link": ""
       },
       {
+        "title": "Networking for Big Data: A Survey",
         "content": "Yu Shui, Liu Meng, Dou Wanchun, Liu Xiting, Sanming Zhou.\"Networking for Big Data: A Survey\".IEEE Communications Surveys & Tutorials,2017.",
         "link": ""
       },
       {
+        "title": "An Energy-Aware Virtual Machine Scheduling Method for Service QoS Enhancement in Clouds over Big Data",
         "content": "Dou Wanchun*, Xiaolong Xu, Shunmei Meng, Xuyun Zhang, Chunhua Hu, Shui Yu, Jian Yang.\"An Energy-Aware Virtual Machine Scheduling Method for Service QoS Enhancement in Clouds over Big Data\".Concurrency and Computation: Practice and Experience,2017.",
         "link": ""
       },
       {
+        "title": "A Distributed Locality-Sensitive Hashing-Based Approach for Cloud Service Recommendation from Multi-Source Data",
         "content": "Qi Lianyong*, Zhang Xuyun, Dou Wanchun*, Qiang Ni.\"A Distributed Locality-Sensitive Hashing-Based Approach for Cloud Service Recommendation from Multi-Source Data\".IEEE Journal on Selected Areas in Communications,2017.",
         "link": ""
       },
       {
+        "title": "LSHiForest: A Generic Framework for Fast Tree Isolation Based Ensemble Anomaly Analysis",
         "content": "[ICDE] Xuyun Zhang, Wanchun Dou, Qiang He, Rui Zhou, Christopher Leckie, Kotagiri Ramamohanarao, Zoran Salcic.\"LSHiForest: A Generic Framework for Fast Tree Isolation Based Ensemble Anomaly Analysis\".IEEE International Conference on Data Engineering (ICDE2017),2017.",
         "link": ""
       },
       {
+        "title": "Mobile Live Video Streaming Optimization via Crowdsourcing Brokerage",
         "content": "Taotao Wu, Wanchun Dou*, Qiang Ni, Shui Yu, Guihai Chen.\"Mobile Live Video Streaming Optimization via Crowdsourcing Brokerage\".IEEE Transactions on Multimedia,2017.",
         "link": ""
       },
       {
+        "title": "Low-Cost Adaptive Lebesgue Sampling Particle Filtering Approach for Real-Time Li-Ion Battery Diagnosis and Prognosis",
         "content": "Wuzhao Yan, Bin Zhang, Dou Wanchun, Datong Liu, Yu Peng.\"Low-Cost Adaptive Lebesgue Sampling Particle Filtering Approach for Real-Time Li-Ion Battery Diagnosis and Prognosis\". IEEE Transactions on Automation Science and Engineering,2017.",
         "link": ""
       },
       {
+        "title": "Amplified Locality Sensitive Hashing for Privacy Preserving Distributed Service Recommendation",
         "content": "[SpaCCS] Lianyong Qi, Wanchun Dou, Xuyun Zhang, Shui Yu.\"Amplified Locality Sensitive Hashing for Privacy Preserving Distributed Service Recommendation\".International Conference on Security, Privacy and Anonymity in Computation, Communication and Storage (SpaCCS2017),2017.",
         "link": ""
       },
       {
+        "title": "Two-phase Locality-Sensitive Hashing for Privacy-Preserving Distributed Service Recommendation",
         "content": "[CSS] Lianyong Qi, Wanchun Dou, Xuyun Zhang.\"Two-phase Locality-Sensitive Hashing for Privacy-Preserving Distributed Service Recommendation\".International Symposium on Cyberspace Safety and Security (CSS2017),2017.",
         "link": ""
       },
       {
+        "title": "Data Placement for Privacy-Aware Applications over Big Data in Hybrid Clouds",
         "content": "Xiaolong Xu, Xuan Zhao, Feng Ruan, Jie Zhang, Wei Tian, Dou Wanchun*, Alex X. Liu.\"Data Placement for Privacy-Aware Applications over Big Data in Hybrid Clouds\".Security and Communication Networks,2017.",
         "link": ""
       },
       {
+        "title": "A Balanced Virtual Machine Scheduling Method for Energy-Performance Trade-offs in Cyber-Physical Cloud Systems",
         "content": "Xiaolong Xu*, Xuyun Zhang, Maqbool Khan, Wanchun Dou, Shengjun Xue, Shui Yu.\"A Balanced Virtual Machine Scheduling Method for Energy-Performance Trade-offs in Cyber-Physical Cloud Systems\".Future Generation Computer Systems,2017.",
         "link": ""
       },
       {
+        "title": "A Traffic Hotline Discovery Method over Cloud of Things Using Big Taxi GPS Data",
         "content": "Xiaolong Xu, Wanchun Dou*, Xuyun Zhang, Chunhua Hu, Jinjun Chen.\"A Traffic Hotline Discovery Method over Cloud of Things Using Big Taxi GPS Data\".Software: Practice and Experience,2017.",
         "link": ""
       },
       {
+        "title": "How to Shutdown A Cloud: a DDoS Attack in a Private Infrastructure-As-A-Service Cloud",
         "content": "Liu Meng, Dou Wanchun*, Shui Yu.\"How to Shutdown A Cloud: a DDoS Attack in a Private Infrastructure-As-A-Service Cloud\".International Journal of Autonomous and Adaptive Communications Systems,2017.",
         "link": ""
       },
       {
+        "title": "Privacy-Preserving Distributed Service Recommendation Based on Locality-Sensitive Hashing",
         "content": "[ICWS] Lianyong Qi, Haolong Xiang, Wanchun Dou*, Chi Yang, Yongrui Qin, Xuyun Zhang.\"Privacy-Preserving Distributed Service Recommendation Based on Locality-Sensitive Hashing\".IEEE International Conference on Web Services (ICWS2017),2017.",
         "link": ""
       },
       {
+        "title": "Big Data Challenges and Opportunities in the Hype of Industry 4.0",
         "content": "[ICC] Maqbool Khan, Xiaotong Wu, Xiaolong Xu, Wanchun Dou*.\"Big Data Challenges and Opportunities in the Hype of Industry 4.0\".IEEE International Conference on Communications (ICC2017),2017.",
         "link": ""
       },
       {
+        "title": "Personalized Quality Centric Service Recommendation",
         "content": "[ICSOC] Yiwen Zhang, Xiaofei Ai, Qiang He*, Xuyun Zhang, Wanchun Dou, Feifei Chen, Liang Chen, Yun Yang.\"Personalized Quality Centric Service Recommendation\".International Conference on Service-Oriented Computing(ICSOC2017),2017.",
         "link": ""
       }
@@ -651,86 +783,107 @@
     "year": "2016",
     "items": [
       {
+        "title": "Towards energy-fairness for broadcast scheduling with minimum delay in low-duty-cycle sensor networks",
         "content": "[COMCOM] Lijie Xu, Xiaojun Zhu, Haipeng Dai, Xiaobing Wu and Guihai Chen. \"Towards energy-fairness for broadcast scheduling with minimum delay in low-duty-cycle sensor networks\", Computer Communications (COMCOM), Vol. 75, pages 81-96, 2016.",
         "link": ""
       },
       {
+        "title": "Omnidirectional Chargability with Directional Antennas",
         "content": "[ICNP'16] Haipeng Dai, Xiaoyu Wang, Alex X. Liu, Fengmin Zhang, Yang Zhao and Guihai Chen. \"Omnidirectional Chargability with Directional Antennas\". In Proceedings of the 24th IEEE International Conference on Network Protocols (ICNP), Singapore, Nov 8-11, 2016. Acceptance rate: 46/229 = 20.09%.",
         "link": ""
       },
       {
+        "title": "Noisy Bloom Filters for Multi-Set Membership Testing",
         "content": "[SIGMETRICS'16] Haipeng Dai, Yuankun Zhong, Alex X. Liu, Wei Wang and Meng Li. \"Noisy Bloom Filters for Multi-Set Membership Testing\". In ACM SIGMETRICS/IFIP Performance (SIGMETRICS), Antibes Juan-Les-Pins, France, June 14-18, 2016. Acceptance rate: 28/208 = 13.46%.",
         "link": ""
       },
       {
+        "title": "Radiation Constrained Wireless Charger Placement",
         "content": "[INFOCOM'16] Haipeng Dai, Yunhuai Liu, Alex X. Liu, Lingtao Kong, Guihai Chen and Tian He. \"Radiation Constrained Wireless Charger Placement\". In Proceedings of the 35th Annual IEEE International Conference on Computer Communications (INFOCOM), San Francisco, CA, USA, April 10-15, 2016. Acceptance rate: 300/1644 = 18.25%.",
         "link": ""
       },
       {
+        "title": "Structural Balance Theory-based E-commerce Recommendation over Big Rating Data",
         "content": "Lianyong Qi, Xiaolong Xu, Xuyun Zhang, Wanchun Dou.\"Structural Balance Theory-based E-commerce Recommendation over Big Rating Data\".IEEE Transactions on Big Data,2016.",
         "link": ""
       },
       {
+        "title": "A Deployment Optimization Scheme over Multimedia Big Data for Large-Scale Media Streaming Application",
         "content": "Wu Taotao, Dou Wanchun, Wu Fan, Tang Shaojie, Hu Chunhua, Chen Jinjun.\"A Deployment Optimization Scheme over Multimedia Big Data for Large-Scale Media Streaming Application\".ACM Transactions on Multimedia Computing, Communications, and Applications,2016.",
         "link": ""
       },
       {
+        "title": "EnReal: An Energy-Aware Resource Allocation Method for Scientific Workflow Executions in Cloud Environment",
         "content": "Xu Xiaolong, Dou Wanchun *, Xuyun Zhang, Jinjun Chen.\"EnReal: An Energy-Aware Resource Allocation Method for Scientific Workflow Executions in Cloud Environment\".IEEE Transactions on Cloud Computing,2016.",
         "link": ""
       },
       {
+        "title": "Lebesgue-Sampling-Based Diagnosis and Prognosis for Lithium-Ion Batteries",
         "content": "Wuzhao Yan, Bin Zhang, Xiaofeng Wang, Dou Wanchun, Jingcheng Wang.\"Lebesgue-Sampling-Based Diagnosis and Prognosis for Lithium-Ion Batteries\".IEEE Transactions on Industrial Electronics,2016.",
         "link": ""
       },
       {
+        "title": "A Context-aware Service Evaluation Approach over Big Data for Cloud Applications",
         "content": "Lianyong Qi, Dou Wanchun, Chunhua Hu, Yuming Zhou, Jiguo Yu.\"A Context-aware Service Evaluation Approach over Big Data for Cloud Applications\".IEEE Transactions on Cloud Computing,2016.",
         "link": ""
       },
       {
+        "title": "A Virtual Machine Scheduling Method for Trade-offs Between Energy and Performance in Cloud Environment",
         "content": "Xiaolong Xu, Wengping Wang, Taotao Wu, Wanchun Dou*, Shui Yu.\"A Virtual Machine Scheduling Method for Trade-offs Between Energy and Performance in Cloud Environment\".International Conference on Advanced Cloud and Big Data,2016.",
         "link": ""
       },
       {
+        "title": "Scalable Local-Recoding Anonymization Using Locality Sensitive Hashing for Big Data Privacy Preservation",
         "content": "[CIKM] Xuyun Zhang, Christopher Leckie, Wanchun Dou, Jinjun Chen, Kotagiri Ramamohanarao, Zoran Salcic.\"Scalable Local-Recoding Anonymization Using Locality Sensitive Hashing for Big Data Privacy Preservation\".ACM International Conference on Information and Knowledge Management(CIKM2016),2016.",
         "link": ""
       },
       {
+        "title": "A Scalable and Automatic Mechanism for Resource Allocation in Self-Organizing Cloud",
         "content": "Wu Xiaotong, Meng Liu, Dou Wanchun*, Longxiang Gao, Shui Yu.\"A Scalable and Automatic Mechanism for Resource Allocation in Self-Organizing Cloud\".Peer-to-Peer Networking and Applications,2016.",
         "link": ""
       },
       {
+        "title": "A Method for Real-Time Trajectory Monitoring to Improve Taxi Service Using GPS Big Data",
         "content": "Zuojian Zhou, Wanchun Dou*, Guochao Jia, Chunhua Hu, Xiaolong Xu, Xiaotong Wu, Jingui Pan.\"A Method for Real-Time Trajectory Monitoring to Improve Taxi Service Using GPS Big Data\".Information and Management,2016.",
         "link": ""
       },
       {
+        "title": "Combined Cloud: A Mixture of Voluntary Cloud and Reserved Instance Marketplace",
         "content": "Wei Shen, Wanchun Dou*, Fan Wu, Shaojie Tang, Qiang Ni.\"Combined Cloud: A Mixture of Voluntary Cloud and Reserved Instance Marketplace\".Journal of Computer Science and Technology,2016.",
         "link": ""
       },
       {
+        "title": "Time-Aware IoE Service Recommendation on Sparse Data",
         "content": "Lianyong Qi*, Xiaolong Xu, Wanchun Dou, Jiguo Yu, Zhili Zhou, Xuyun Zhang.\"Time-Aware IoE Service Recommendation on Sparse Data\".Mobile Information Systems,2016.",
         "link": ""
       },
       {
+        "title": "Combining Social Balance Theory and Collaborative Filtering for Service Recommendation in Sparse Environment",
         "content": "[APSCC] Lianyong Qi, Wanchun Dou*, Xuyun Zhang.\"Combining Social Balance Theory and Collaborative Filtering for Service Recommendation in Sparse Environment\".IEEE International Conference on Asia-Pacific Services Computing(APSCC2016),2016.",
         "link": ""
       },
       {
+        "title": "A Novel Node Selection Method for Real-Time Collaborative Computation in Cloud",
         "content": "[CBD] Shu Li, Jia Liu, Song Wang, Duanchao Li, Taigui Huang, Wanchun Dou*.\"A Novel Node Selection Method for Real-Time Collaborative Computation in Cloud\".International Conference on Advanced Cloud and Big Data (CBD2016),2016.",
         "link": ""
       },
       {
+        "title": "An Adaptive Cloudlet Placement Method for Mobile Applications over GPS Big Data",
         "content": "[GLOBECOM] Haolong Xiang, Xiaolong Xu, Haoquan Zheng, Shu Li, Taotao Wu, Wanchun Dou*, Shui Yu.\"An Adaptive Cloudlet Placement Method for Mobile Applications over GPS Big Data\".IEEE Global Communications Conference (GLOBECOM2016),2016.",
         "link": ""
       },
       {
+        "title": "A Task Scheduling Method for Energy-Performance Trade-Off in Clouds",
         "content": "[HPCC] Jun Yang, Xiaolong Xu, Wenda Tang, Chunhua Hu, Wanchun Dou*, Jinjun Chen.\"A Task Scheduling Method for Energy-Performance Trade-Off in Clouds\".IEEE International Conference on High Performance Computing and Communications(HPCC2016),2016.",
         "link": ""
       },
       {
+        "title": "Service Recommendation Based on Social Balance Theory and Collaborative Filtering",
         "content": "[ICSOC] Lianyong Qi*, Wanchun Dou, Xuyun Zhang.\"Service Recommendation Based on Social Balance Theory and Collaborative Filtering\".International Conference on Service-Oriented Computing(ICSOC2016),2016.",
         "link": ""
       },
       {
+        "title": "An Uncertainty-Aware Evolutionary Scheduling Method for Cloud Service Provisioning",
         "content": "[ICWS] Shunmei Meng, Song Wang, Taotao Wu, Duanchao Li, Taigui Huang, Xiaotong Wu, Xiaolong Xu, Wanchun Dou*.\"An Uncertainty-Aware Evolutionary Scheduling Method for Cloud Service Provisioning\".IEEE International Conference on Web Services (ICWS2016),2016.",
         "link": ""
       }
@@ -740,50 +893,62 @@
     "year": "2015",
     "items": [
       {
+        "title": "Practical Scheduling for Stochastic Event Capture in Energy Harvesting Sensor Networks",
         "content": "[IJSNet] Haipeng Dai, Xiaobing Wu, Lijie Xu, Fan Wu, Shibo He and Guihai Chen.\"Practical Scheduling for Stochastic Event Capture in Energy Harvesting Sensor Networks\", International Journal of Sensor Networks (IJSNet), Vol. 18, No. 2, pages 85-100, 2015.",
         "link": ""
       },
       {
+        "title": "Simultaneous Query for Wireless Sensor Networks: A Power Based Solution",
         "content": "[TMC] Dingming Wu, Guihai Chen, Chao Dong, Shaojie Tang, and Haipeng Dai. \"Simultaneous Query for Wireless Sensor Networks: A Power Based Solution\", IEEE Transactions on Mobile Computing (TMC), Vol. 15, No. 2, pages 475-488, 2015.",
         "link": ""
       },
       {
+        "title": "A Low-delay Energy-efficient Decision Strategy in Duty-cycled Wireless Sensor Networks",
         "content": "[IJSNet] Lijie Xu, Haipeng Dai and Guihai Chen.\"A Low-delay Energy-efficient Decision Strategy in Duty-cycled Wireless Sensor Networks\", International Journal of Sensor Networks (IJSNet), Vol. 17, No. 2, pages 82-92, 2015.",
         "link": ""
       },
       {
+        "title": "Optimizing Energy Efficiency for Minimum Latency Broadcast in Low-Duty-Cycle Sensor Networks",
         "content": "[TOSN] Lijie Xu, Guihai Chen, Jiannong Cao, Shan Lin, Haipeng Dai and Xiaobing Wu. \"Optimizing Energy Efficiency for Minimum Latency Broadcast in Low-Duty-Cycle Sensor Networks\", ACM Transactions on Sensor Networks (TOSN), Vol. 11, No. 57, 2015.",
         "link": ""
       },
       {
+        "title": "Minimizing Transient Congestion during Network Update in Data Centers",
         "content": "[ICNP'15] Jiaqi Zheng, Hong Xu, Guihai Chen and Haipeng Dai.\"Minimizing Transient Congestion during Network Update in Data Centers\". In Proceedings of the 23rd IEEE International Conference on Network Protocols (ICNP), San Francisco, CA, USA, Nov 10-13, 2015.",
         "link": ""
       },
       {
+        "title": "On Maximizing Reliability of Lifetime Constrained Data Aggregation Tree in Wireless Sensor Networks",
         "content": "[ICPP'15] Mengfan Shan, Guihai Chen, Fan Wu, Xiaobing Wu, Xiaofeng Gao, Pan Wu and Haipeng Dai. \"On Maximizing Reliability of Lifetime Constrained Data Aggregation Tree in Wireless Sensor Networks\". In Proceedings of the International Conference on Parallel Processing (ICPP), Beijing, China, September 1-4, 2015.",
         "link": ""
       },
       {
+        "title": "Network Coding-Based Multicast in Multi-Hop CRNs under Uncertain Spectrum Availability",
         "content": "[INFOCOM'15] Yuben Qu, Chao Dong, Haipeng Dai, Fan Wu, Shaojie Tang, Hai Wang and Chang Tian. \"Network Coding-Based Multicast in Multi-Hop CRNs under Uncertain Spectrum Availability\". In Proceedings of the 34th Annual IEEE International Conference on Computer Communications (INFOCOM), Hong Kong, April 26-May 1, 2015. Acceptance rate: 19%.",
         "link": ""
       },
       {
+        "title": "HireSome-II: Towards Privacy-Aware Cross-Cloud Service Composition for Big Data Applications",
         "content": "Dou Wanchun*, Xuyun Zhang, Jianxun Liu, Jinjun Chen*.\"HireSome-II: Towards Privacy-Aware Cross-Cloud Service Composition for Big Data Applications\".IEEE Transactions on Parallel and Distributed Systems,2015.",
         "link": ""
       },
       {
+        "title": "Proximity-Aware Local-Recoding Anonymization with Mapprof_dou_reduce for Scalable Big Data Privacy Preservation in Cloud",
         "content": "Zhang Xuyun, Dou Wanchun, Jian Pei, Surya Nepal, Jinjun Chen.\"Proximity-Aware Local-Recoding Anonymization with Mapprof_dou_reduce for Scalable Big Data Privacy Preservation in Cloud\".IEEE Transactions on Computers,2015.",
         "link": ""
       },
       {
+        "title": "A Cloud-Based Framework for Home-Diagnosis Service over Big Medical Data",
         "content": "Lin Wenmin, Dou Wanchun*, Zuojian Zhou, Chang Liu.\"A Cloud-Based Framework for Home-Diagnosis Service over Big Medical Data\".Journal of Systems and Software,2015.",
         "link": ""
       },
       {
+        "title": "A Service Evaluation Method for Cross-Cloud Service Choreography",
         "content": "Zhang Shaoqian, Dou Wanchun*, Jinjun Chen.\"A Service Evaluation Method for Cross-Cloud Service Choreography\".Concurrency and Computation: Practice and Experience,2015.",
         "link": ""
       },
       {
+        "title": "vGraph: Graph Virtualization Towards Big Data",
         "content": "[CBD] Maqbool Khan, Meng Liu, Dou Wanchun*, Shui Yu.\"vGraph: Graph Virtualization Towards Big Data\".IEEE International Conference on Advanced Cloud and Big Data(CBD2015),2015.",
         "link": ""
       }

@@ -14,7 +14,7 @@ const router = useRouter()
 const entries = [
   ...research.directions.map(item => ({ title: item.name, text: item.description, type: '研究方向', path: '/research/' + item.id })),
   ...team.teachers.map(item => ({ title: item.name, text: item.title + ' ' + (item.research || ''), type: '教师', path: '/teacher/' + item.id })),
-  ...publications.flatMap(group => group.items.map(item => ({ title: item.automated ? item.title : item.content.replace(/<[^>]*>/g, ''), text: [group.year, ...(item.authors || [])].join(' '), type: '论文', path: '/papers' }))),
+  ...publications.flatMap(group => group.items.map(item => ({ title: item.displayTitle, text: [group.year, item.content, item.displayVenue, ...(item.authors || [])].join(' '), type: '论文', path: '/papers' }))),
   ...news.news.map(item => ({ title: item.title, text: [item.date, ...(item.members || [])].join(' '), type: '动态', path: '/news' })),
   ...projects.projects.map(item => ({ title: item.title, text: item.period + ' ' + item.funding, type: '项目', path: '/projects' }))
 ]

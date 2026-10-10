@@ -11,8 +11,6 @@ const teachers = teamData.teachers
 const latestNews = [...newsData.news].sort((a, b) => dateValue(b.date) - dateValue(a.date)).slice(0, 5)
 const latestPapers = [...papersData].sort((a, b) => Number(b.year) - Number(a.year))
   .flatMap(group => group.items.map(paper => ({ ...paper, year: group.year }))).slice(0, 5)
-const paperTitle = content => content.replace(/<[^>]*>/g, '').replace(/^\[.*?\]\s*/, '')
-const paperVenue = content => content.match(/^\[(.*?)\]/)?.[1] || ''
 const newsLink = link => /^https?:\/\//.test(link) ? link : baseUrl + link
 </script>
 
@@ -63,7 +61,7 @@ const newsLink = link => /^https?:\/\//.test(link) ? link : baseUrl + link
         <div class="home-heading" v-reveal><h2 id="papers-heading">最新论文</h2><p>我们的近期研究成果</p></div>
         <div class="home-publications">
           <article v-for="(paper, index) in latestPapers" :key="paper.year + '-' + index" class="citation" v-reveal>
-            <div class="citation-main"><span class="citation-year">{{ paper.year }}</span><a v-if="paper.link" :href="paper.link" target="_blank" rel="noopener noreferrer">{{ paper.automated ? paper.title : paperTitle(paper.content) }}</a><span v-else>{{ paperTitle(paper.content) }}</span><span v-if="paper.automated ? paper.venue : paperVenue(paper.content)" class="venue-tag">{{ paper.automated ? paper.venue : paperVenue(paper.content) }}</span></div>
+            <div class="citation-main"><span class="citation-year">{{ paper.year }}</span><a v-if="paper.link" :href="paper.link" target="_blank" rel="noopener noreferrer">{{ paper.displayTitle }}</a><span v-else>{{ paper.displayTitle }}</span><span v-if="paper.displayVenue" class="venue-tag">{{ paper.displayVenue }}</span></div>
             <a v-if="paper.link" :href="paper.link" target="_blank" rel="noopener noreferrer" class="publication-source">源文档 <span aria-hidden="true">↗</span></a>
           </article>
         </div>
@@ -76,7 +74,7 @@ const newsLink = link => /^https?:\/\//.test(link) ? link : baseUrl + link
         <div class="home-heading" v-reveal><h2 id="news-heading">最新动态</h2><p>实验室新闻与学术交流</p></div>
         <div class="home-news">
           <article v-for="item in latestNews" :key="item.id" class="home-news-item" v-reveal>
-            <time :datetime="String(item.date).length > 4 ? item.date : undefined">{{ String(item.date).slice(0, 4) }}<span v-if="String(item.date).length > 4" class="news-month-day">{{ String(item.date).slice(5) }}</span></time><div><h3><a v-if="item.link" :href="newsLink(item.link)" target="_blank" rel="noopener noreferrer">{{ item.title }}</a><span v-else>{{ item.title }}</span></h3><a v-if="item.link" :href="newsLink(item.link)" target="_blank" rel="noopener noreferrer" class="text-link">阅读全文 <span aria-hidden="true">→</span></a></div>
+            <time>{{ item.date }}</time><div><h3><a v-if="item.link" :href="newsLink(item.link)" target="_blank" rel="noopener noreferrer">{{ item.title }}</a><span v-else>{{ item.title }}</span></h3><a v-if="item.link" :href="newsLink(item.link)" target="_blank" rel="noopener noreferrer" class="text-link">阅读全文 <span aria-hidden="true">→</span></a></div>
           </article>
         </div>
         <div class="section-action" v-reveal><RouterLink to="/news" class="text-link">查看全部动态 <span aria-hidden="true">→</span></RouterLink></div>
@@ -84,7 +82,3 @@ const newsLink = link => /^https?:\/\//.test(link) ? link : baseUrl + link
     </section>
   </div>
 </template>
-
-<style scoped>
-.news-month-day { display: block; font-size: 0.8rem; white-space: nowrap; }
-</style>

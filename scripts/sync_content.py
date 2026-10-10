@@ -1,4 +1,4 @@
-"""Sync public scholarly metadata and college news; never rewrite manual content.
+"""Sync public scholarly metadata; college news is opt-in. Never rewrite manual content.
 
 Python 3.11+, standard library only. HTTPS_PROXY is supported for local use.
 """
@@ -298,9 +298,12 @@ def merge_records(old, incoming, manual, kind, config, today):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--report', default=str(ROOT / '.backups/sync-report.json'))
+    parser.add_argument('--include-news', action='store_true', help='Explicitly enable college news fetching (disabled by default)')
     parser.add_argument('--news-ocr', action='store_true', help='Read college news posters (requires requirements-news.txt)')
     parser.add_argument('--ocr-cache', default=str(ROOT / '.backups/news-ocr-cache'))
     args = parser.parse_args()
+    if args.news_ocr and not args.include_news:
+        parser.error('--news-ocr requires --include-news; news fetching is disabled by default')
     config = read_json(ROOT / 'config/content-sources.json')
     roster = read_json(DATA / 'team.json')
     today = date.today()
@@ -335,7 +338,7 @@ def main():
             report['candidates'].append({'kind': 'paper', 'title': work.get('display_name'), 'sourceUrl': work.get('id'), 'reason': reason})
     links = {}
     index_links = []
-    for index in config['newsIndexes']:
+    for index in config['newsIndexes'] if args.include_news else []:
         try:
             index_links.append(news_links(fetch(index), index))
         except Exception as exc:
@@ -366,13 +369,15 @@ def main():
             if args.news_ocr and (checked % 5 == 0 or checked == len(selected)):
                 print(f'College news checked: {checked}/{len(selected)}; confirmed: {len(articles)}', flush=True)
     manual_papers = [p for g in read_json(DATA / 'publications.json') for p in g['items']]
-    news = read_json(DATA / 'news.json')
-    manual_news = [*news['news'], *news['papers']]
     old_papers = [p for p in read_json(DATA / 'auto-publications.json', []) if p['id'] not in retracted]
     new_papers = merge_records(old_papers, papers, manual_papers, 'papers', config, today)
-    new_news = merge_records(read_json(DATA / 'auto-news.json', []), articles, manual_news, 'news', config, today)
     write_json(DATA / 'auto-publications.json', new_papers)
-    write_json(DATA / 'auto-news.json', new_news)
+    new_news = []
+    if args.include_news:
+        news = read_json(DATA / 'news.json')
+        manual_news = [*news['news'], *news['papers']]
+        new_news = merge_records(read_json(DATA / 'auto-news.json', []), articles, manual_news, 'news', config, today)
+        write_json(DATA / 'auto-news.json', new_news)
     covered_students = sorted({s for p in papers for s in p['studentCoauthors']})
     report['studentCoauthorMatches'] = covered_students
     report['studentsWithoutContextMatch'] = sorted({s['name'] for s in roster['students']} - set(covered_students))
@@ -380,9 +385,10 @@ def main():
                         'autoPapers': len(new_papers), 'checkedArticles': len(selected), 'autoNews': len(new_news)}
     report['newsMatches'] = [{'title': n['title'], 'sourceUrl': n['link'], 'members': n['members'],
                              'verification': n['verification'], 'evidenceImages': n['evidenceImages']} for n in articles]
+    report['newsEnabled'] = args.include_news
     report['newsOCR'] = {'enabled': args.news_ocr, 'minConfidence': config.get('newsOCR', {}).get('minConfidence', 0.96),
                          **(ocr.stats if ocr else {})}
-    report['coverageNote'] = 'Student aliases are used only with a verified teacher and Qinghai affiliation. Unmatched students are still searched in college news. No standalone student identity is inferred from a name.'
+    report['coverageNote'] = 'Student aliases are used only with a verified teacher and Qinghai affiliation. No standalone student identity is inferred from a name. College news is disabled unless explicitly requested.'
     write_json(Path(args.report), report)
     print(json.dumps(report['counts'], ensure_ascii=False))
     if report['errors']:

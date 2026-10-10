@@ -2,6 +2,8 @@
 import { computed } from 'vue'
 import { papersData as publicationsData } from '@/data/content.js'
 
+const baseUrl = import.meta.env.BASE_URL
+
 // Ensure data is sorted by year descending
 const papersByYear = computed(() => {
   return publicationsData.map(group => ({
@@ -24,13 +26,9 @@ const papersByYear = computed(() => {
           <div class="paper-items">
             <div v-for="(item, index) in group.items" :key="index" class="paper-item">
               <div class="paper-content">
-                <span v-if="item.automated && item.venue" class="venue-tag">{{ item.venue }}</span>
-                <span v-else-if="!item.automated && item.content.includes('[')" class="venue-tag">
-                  {{ item.content.match(/\[(.*?)\]/)?.[1] || 'Paper' }}
-                </span>
-                <span v-if="item.automated" class="paper-text">{{ item.title }}<span v-if="item.authors.length"> — {{ item.authors.join(', ') }}</span></span>
-                <span v-else class="paper-text" v-html="item.content.replace(/\[(.*?)\]/, '').trim()"></span>
-                <a v-if="item.link" :href="item.link" target="_blank" rel="noopener noreferrer" class="paper-link">
+                <span v-if="item.displayVenue" class="venue-tag" :title="item.venue || item.displayVenue">{{ item.displayVenue }}</span>
+                <span class="paper-text">{{ item.displayTitle }}</span>
+                <a v-if="item.link" :href="/^https?:\/\//.test(item.link) ? item.link : `${baseUrl}${item.link}`" target="_blank" rel="noopener noreferrer" class="paper-link">
                   [来源]
                 </a>
               </div>

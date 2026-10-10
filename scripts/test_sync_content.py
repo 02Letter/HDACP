@@ -3,11 +3,13 @@ from datetime import date
 import json
 from pathlib import Path
 import unittest
+from unittest.mock import patch
 from urllib.parse import parse_qs, urlparse
 
 from sync_content import (CollegeHTML, fetch_works, merge_records, news_links,
                           paper_record, parse_news, ocr_news_members)
 from news_ocr import CollegeImageRedirect, NewsImageLimit, image_url_allowed
+import sync_content
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / 'config/content-sources.json').read_text(encoding='utf-8'))
@@ -21,6 +23,28 @@ def work():
             'authorships': [{'author': {'id': 'https://openalex.org/A5003261630',
                                       'display_name': 'Haodong Bian', 'orcid': None},
                             'institutions': [{'id': 'https://openalex.org/I116265982'}]}]}
+
+
+class PapersOnlyTests(unittest.TestCase):
+    def test_default_run_never_fetches_or_rewrites_news(self):
+        original_read = sync_content.read_json
+
+        def read(path, *args):
+            self.assertNotIn(path.name, ('news.json', 'auto-news.json'))
+            return original_read(path, *args)
+
+        with patch('sys.argv', ['sync_content.py']), \
+             patch.object(sync_content, 'read_json', side_effect=read), \
+             patch.object(sync_content, 'fetch_works', return_value=[]), \
+             patch.object(sync_content, 'fetch', side_effect=AssertionError('College must not be fetched')), \
+             patch.object(sync_content, 'NewsOCR', side_effect=AssertionError('OCR must not start')), \
+             patch.object(sync_content, 'write_json') as write:
+            self.assertEqual(sync_content.main(), 0)
+        self.assertEqual([call.args[0].name for call in write.call_args_list],
+                         ['auto-publications.json', 'sync-report.json'])
+        report = write.call_args_list[-1].args[1]
+        self.assertFalse(report['newsEnabled'])
+        self.assertEqual(report['counts']['checkedArticles'], 0)
 
 
 class AttributionTests(unittest.TestCase):
