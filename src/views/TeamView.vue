@@ -4,17 +4,21 @@ import { RouterLink } from 'vue-router'
 import teamData from '@/data/team.json'
 import MemberAvatar from '@/components/MemberAvatar.vue'
 
-const activeTab = ref('current')
+const activeTab = ref('master')
 const baseUrl = import.meta.env.BASE_URL
-
 const teachers = teamData.teachers
-const currentStudents = computed(() => 
-  teamData.students.filter(s => s.year.includes('present'))
-)
-
-const graduatedStudents = computed(() => 
-  teamData.students.filter(s => s.year.includes('毕业生'))
-)
+const categories = [
+  { value: 'master', label: '在读硕士生' },
+  { value: 'phd', label: '在读博士' },
+  { value: 'undergraduate', label: '在读本科生' },
+  { value: 'graduated', label: '已毕业学生' }
+]
+const inCategory = (student, category) => category === 'graduated'
+  ? student.status === 'graduated'
+  : student.status === 'current' && student.degree === category
+const selectedStudents = computed(() => teamData.students.filter(s => inCategory(s, activeTab.value)))
+const selectedLabel = computed(() => categories.find(c => c.value === activeTab.value)?.label)
+const count = category => teamData.students.filter(s => inCategory(s, category)).length
 </script>
 
 <template>
@@ -47,24 +51,17 @@ const graduatedStudents = computed(() =>
           <h3>学生团队</h3>
         </div>
         
-        <div class="tabs">
-          <button 
-            :class="{ active: activeTab === 'current' }"
-            @click="activeTab = 'current'"
-          >
-            硕士研究生
-          </button>
-          <button 
-            :class="{ active: activeTab === 'graduated' }"
-            @click="activeTab = 'graduated'"
-          >
-            毕业学生
+        <div class="tabs student-filters" role="group" aria-label="学生类别">
+          <button v-for="category in categories" :key="category.value" type="button"
+            :class="{ active: activeTab === category.value }" :aria-pressed="activeTab === category.value"
+            @click="activeTab = category.value">
+            {{ category.label }} <span class="student-count">{{ count(category.value) }}</span>
           </button>
         </div>
-        
-        <div v-if="activeTab === 'current'" class="student-grid">
+        <p class="sr-only" aria-live="polite">{{ selectedLabel }}，{{ selectedStudents.length }} 人</p>
+        <div v-if="selectedStudents.length" class="student-grid">
           <component 
-            v-for="student in currentStudents" 
+            v-for="student in selectedStudents"
             :key="student.name" 
             :is="student.link ? 'a' : 'div'"
             :href="student.link || undefined"
@@ -82,30 +79,14 @@ const graduatedStudents = computed(() =>
           </component>
         </div>
         
-        <div v-else-if="activeTab === 'graduated'" class="student-grid">
-          <component 
-            v-for="student in graduatedStudents" 
-            :key="student.name" 
-            :is="student.link ? 'a' : 'div'"
-            :href="student.link || undefined"
-            :target="student.link ? '_blank' : undefined"
-            :rel="student.link ? 'noopener noreferrer' : undefined"
-            class="student-card"
-            :class="{ 'has-link': student.link }"
-          >
-            <MemberAvatar class="student-photo" :src="`${baseUrl}people/student/${student.photo}`" :name="student.name" />
-            <div class="student-info">
-              <h5 class="student-name">{{ student.name }}</h5>
-              <p class="student-year">{{ student.year }}</p>
-              <p class="student-research">{{ student.research }}</p>
-            </div>
-          </component>
-        </div>
-        
-        <div v-if="activeTab === 'graduated' && graduatedStudents.length === 0" class="empty-state">
-          <p>暂无毕业学生信息</p>
-        </div>
+        <div v-else class="empty-state"><p>暂无{{ selectedLabel }}信息</p></div>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.student-filters { flex-wrap: wrap; gap: 8px; }
+.student-filters button { white-space: nowrap; }
+.student-count { margin-left: 6px; font-size: .8rem; opacity: .7; }
+</style>

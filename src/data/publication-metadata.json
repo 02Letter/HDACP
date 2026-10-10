@@ -1,0 +1,2016 @@
+{
+  "manual:f90ea8e937882b6cb8fb": {
+    "title": "PANA: A Fine-Grained Runtime-Adaptive Load Balancing for Parallel SpMV on Multicore CPUs",
+    "venue": "Proceedings of the 31st ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming",
+    "label": "PPoPP",
+    "doi": "10.1145/3774934.3786459",
+    "link": "https://doi.org/10.1145/3774934.3786459",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:56c42b8839fe32d56b37": {
+    "title": "EDTC: Exact Triangle Counting for Dynamic Graphs on GPU",
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "label": "IEEE TPDS",
+    "doi": "10.1109/tpds.2025.3627974",
+    "link": "https://doi.org/10.1109/tpds.2025.3627974",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:66d3bf7cbfa8d1e21da2": {
+    "title": "EDTC: Exact Triangle Counting for Dynamic Graphs on GPU",
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "label": "IEEE TPDS",
+    "doi": "10.1109/tpds.2025.3627974",
+    "link": "https://doi.org/10.1109/tpds.2025.3627974",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:c9d6a24862f4baa63fe5": {
+    "title": "Qklu: a two-dimensional block-cyclic sparse direct solver",
+    "venue": "CCF Transactions on High Performance Computing",
+    "label": "CCF THPC",
+    "doi": "10.1007/s42514-025-00259-6",
+    "link": "https://doi.org/10.1007/s42514-025-00259-6",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:df914f42f13ce9acba3b": {
+    "title": "Robust low-rank representation on anchor graph with self-attention",
+    "venue": "Frontiers of Computer Science",
+    "label": "FCS",
+    "doi": "10.1007/s11704-025-50124-6",
+    "link": "https://doi.org/10.1007/s11704-025-50124-6",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:20a6c4430c8f54ddf7aa": {
+    "title": "Octree-STCM: Octree-Based Spatio-Temporal Context Model for Lossless Geometry Compression of Dynamic Point Cloud",
+    "venue": "Proceedings of the 2025 International Conference on Multimedia Retrieval",
+    "label": "ICMR",
+    "doi": "10.1145/3731715.3733489",
+    "link": "https://doi.org/10.1145/3731715.3733489",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8ec4bac76915af2dc44e": {
+    "title": "面向AVS点云压缩标准的八叉树上下文模型优化",
+    "venue": "计算机辅助设计与图形学学报",
+    "label": "计算机辅助设计与图形学学报",
+    "doi": "10.3724/sp.j.1089.2025-00010",
+    "link": "https://www.jcad.cn/cn/article/pdf/preview/10.3724/SP.J.1089.2025-00010.pdf",
+    "verification": "Reviewed journal original article",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:329b5f3e738ca104d494": {
+    "title": "基于YOLOv5和改进DeeplabV3+的青藏高原植被提取算法",
+    "venue": "草业学报",
+    "label": "草业学报",
+    "doi": "10.11686/cyxb2024060",
+    "link": "https://cjournal.hep.com.cn/1004-5759/CN/10.11686/cyxb2024060",
+    "verification": "Reviewed journal original article",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:f910091a7651b91b2ad0": {
+    "title": "基于梯度提升回归树的三江源地区植被指数的预测方法研究",
+    "venue": "草地学报",
+    "label": "草地学报",
+    "doi": "10.11733/j.issn.1007-0435.2025.05.031",
+    "link": "https://manu40.magtech.com.cn/Jweb_cdxb/CN/Y2025/V33/I5/1655",
+    "verification": "Reviewed journal original article",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:caa183036259c2290a20": {
+    "title": "A Fast and Lightweight Model for Causal Audio-Visual Speech Separation",
+    "venue": "ECAI 2025",
+    "label": "ECAI",
+    "doi": "10.3233/faia250845",
+    "link": "https://doi.org/10.3233/faia250845",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:7fae3f637576c20fc4db": {
+    "title": "Single Image Super-Resolution Through Image Pixel Information Clustering and Generative Adversarial Network",
+    "venue": "Big Data Mining and Analytics",
+    "label": "BDMA",
+    "doi": "10.26599/bdma.2025.9020007",
+    "link": "https://doi.org/10.26599/bdma.2025.9020007",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:3cebb51a3a00dbefc199": {
+    "title": "Plastic Distillation and Local Class Augment for Federated Class Incremental Learning",
+    "venue": "Applied Soft Computing",
+    "label": "Applied Soft Computing",
+    "doi": "10.1016/j.asoc.2025.113647",
+    "link": "https://doi.org/10.1016/j.asoc.2025.113647",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:7bdbf3954818ac1feae2": {
+    "title": "Collaborative pseudo-label transfer for few-shot unsupervised domain adaptation",
+    "venue": "CCF Transactions on High Performance Computing",
+    "label": "CCF THPC",
+    "doi": "10.1007/s42514-025-00250-1",
+    "link": "https://doi.org/10.1007/s42514-025-00250-1",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:5e6691fc603a178170a5": {
+    "title": "Research on Parallel Weighted Back-Projection Algorithm on Multi-CPU",
+    "venue": "Advanced Intelligent Computing Technology and Applications",
+    "label": "ICIC",
+    "doi": "10.1007/978-981-96-9908-7_16",
+    "link": "https://doi.org/10.1007/978-981-96-9908-7_16",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:1e4844186d9fc6e72c78": {
+    "title": "An Efficient Parallel Ordered Depth‐First Search Strategy for Directed Acyclic Graphs",
+    "venue": "Concurrency and Computation: Practice and Experience",
+    "label": "CCPE",
+    "doi": "10.1002/cpe.70013",
+    "link": "https://doi.org/10.1002/cpe.70013",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8be5b5af7c7abd06bead": {
+    "title": "StepTC: Stepwise Triangle Counting on GPU with Two Efficient Set Intersection Methods",
+    "venue": "Database Systems for Advanced Applications",
+    "label": "DASFAA",
+    "doi": "10.1007/978-981-97-5562-2_28",
+    "link": "https://doi.org/10.1007/978-981-97-5562-2_28",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:fd126d643152913e3867": {
+    "title": "DisRot: boosting the generalization capability of few-shot learning via knowledge distillation and self-supervised learning",
+    "venue": "Machine Vision and Applications",
+    "label": "Machine Vision and Applications",
+    "doi": "10.1007/s00138-024-01529-z",
+    "link": "https://doi.org/10.1007/s00138-024-01529-z",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:63c24df88c32e5861acb": {
+    "title": "A dual-difference change detection network for detecting building changes on high-resolution remote sensing images",
+    "venue": "Geocarto International",
+    "label": "Geocarto International",
+    "doi": "10.1080/10106049.2024.2322080",
+    "link": "https://doi.org/10.1080/10106049.2024.2322080",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:3cb6fe646bfdcafd29fb": {
+    "title": "TCStream: Large-Scale Graph Triangle-Counting on a single Machine using GPUs",
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "label": "IEEE TPDS",
+    "doi": "10.1109/tpds.2021.3135329",
+    "link": "https://doi.org/10.1109/tpds.2021.3135329",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:5c6619c75580f342ce24": {
+    "title": "Helmholtz solving and performance optimization in global/regional assimilation and prediction system",
+    "venue": "Tsinghua Science and Technology",
+    "label": "Tsinghua Science and Technology",
+    "doi": "10.26599/tst.2019.9010057",
+    "link": "https://doi.org/10.26599/tst.2019.9010057",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:cc5d7d203807f8b97a3c": {
+    "title": "DFOGraph: An I/O- and Communication-Efficient System for Distributed Fully-out-of-Core Graph Processing",
+    "venue": "Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+    "label": "PPoPP · Poster",
+    "doi": "10.1145/3437801.3441622",
+    "link": "https://doi.org/10.1145/3437801.3441622",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10",
+    "fullText": "https://arxiv.org/pdf/2101.06911",
+    "verificationSource": "https://pacman.cs.tsinghua.edu.cn/~cwg/publication/dfograph-2021/dfograph-2021.pdf"
+  },
+  "manual:2b0e5fcccd99fcfd20ce": {
+    "title": "Supporting Multi-dimensional and Arbitrary Numbers of Ranks for Software Packet Scheduling",
+    "venue": "2020 IEEE/ACM 28th International Symposium on Quality of Service (IWQoS)",
+    "label": "IWQoS",
+    "doi": "10.1109/iwqos49365.2020.9212844",
+    "link": "https://doi.org/10.1109/iwqos49365.2020.9212844",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:54d2039c9a157178c013": {
+    "title": "Optimizing NFV Chain Deployment in Software-Defined Cellular Core",
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "label": "IEEE JSAC",
+    "doi": "10.1109/jsac.2019.2959180",
+    "link": "https://doi.org/10.1109/jsac.2019.2959180",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d4bafab9d9afd5ab4c0e": {
+    "title": "Dynamic Speed Warping: Similarity-Based One-shot Learning for Device-free Gesture Signals",
+    "venue": "IEEE INFOCOM 2020 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom41043.2020.9155491",
+    "link": "https://doi.org/10.1109/infocom41043.2020.9155491",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:7dc60512114e5a566187": {
+    "title": "SpiderMon: Towards Using Cell Towers as Illuminating Sources for Keystroke Monitoring",
+    "venue": "IEEE INFOCOM 2020 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom41043.2020.9155447",
+    "link": "https://doi.org/10.1109/infocom41043.2020.9155447",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:6f00239c54b869fe7b51": {
+    "title": "An Adaptive and Fast Convergent Approach to Differentially Private Deep Learning",
+    "venue": "IEEE INFOCOM 2020 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom41043.2020.9155359",
+    "link": "https://doi.org/10.1109/infocom41043.2020.9155359",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:0b12e90c5495beb5595f": {
+    "title": "Charging Task Scheduling for Directional Wireless Charger Networks",
+    "venue": "IEEE Transactions on Mobile Computing",
+    "label": "IEEE TMC",
+    "doi": "10.1109/tmc.2020.2997602",
+    "link": "https://doi.org/10.1109/tmc.2020.2997602",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:a9b774afc0c3c1bad15b": {
+    "title": "Placement of Unmanned Aerial Vehicles for Directional Coverage in 3D Space",
+    "venue": "IEEE/ACM Transactions on Networking",
+    "label": "IEEE/ACM ToN",
+    "doi": "10.1109/tnet.2020.2974923",
+    "link": "https://doi.org/10.1109/tnet.2020.2974923",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:7909dff9eb20fef1b53c": {
+    "title": "Thresholded Monitoring in Distributed Data Streams",
+    "venue": "IEEE/ACM Transactions on Networking",
+    "label": "IEEE/ACM ToN",
+    "doi": "10.1109/tnet.2020.2979654",
+    "link": "https://doi.org/10.1109/tnet.2020.2979654",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d9c268c9684cadc1c1b2": {
+    "title": "CHASE: Charging and Scheduling Scheme for Stochastic Event Capture in Wireless Rechargeable Sensor Networks",
+    "venue": "IEEE Transactions on Mobile Computing",
+    "label": "IEEE TMC",
+    "doi": "10.1109/tmc.2018.2887381",
+    "link": "https://doi.org/10.1109/tmc.2018.2887381",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d5b17fbe94e6b6893637": {
+    "title": "Area Charging for Wireless Rechargeable Sensors",
+    "venue": "2020 29th International Conference on Computer Communications and Networks (ICCCN)",
+    "label": "ICCCN",
+    "doi": "10.1109/icccn49398.2020.9209664",
+    "link": "https://doi.org/10.1109/icccn49398.2020.9209664",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:e06aadc857944c9aec62": {
+    "title": "Scheduling of Wireless Charging Tasks with Precedence Constraints",
+    "venue": "2020 IEEE Symposium on Computers and Communications (ISCC)",
+    "label": "ISCC",
+    "doi": "10.1109/iscc50000.2020.9219720",
+    "link": "https://doi.org/10.1109/iscc50000.2020.9219720",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:e8e6a92cfdba784f9f64": {
+    "title": "Chronus+: Minimizing Switch Buffer Size during Network Updates in Timed SDNs",
+    "venue": "2020 IEEE 40th International Conference on Distributed Computing Systems (ICDCS)",
+    "label": "ICDCS",
+    "doi": "10.1109/icdcs47774.2020.00042",
+    "link": "https://doi.org/10.1109/icdcs47774.2020.00042",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:b4ad7e79854fcbcc3bfc": {
+    "title": "Learning for Exception: Dynamic Service Caching in 5G-Enabled MECs with Bursty User Demands",
+    "venue": "2020 IEEE 40th International Conference on Distributed Computing Systems (ICDCS)",
+    "label": "ICDCS",
+    "doi": "10.1109/icdcs47774.2020.00098",
+    "link": "https://doi.org/10.1109/icdcs47774.2020.00098",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:14f57b73a2b8e19fe331": {
+    "title": "Mining Robust Frequent Items in Data Streams",
+    "venue": "2020 IEEE International Conference on Joint Cloud Computing",
+    "label": "JCC",
+    "doi": "10.1109/jcc49151.2020.00026",
+    "link": "https://doi.org/10.1109/jcc49151.2020.00026",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:ef3b5d63e1b1e2dbcb2b": {
+    "title": "Robust Server Placement for Edge Computing",
+    "venue": "2020 IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+    "label": "IPDPS",
+    "doi": "10.1109/ipdps47924.2020.00038",
+    "link": "https://doi.org/10.1109/ipdps47924.2020.00038",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:2380ec74c4b4a3f35beb": {
+    "title": "Packet-in Request Redirection for Minimizing Control Plane Response Time",
+    "venue": "2020 IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+    "label": "IPDPS",
+    "doi": "10.1109/ipdps47924.2020.00099",
+    "link": "https://doi.org/10.1109/ipdps47924.2020.00099",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8517f1c1a62ee6b27a81": {
+    "title": "Placing Wireless Chargers with Limited Mobility",
+    "venue": "IEEE INFOCOM 2020 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom41043.2020.9155356",
+    "link": "https://doi.org/10.1109/infocom41043.2020.9155356",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:6b7848bdfa10baf60cfc": {
+    "title": "Coeus: Consistent and Continuous Network Update in Software-Defined Networks",
+    "venue": "IEEE INFOCOM 2020 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom41043.2020.9155392",
+    "link": "https://doi.org/10.1109/infocom41043.2020.9155392",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:4270554f74219c452424": {
+    "title": "Maximizing Charging Utility with Obstacles through Fresnel Diffraction Model",
+    "venue": "IEEE INFOCOM 2020 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom41043.2020.9155274",
+    "link": "https://doi.org/10.1109/infocom41043.2020.9155274",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:9ba17011edd19cd7ab26": {
+    "title": "Chronus+: Minimizing Switch Buffer Size during Network Updates in Timed SDNs",
+    "venue": "2020 IEEE 40th International Conference on Distributed Computing Systems (ICDCS)",
+    "label": "ICDCS",
+    "doi": "10.1109/icdcs47774.2020.00042",
+    "link": "https://doi.org/10.1109/icdcs47774.2020.00042",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:abc7e2c223198bcd34d9": {
+    "title": "Coeus: Consistent and Continuous Network Update in Software-Defined Networks",
+    "venue": "IEEE INFOCOM 2020 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom41043.2020.9155392",
+    "link": "https://doi.org/10.1109/infocom41043.2020.9155392",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:ce21c8011b389187751c": {
+    "title": "An Application Development Framework for Internet-of-Things Service Orchestration",
+    "venue": "IEEE Internet of Things Journal",
+    "label": "IEEE IoT Journal",
+    "doi": "10.1109/jiot.2020.2971013",
+    "link": "https://doi.org/10.1109/jiot.2020.2971013",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:215a254dd7fbf4d35948": {
+    "title": "RAOA: A Relay-assisted Offloading Approach in Edge Computing Environment",
+    "venue": "2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+    "label": "CSCWD",
+    "doi": "10.1109/cscwd49262.2021.9437801",
+    "link": "https://doi.org/10.1109/cscwd49262.2021.9437801",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:e17c495e7ce3b32d69ca": {
+    "title": "Multi-Request Scheduling and Collaborative Service Processing for DASH-Video Optimization in Cloud-Edge Network",
+    "venue": "2020 IEEE 13th International Conference on Cloud Computing (CLOUD)",
+    "label": "CLOUD",
+    "doi": "10.1109/cloud49709.2020.00087",
+    "link": "https://doi.org/10.1109/cloud49709.2020.00087",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:c150dcf98a8a7125faa4": {
+    "title": "Complementing IoT Services Through Software Defined Networking and Edge Computing: A Comprehensive Survey",
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "label": "IEEE COMST",
+    "doi": "10.1109/comst.2020.2997475",
+    "link": "https://doi.org/10.1109/comst.2020.2997475",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10",
+    "verificationSource": "https://khazna.ku.ac.ae/en/publications/complementing-iot-services-through-software-defined-networking-an/"
+  },
+  "manual:d212a8108b82ad74dc2c": {
+    "title": "CSR2: A New Format for SIMD-accelerated SpMV",
+    "venue": "2020 20th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID)",
+    "label": "CCGRID",
+    "doi": "10.1109/ccgrid49817.2020.00-58",
+    "link": "https://doi.org/10.1109/ccgrid49817.2020.00-58",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:31864edbb9b6afc69fe1": {
+    "title": "ALBUS: A method for efficiently processing SpMV using SIMD and Load balancing",
+    "venue": "Future Generation Computer Systems",
+    "label": "Future Generation Computer Systems",
+    "doi": "10.1016/j.future.2020.10.036",
+    "link": "https://doi.org/10.1016/j.future.2020.10.036",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:14659a6e67acb470e697": {
+    "title": "Survey of single image super‐resolution reconstruction",
+    "venue": "IET Image Processing",
+    "label": "IET Image Processing",
+    "doi": "10.1049/iet-ipr.2019.1438",
+    "link": "https://doi.org/10.1049/iet-ipr.2019.1438",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:db191470bb7f5a3f59a4": {
+    "title": "Safely and automatically updating in-network ACL configurations with intent language",
+    "venue": "Proceedings of the ACM Special Interest Group on Data Communication",
+    "label": "SIGCOMM",
+    "doi": "10.1145/3341302.3342088",
+    "link": "https://doi.org/10.1145/3341302.3342088",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:f1a09f10999f0c3d5b5a": {
+    "title": "RDMA Load Balancing via Data Partition",
+    "venue": "2019 28th International Conference on Computer Communication and Networks (ICCCN)",
+    "label": "ICCCN",
+    "doi": "10.1109/icccn.2019.8847077",
+    "link": "https://doi.org/10.1109/icccn.2019.8847077",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:a7b32fc57e5d3b50f541": {
+    "title": "Error Recovery of RDMA Packets in Data Center Networks",
+    "venue": "2019 28th International Conference on Computer Communication and Networks (ICCCN)",
+    "label": "ICCCN",
+    "doi": "10.1109/icccn.2019.8846946",
+    "link": "https://doi.org/10.1109/icccn.2019.8846946",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:2a29648e21ecb182b8bf": {
+    "title": "Synthesizing Wider WiFi Bandwidth for Respiration Rate Monitoring in Dynamic Environments",
+    "venue": "IEEE INFOCOM 2019 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2019.8737553",
+    "link": "https://doi.org/10.1109/infocom.2019.8737553",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:6982a7141d86ef46df9f": {
+    "title": "Privacy-preserving Crowd-guided AI Decision-making in Ethical Dilemmas",
+    "venue": "Proceedings of the 28th ACM International Conference on Information and Knowledge Management",
+    "label": "CIKM",
+    "doi": "10.1145/3357384.3357954",
+    "link": "https://doi.org/10.1145/3357384.3357954",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d4d7cf102888dc76dc58": {
+    "title": "WiTrace: Centimeter-Level Passive Gesture Tracking Using OFDM Signals",
+    "venue": "IEEE Transactions on Mobile Computing",
+    "label": "IEEE TMC",
+    "doi": "10.1109/tmc.2019.2961885",
+    "link": "https://doi.org/10.1109/tmc.2019.2961885",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:3a25079441d208d1cff1": {
+    "title": "Completion Time Minimization for Multi-UAV Information Collection via Trajectory Planning",
+    "venue": "Sensors",
+    "label": "Sensors",
+    "doi": "10.3390/s19184032",
+    "link": "https://doi.org/10.3390/s19184032",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:da626824307151ed0a1a": {
+    "title": "Trajectory Planning for Data Collection of Energy-Constrained Heterogeneous UAVs",
+    "venue": "Sensors",
+    "label": "Sensors",
+    "doi": "10.3390/s19224884",
+    "link": "https://doi.org/10.3390/s19224884",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:6ddc4b335833110372f5": {
+    "title": "Optimizing NFV Chain Deployment in Software-Defined Cellular Core",
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "label": "IEEE JSAC",
+    "doi": "10.1109/jsac.2019.2959180",
+    "link": "https://doi.org/10.1109/jsac.2019.2959180",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:9419f70ee7ce19ea1732": {
+    "title": "Connectivity-Constrained Placement of Wireless Chargers",
+    "venue": "IEEE Transactions on Mobile Computing",
+    "label": "IEEE TMC",
+    "doi": "10.1109/tmc.2019.2954306",
+    "link": "https://doi.org/10.1109/tmc.2019.2954306",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d8253e27be92fa6e6d88": {
+    "title": "Finding Persistent Items in Distributed Datasets",
+    "venue": "IEEE/ACM Transactions on Networking",
+    "label": "IEEE/ACM ToN",
+    "doi": "10.1109/tnet.2019.2946417",
+    "link": "https://doi.org/10.1109/tnet.2019.2946417",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:493aec83fd81693e15d4": {
+    "title": "Scheduling dependent coflows to minimize the total weighted job completion time in datacenters",
+    "venue": "Computer Networks",
+    "label": "Computer Networks",
+    "doi": "10.1016/j.comnet.2019.05.010",
+    "link": "https://doi.org/10.1016/j.comnet.2019.05.010",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:bb1e18441606e8b8916c": {
+    "title": "Practical Heterogeneous Wireless Charger Placement with Obstacles",
+    "venue": "IEEE Transactions on Mobile Computing",
+    "label": "IEEE TMC",
+    "doi": "10.1109/tmc.2019.2916384",
+    "link": "https://doi.org/10.1109/tmc.2019.2916384",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:89c0f0e89f35775d0a3a": {
+    "title": "Posted Pricing for Chance Constrained Robust Crowdsensing",
+    "venue": "IEEE Transactions on Mobile Computing",
+    "label": "IEEE TMC",
+    "doi": "10.1109/tmc.2018.2884713",
+    "link": "https://doi.org/10.1109/tmc.2018.2884713",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:1cb8105e638a9fca5663": {
+    "title": "Radiation Constrained Fair Charging for Wireless Power Transfer",
+    "venue": "ACM Transactions on Sensor Networks",
+    "label": "ACM TOSN",
+    "doi": "10.1145/3289182",
+    "link": "https://doi.org/10.1145/3289182",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:dee2cfd8ac6fe647298f": {
+    "title": "Maximizing D2D-Based Offloading Efficiency With Throughput Guarantee and Buffer Constraint",
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "label": "IEEE TVT",
+    "doi": "10.1109/tvt.2018.2880327",
+    "link": "https://doi.org/10.1109/tvt.2018.2880327",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:09867d4614620fa3e20c": {
+    "title": "Congestion-Minimizing Network Update in Data Centers",
+    "venue": "IEEE Transactions on Services Computing",
+    "label": "IEEE TSC",
+    "doi": "10.1109/tsc.2016.2631519",
+    "link": "https://doi.org/10.1109/tsc.2016.2631519",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:988c5b6562147088c73e": {
+    "title": "A K-Anonymity Based Schema for Location Privacy Preservation",
+    "venue": "IEEE Transactions on Sustainable Computing",
+    "label": "IEEE TSUSC",
+    "doi": "10.1109/tsusc.2017.2733018",
+    "link": "https://doi.org/10.1109/tsusc.2017.2733018",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:f618d4291c9d389b1cec": {
+    "title": "IGATA: An Attraction-Based Online Task Recommendation Framework in Freemium-Crowdsourcing Platform",
+    "venue": "2019 IEEE 25th International Conference on Parallel and Distributed Systems (ICPADS)",
+    "label": "ICPADS",
+    "doi": "10.1109/icpads47876.2019.00019",
+    "link": "https://doi.org/10.1109/icpads47876.2019.00019",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8bea8dee4d3823acf9e6": {
+    "title": "Recognizing Driver Talking Direction in Running Vehicles with a Smartphone",
+    "venue": "2019 IEEE 16th International Conference on Mobile Ad Hoc and Sensor Systems (MASS)",
+    "label": "MASS",
+    "doi": "10.1109/mass.2019.00011",
+    "link": "https://doi.org/10.1109/mass.2019.00011",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:2df6b79ad2550f0f0138": {
+    "title": "Incentive Mechanisms for Spatio-Temporal Tasks in Mobile Crowdsensing",
+    "venue": "2019 IEEE 16th International Conference on Mobile Ad Hoc and Sensor Systems (MASS)",
+    "label": "MASS",
+    "doi": "10.1109/mass.2019.00016",
+    "link": "https://doi.org/10.1109/mass.2019.00016",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:a2640007c6192c432539": {
+    "title": "SAFE: Service Availability via Failure Elimination Through VNF Scaling",
+    "venue": "Proceedings of the 48th International Conference on Parallel Processing",
+    "label": "ICPP",
+    "doi": "10.1145/3337821.3337832",
+    "link": "https://doi.org/10.1145/3337821.3337832",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10",
+    "verificationSource": "https://dblp.dagstuhl.de/rec/conf/icpp/XiaDZGWC19.html"
+  },
+  "manual:b2d94e0633bd8bbe8425": {
+    "title": "Orchestrating service chain deployment with plutus in next generation cellular core",
+    "venue": "Proceedings of the International Symposium on Quality of Service",
+    "label": "IWQoS",
+    "doi": "10.1145/3326285.3329045",
+    "link": "https://doi.org/10.1145/3326285.3329045",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:7a7d89fdd31ed3ee8435": {
+    "title": "Speech Based Human Authentication on Smartphones",
+    "venue": "2019 16th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)",
+    "label": "SECON",
+    "doi": "10.1109/sahcn.2019.8824958",
+    "link": "https://doi.org/10.1109/sahcn.2019.8824958",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:955d9132f93a27cbb906": {
+    "title": "VISIT: Placement of Unmanned Aerial Vehicles for Anisotropic Monitoring Tasks",
+    "venue": "2019 16th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)",
+    "label": "SECON",
+    "doi": "10.1109/sahcn.2019.8824867",
+    "link": "https://doi.org/10.1109/sahcn.2019.8824867",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:91da565695392896c199": {
+    "title": "When Wireless Charging Meets Fresnel Zones: Even Obstacles Can Enhance Charging Efficiency",
+    "venue": "2019 16th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)",
+    "label": "SECON",
+    "doi": "10.1109/sahcn.2019.8824816",
+    "link": "https://doi.org/10.1109/sahcn.2019.8824816",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d71a5d093055c61d92ea": {
+    "title": "Thresholded Monitoring in Distributed Data Streams",
+    "venue": "2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS)",
+    "label": "ICDCS",
+    "doi": "10.1109/icdcs.2019.00030",
+    "link": "https://doi.org/10.1109/icdcs.2019.00030",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:6fd062dd34985cdc6894": {
+    "title": "Bundle Charging: Wireless Charging Energy Minimization in Dense Wireless Sensor Networks",
+    "venue": "2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS)",
+    "label": "ICDCS",
+    "doi": "10.1109/icdcs.2019.00085",
+    "link": "https://doi.org/10.1109/icdcs.2019.00085",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:fe8a199c16ea985ccafc": {
+    "title": "Near Optimal Charging Scheduling for 3-D Wireless Rechargeable Sensor Networks with Energy Constraints",
+    "venue": "2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS)",
+    "label": "ICDCS",
+    "doi": "10.1109/icdcs.2019.00068",
+    "link": "https://doi.org/10.1109/icdcs.2019.00068",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:9746aa50be7df7c80414": {
+    "title": "Robust Scheduling for Wireless Charger Networks",
+    "venue": "IEEE INFOCOM 2019 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2019.8737628",
+    "link": "https://doi.org/10.1109/infocom.2019.8737628",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:0c77d0e4d91196d6652a": {
+    "title": "PANDA: Placement of Unmanned Aerial Vehicles Achieving 3D Directional Coverage",
+    "venue": "IEEE INFOCOM 2019 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2019.8737545",
+    "link": "https://doi.org/10.1109/infocom.2019.8737545",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:989281183ac0092b532e": {
+    "title": "Charging Oriented Sensor Placement and Flexible Scheduling in Rechargeable WSNs",
+    "venue": "IEEE INFOCOM 2019 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2019.8737502",
+    "link": "https://doi.org/10.1109/infocom.2019.8737502",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:ff445b434b032ba06809": {
+    "title": "Collaborated Tasks-driven Mobile Charging and Scheduling: A Near Optimal Result",
+    "venue": "IEEE INFOCOM 2019 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2019.8737509",
+    "link": "https://doi.org/10.1109/infocom.2019.8737509",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8359eafafcdb3e6f0c70": {
+    "title": "PCIAS: Precise and Contactless Measurement of Instantaneous Angular Speed using a Smartphone",
+    "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+    "label": "ACM IMWUT",
+    "doi": "10.1145/3287055",
+    "link": "https://doi.org/10.1145/3287055",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10",
+    "verificationSource": "https://dblp.uni-trier.de/rec/journals/imwut/LiDWLC18.html"
+  },
+  "manual:a8760da11cb697e00ff3": {
+    "title": "SocioRank*: A community and role detection method in social networks",
+    "venue": "Computers & Electrical Engineering",
+    "label": "Computers & Electrical Engineering",
+    "doi": "10.1016/j.compeleceng.2019.03.010",
+    "link": "https://doi.org/10.1016/j.compeleceng.2019.03.010",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:796f2d75a10ae8e2d6b2": {
+    "title": "An energy-aware computation offloading method for smart edge computing in wireless metropolitan area networks",
+    "venue": "Journal of Network and Computer Applications",
+    "label": "Journal of Network and Computer Applications",
+    "doi": "10.1016/j.jnca.2019.02.008",
+    "link": "https://doi.org/10.1016/j.jnca.2019.02.008",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:435cc0839bbbb831ecee": {
+    "title": "TrCMP: A dependable app usage inference design for user behavior analysis through cyber-physical parameters",
+    "venue": "Journal of Systems Architecture",
+    "label": "Journal of Systems Architecture",
+    "doi": "10.1016/j.sysarc.2019.101665",
+    "link": "https://doi.org/10.1016/j.sysarc.2019.101665",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:362d3fbe10768203aa87": {
+    "title": "Finding All You Need: Web APIs Recommendation in Web of Things Through Keywords Search",
+    "venue": "IEEE Transactions on Computational Social Systems",
+    "label": "IEEE TCSS",
+    "doi": "10.1109/tcss.2019.2906925",
+    "link": "https://doi.org/10.1109/tcss.2019.2906925",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:0e2aeaeec6c9f3187abb": {
+    "title": "A K-Anonymity Based Schema for Location Privacy Preservation",
+    "venue": "IEEE Transactions on Sustainable Computing",
+    "label": "IEEE TSUSC",
+    "doi": "10.1109/tsusc.2017.2733018",
+    "link": "https://doi.org/10.1109/tsusc.2017.2733018",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:dcffb53add54b399012a": {
+    "title": "CFADefense: A Security Solution to Detect and Mitigate Crossfire Attacks in Software-Defined IoT-Edge Infrastructure",
+    "venue": "2019 IEEE 21st International Conference on High Performance Computing and Communications; IEEE 17th International Conference on Smart City; IEEE 5th International Conference on Data Science and Systems (HPCC/SmartCity/DSS)",
+    "label": "HPCC/SmartCity/DSS",
+    "doi": "10.1109/hpcc/smartcity/dss.2019.00080",
+    "link": "https://doi.org/10.1109/hpcc/smartcity/dss.2019.00080",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8ca664282d77dd67802a": {
+    "title": "Load-Aware Edge Server Placement for Mobile Edge Computing in 5G Networks",
+    "venue": "Service-Oriented Computing",
+    "label": "ICSOC",
+    "doi": "10.1007/978-3-030-33702-5_38",
+    "link": "https://doi.org/10.1007/978-3-030-33702-5_38",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:ed310249df22896b7be9": {
+    "title": "A Multi-Objective Crowdsourcing Method for Mobile Video Streaming",
+    "venue": "2019 IEEE International Conference on Web Services (ICWS)",
+    "label": "ICWS",
+    "doi": "10.1109/icws.2019.00043",
+    "link": "https://doi.org/10.1109/icws.2019.00043",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:0e8278d72d2f3e09df3b": {
+    "title": "PANDA: Placement of Unmanned Aerial Vehicles Achieving 3D Directional Coverage",
+    "venue": "IEEE INFOCOM 2019 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2019.8737545",
+    "link": "https://doi.org/10.1109/infocom.2019.8737545",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:a256e6005ed43f052960": {
+    "title": "A heuristic line piloting method to disclose malicious taxicab driver’s privacy over GPS big data",
+    "venue": "Information Sciences",
+    "label": "Information Sciences",
+    "doi": "10.1016/j.ins.2018.12.056",
+    "link": "https://doi.org/10.1016/j.ins.2018.12.056",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:cbfe7b2598ba0a1e0143": {
+    "title": "An offloading method using decentralized P2P-enabled mobile edge servers in edge computing",
+    "venue": "Journal of Systems Architecture",
+    "label": "Journal of Systems Architecture",
+    "doi": "10.1016/j.sysarc.2019.02.001",
+    "link": "https://doi.org/10.1016/j.sysarc.2019.02.001",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:968adc2bc7f136c9adea": {
+    "title": "User Grouping for Sharing Services with Capacity Limit",
+    "venue": "IEEE Transactions on Services Computing",
+    "label": "IEEE TSC",
+    "doi": "10.1109/tsc.2018.2810120",
+    "link": "https://doi.org/10.1109/tsc.2018.2810120",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:46c3e6969770c64e21e9": {
+    "title": "VSkin: Sensing Touch Gestures on Surfaces of Mobile Devices Using Acoustic Signals",
+    "venue": "Proceedings of the 24th Annual International Conference on Mobile Computing and Networking",
+    "label": "MobiCom",
+    "doi": "10.1145/3241539.3241568",
+    "link": "https://doi.org/10.1145/3241539.3241568",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10",
+    "verificationSource": "https://cs.nju.edu.cn/lxie/publication/Mobicom2018.pdf"
+  },
+  "manual:98a23d24571b8eec2394": {
+    "title": "Unlock With Your Heart: Heartbeat-based Authentication on Commercial Mobile Phones",
+    "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+    "label": "ACM IMWUT",
+    "doi": "10.1145/3264950",
+    "link": "https://doi.org/10.1145/3264950",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10",
+    "verificationSource": "https://dblp.dagstuhl.de/rec/journals/imwut/WangHSWTXG18.html"
+  },
+  "manual:f2b4b0841134c504bb88": {
+    "title": "Accurate Location Tracking From CSI-Based Passive Device-Free Probabilistic Fingerprinting",
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "label": "IEEE TVT",
+    "doi": "10.1109/tvt.2018.2810307",
+    "link": "https://doi.org/10.1109/tvt.2018.2810307",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:773c5f5533d77b0cc787": {
+    "title": "On heterogeneous duty cycles for neighbor discovery in wireless sensor networks",
+    "venue": "Ad Hoc Networks",
+    "label": "Ad Hoc Networks",
+    "doi": "10.1016/j.adhoc.2018.04.007",
+    "link": "https://doi.org/10.1016/j.adhoc.2018.04.007",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:7c9138e3c143421c2f88": {
+    "title": "Multicast in multi-channel cognitive radio ad hoc networks: Challenges and research aspects",
+    "venue": "Computer Communications",
+    "label": "Computer Communications",
+    "doi": "10.1016/j.comcom.2018.09.003",
+    "link": "https://doi.org/10.1016/j.comcom.2018.09.003",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:0f74cf03892de43edaf5": {
+    "title": "Identifying and Estimating Persistent Items in Data Streams",
+    "venue": "IEEE/ACM Transactions on Networking",
+    "label": "IEEE/ACM ToN",
+    "doi": "10.1109/tnet.2018.2865125",
+    "link": "https://doi.org/10.1109/tnet.2018.2865125",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8d6772e390f302f23470": {
+    "title": "Near optimal bounded route association for drone-enabled rechargeable WSNs",
+    "venue": "Computer Networks",
+    "label": "Computer Networks",
+    "doi": "10.1016/j.comnet.2018.07.004",
+    "link": "https://doi.org/10.1016/j.comnet.2018.07.004",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:17ae1cc06d1994da08a6": {
+    "title": "Wireless Charger Placement for Directional Charging",
+    "venue": "IEEE/ACM Transactions on Networking",
+    "label": "IEEE/ACM ToN",
+    "doi": "10.1109/tnet.2018.2855398",
+    "link": "https://doi.org/10.1109/tnet.2018.2855398",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:783be53ea1ef4776c504": {
+    "title": "Achieving adaptive broadcasting performance tradeoff for energy-critical sensor networks: A bottom-up approach",
+    "venue": "Computer Networks",
+    "label": "Computer Networks",
+    "doi": "10.1016/j.comnet.2018.03.007",
+    "link": "https://doi.org/10.1016/j.comnet.2018.03.007",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:9130723638a84ea9bcaa": {
+    "title": "SCAPE: Safe Charging With Adjustable Power",
+    "venue": "IEEE/ACM Transactions on Networking",
+    "label": "IEEE/ACM ToN",
+    "doi": "10.1109/tnet.2018.2793949",
+    "link": "https://doi.org/10.1109/tnet.2018.2793949",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:a70c2ac720c2dffb2363": {
+    "title": "Radiation Constrained Scheduling of Wireless Charging Tasks",
+    "venue": "IEEE/ACM Transactions on Networking",
+    "label": "IEEE/ACM ToN",
+    "doi": "10.1109/tnet.2017.2786463",
+    "link": "https://doi.org/10.1109/tnet.2017.2786463",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:773003a032aa3b347a46": {
+    "title": "Efficient Coflow Scheduling of Multi-Stage Jobs with Isolation Guarantee",
+    "venue": "2018 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Ubiquitous Computing & Communications, Big Data & Cloud Computing, Social Computing & Networking, Sustainable Computing & Communications (ISPA/IUCC/BDCloud/SocialCom/SustainCom)",
+    "label": "ISPA/IUCC/BDCloud/SocialCom/SustainCom",
+    "doi": "10.1109/bdcloud.2018.00053",
+    "link": "https://doi.org/10.1109/bdcloud.2018.00053",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:0c5dae2502eebbb14729": {
+    "title": "Fair-Energy Trajectory Plan for Reconnaissance Mission Based on UAVs Cooperation",
+    "venue": "2018 10th International Conference on Wireless Communications and Signal Processing (WCSP)",
+    "label": "WCSP",
+    "doi": "10.1109/wcsp.2018.8555684",
+    "link": "https://doi.org/10.1109/wcsp.2018.8555684",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:7e73dcd163bd53e22ad1": {
+    "title": "Hermes: Utility-Aware Network Update in Software-Defined WANs",
+    "venue": "2018 IEEE 26th International Conference on Network Protocols (ICNP)",
+    "label": "ICNP",
+    "doi": "10.1109/icnp.2018.00032",
+    "link": "https://doi.org/10.1109/icnp.2018.00032",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8104513202ac2e0f946e": {
+    "title": "Using the Macroflow Abstraction to Minimize Machine Slot-time Spent on Networking in Hadoop",
+    "venue": "Proceedings of the 2nd Asia-Pacific Workshop on Networking",
+    "label": "APNet",
+    "doi": "10.1145/3232565.3234504",
+    "link": "https://doi.org/10.1145/3232565.3234504",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:004c98e0d69643151e66": {
+    "title": "Charging Task Scheduling for Directional Wireless Charger Networks",
+    "venue": "Proceedings of the 47th International Conference on Parallel Processing",
+    "label": "ICPP",
+    "doi": "10.1145/3225058.3225080",
+    "link": "https://doi.org/10.1145/3225058.3225080",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d81754b50fe38e84bc9d": {
+    "title": "Heterogeneous Wireless Charger Placement with Obstacles",
+    "venue": "Proceedings of the 47th International Conference on Parallel Processing",
+    "label": "ICPP",
+    "doi": "10.1145/3225058.3225079",
+    "link": "https://doi.org/10.1145/3225058.3225079",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:53e5b7370e7ccb4aa69b": {
+    "title": "Cache Assisted Randomized Sharing Counters in Network Measurement",
+    "venue": "Proceedings of the 47th International Conference on Parallel Processing",
+    "label": "ICPP",
+    "doi": "10.1145/3225058.3225078",
+    "link": "https://doi.org/10.1145/3225058.3225078",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:67d8c2ca3c1f5a469be5": {
+    "title": "MPF: Prolonging Network Lifetime of Wireless Rechargeable Sensor Networks by Mixing Partial Charge and Full Charge",
+    "venue": "2018 15th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)",
+    "label": "SECON",
+    "doi": "10.1109/sahcn.2018.8397138",
+    "link": "https://doi.org/10.1109/sahcn.2018.8397138",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:1005285b0cdf4f9acc35": {
+    "title": "WiTrace: Centimeter-Level Passive Gesture Tracking Using WiFi Signals",
+    "venue": "2018 15th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)",
+    "label": "SECON",
+    "doi": "10.1109/sahcn.2018.8397120",
+    "link": "https://doi.org/10.1109/sahcn.2018.8397120",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:5e37c39982a8902d624c": {
+    "title": "UltraGesture: Fine-Grained Gesture Sensing and Recognition",
+    "venue": "2018 15th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)",
+    "label": "SECON",
+    "doi": "10.1109/sahcn.2018.8397099",
+    "link": "https://doi.org/10.1109/sahcn.2018.8397099",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:4559ef9d472145e7ef81": {
+    "title": "MOOC: A Mobility Control Based Clustering Scheme for Area Coverage in FANETs",
+    "venue": "2018 IEEE 19th International Symposium on \"A World of Wireless, Mobile and Multimedia Networks\" (WoWMoM)",
+    "label": "WoWMoM",
+    "doi": "10.1109/wowmom.2018.8449771",
+    "link": "https://doi.org/10.1109/wowmom.2018.8449771",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:25c6cc07c0611ae88f29": {
+    "title": "Depth Aware Finger Tapping on Virtual Displays",
+    "venue": "Proceedings of the 16th Annual International Conference on Mobile Systems, Applications, and Services",
+    "label": "MobiSys",
+    "doi": "10.1145/3210240.3210315",
+    "link": "https://doi.org/10.1145/3210240.3210315",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:dd71403f4263fbc59617": {
+    "title": "Robustly Safe Charging for Wireless Power Transfer",
+    "venue": "IEEE INFOCOM 2018 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2018.8485951",
+    "link": "https://doi.org/10.1109/infocom.2018.8485951",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:7a12979d4f08efca3285": {
+    "title": "Finding Persistent Items in Distributed Datasets",
+    "venue": "IEEE INFOCOM 2018 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2018.8486425",
+    "link": "https://doi.org/10.1109/infocom.2018.8486425",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:668920b8294a3d5f1352": {
+    "title": "Placement of Connected Wireless Chargers",
+    "venue": "IEEE INFOCOM 2018 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2018.8485934",
+    "link": "https://doi.org/10.1109/infocom.2018.8485934",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:6be0466e574bada1f1d5": {
+    "title": "Scheduling Coflows of Multi-stage Jobs to Minimize the Total Weighted Job Completion Time",
+    "venue": "IEEE INFOCOM 2018 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2018.8486340",
+    "link": "https://doi.org/10.1109/infocom.2018.8486340",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:666bf7ea1d9c7a2f0f80": {
+    "title": "An insurance theory based optimal cyber-insurance contract against moral hazard",
+    "venue": "Information Sciences",
+    "label": "Information Sciences",
+    "doi": "10.1016/j.ins.2018.12.051",
+    "link": "https://doi.org/10.1016/j.ins.2018.12.051",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:08ee5efe234dc3b90fda": {
+    "title": "MRMondrian: Scalable Multidimensional Anonymisation for Big Data Privacy Preservation",
+    "venue": "IEEE Transactions on Big Data",
+    "label": "IEEE TBD",
+    "doi": "10.1109/tbdata.2017.2787661",
+    "link": "https://doi.org/10.1109/tbdata.2017.2787661",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:0f6e1d82ce13307801ba": {
+    "title": "Dynamic Resource Allocation for Load Balancing in Fog Environment",
+    "venue": "Wireless Communications and Mobile Computing",
+    "label": "Wireless Communications and Mobile Computing",
+    "doi": "10.1155/2018/6421607",
+    "link": "https://doi.org/10.1155/2018/6421607",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:0b1e1ac716e89540470a": {
+    "title": "Hybrid computation offloading for smart home automation in mobile cloud computing",
+    "venue": "Personal and Ubiquitous Computing",
+    "label": "Personal and Ubiquitous Computing",
+    "doi": "10.1007/s00779-017-1095-0",
+    "link": "https://doi.org/10.1007/s00779-017-1095-0",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d0e1b7cba2b511f0f240": {
+    "title": "A Resource Co-Allocation method for load-balance scheduling over big data platforms",
+    "venue": "Future Generation Computer Systems",
+    "label": "Future Generation Computer Systems",
+    "doi": "10.1016/j.future.2017.07.009",
+    "link": "https://doi.org/10.1016/j.future.2017.07.009",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:e7a1ab6adc9ff827e7cf": {
+    "title": "A two-stage locality-sensitive hashing based approach for privacy-preserving mobile service recommendation in cross-platform edge environment",
+    "venue": "Future Generation Computer Systems",
+    "label": "Future Generation Computer Systems",
+    "doi": "10.1016/j.future.2018.02.050",
+    "link": "https://doi.org/10.1016/j.future.2018.02.050",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:f672fc157dc7e6224f1e": {
+    "title": "Structural Balance Theory-Based E-Commerce Recommendation over Big Rating Data",
+    "venue": "IEEE Transactions on Big Data",
+    "label": "IEEE TBD",
+    "doi": "10.1109/tbdata.2016.2602849",
+    "link": "https://doi.org/10.1109/tbdata.2016.2602849",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:ea29008cdd29b4183b80": {
+    "title": "High Quality Participant Recruitment of Mobile Crowdsourcing over Big Data",
+    "venue": "2018 IEEE Global Communications Conference (GLOBECOM)",
+    "label": "GLOBECOM",
+    "doi": "10.1109/glocom.2018.8647720",
+    "link": "https://doi.org/10.1109/glocom.2018.8647720",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:2d297ae2a8520446fe8d": {
+    "title": "A Deadline-Aware Coflow Scheduling Approach for Big Data Applications",
+    "venue": "2018 IEEE International Conference on Communications (ICC)",
+    "label": "ICC",
+    "doi": "10.1109/icc.2018.8422563",
+    "link": "https://doi.org/10.1109/icc.2018.8422563",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:c07c6611a0f264dd3929": {
+    "title": "Temporal-Sparsity Aware Service Recommendation Method via Hybrid Collaborative Filtering Techniques",
+    "venue": "Service-Oriented Computing",
+    "label": "ICSOC",
+    "doi": "10.1007/978-3-030-03596-9_30",
+    "link": "https://doi.org/10.1007/978-3-030-03596-9_30",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:17fdea12951505349038": {
+    "title": "An Offloading Approach in Fog Computing Environment",
+    "venue": "2018 IEEE SmartWorld, Ubiquitous Intelligence & Computing, Advanced & Trusted Computing, Scalable Computing & Communications, Cloud & Big Data Computing, Internet of People and Smart City Innovation (SmartWorld/SCALCOM/UIC/ATC/CBDCom/IOP/SCI)",
+    "label": "SmartWorld/SCALCOM/UIC/ATC/CBDCom/IOP/SCI",
+    "doi": "10.1109/smartworld.2018.00157",
+    "link": "https://doi.org/10.1109/smartworld.2018.00157",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:46185d5a8f3c933618c2": {
+    "title": "Safe Charging for Wireless Power Transfer",
+    "venue": "IEEE/ACM Transactions on Networking",
+    "label": "IEEE/ACM ToN",
+    "doi": "10.1109/tnet.2017.2750323",
+    "link": "https://doi.org/10.1109/tnet.2017.2750323",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d38e044d0686125f49e5": {
+    "title": "Scheduling Congestion- and Loop-Free Network Update in Timed SDNs",
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "label": "IEEE JSAC",
+    "doi": "10.1109/jsac.2017.2760146",
+    "link": "https://doi.org/10.1109/jsac.2017.2760146",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:b681441a5dd3df4558a4": {
+    "title": "Multicast in Multihop CRNs Under Uncertain Spectrum Availability: A Network Coding Approach",
+    "venue": "IEEE/ACM Transactions on Networking",
+    "label": "IEEE/ACM ToN",
+    "doi": "10.1109/tnet.2017.2666788",
+    "link": "https://doi.org/10.1109/tnet.2017.2666788",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:0a5e3b17b15bfa101413": {
+    "title": "Radiation Constrained Scheduling of Wireless Charging Tasks",
+    "venue": "Proceedings of the 18th ACM International Symposium on Mobile Ad Hoc Networking and Computing",
+    "label": "MobiHoc",
+    "doi": "10.1145/3084041.3084060",
+    "link": "https://doi.org/10.1145/3084041.3084060",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:e8e0b57f0572d358f89e": {
+    "title": "Radiation Constrained Fair Wireless Charging",
+    "venue": "2017 14th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)",
+    "label": "SECON",
+    "doi": "10.1109/sahcn.2017.7964902",
+    "link": "https://doi.org/10.1109/sahcn.2017.7964902",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:2df6c45563740db4ec6f": {
+    "title": "Chronus: Consistent Data Plane Updates in Timed SDNs",
+    "venue": "2017 IEEE 37th International Conference on Distributed Computing Systems (ICDCS)",
+    "label": "ICDCS",
+    "doi": "10.1109/icdcs.2017.96",
+    "link": "https://doi.org/10.1109/icdcs.2017.96",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d85fac21f75a9abe5d1a": {
+    "title": "Optimizing wireless charger placement for directional charging",
+    "venue": "IEEE INFOCOM 2017 - IEEE Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2017.8057017",
+    "link": "https://doi.org/10.1109/infocom.2017.8057017",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8f54503a3954f4168e55": {
+    "title": "Finding persistent items in data streams",
+    "venue": "Proceedings of the VLDB Endowment",
+    "label": "PVLDB",
+    "doi": "10.14778/3025111.3025112",
+    "link": "https://doi.org/10.14778/3025111.3025112",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:4d5731545a4a87335f9b": {
+    "title": "Networking for Big Data: A Survey",
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "label": "IEEE COMST",
+    "doi": "10.1109/comst.2016.2610963",
+    "link": "https://doi.org/10.1109/comst.2016.2610963",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8a5b8d97fa59f3b842dc": {
+    "title": "An energy‐aware virtual machine scheduling method for service QoS enhancement in clouds over big data",
+    "venue": "Concurrency and Computation: Practice and Experience",
+    "label": "CCPE",
+    "doi": "10.1002/cpe.3909",
+    "link": "https://doi.org/10.1002/cpe.3909",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:021488d50f01fa25fe23": {
+    "title": "A Distributed Locality-Sensitive Hashing-Based Approach for Cloud Service Recommendation From Multi-Source Data",
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "label": "IEEE JSAC",
+    "doi": "10.1109/jsac.2017.2760458",
+    "link": "https://doi.org/10.1109/jsac.2017.2760458",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:061789da1354e3c12c72": {
+    "title": "LSHiForest: A Generic Framework for Fast Tree Isolation Based Ensemble Anomaly Analysis",
+    "venue": "2017 IEEE 33rd International Conference on Data Engineering (ICDE)",
+    "label": "ICDE",
+    "doi": "10.1109/icde.2017.145",
+    "link": "https://doi.org/10.1109/icde.2017.145",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d38d38c77714435d9d48": {
+    "title": "Mobile Live Video Streaming Optimization via Crowdsourcing Brokerage",
+    "venue": "IEEE Transactions on Multimedia",
+    "label": "IEEE TMM",
+    "doi": "10.1109/tmm.2017.2736963",
+    "link": "https://doi.org/10.1109/tmm.2017.2736963",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:7d10c1cfe012b30c884c": {
+    "title": "Low-Cost Adaptive Lebesgue Sampling Particle Filtering Approach for Real-Time Li-Ion Battery Diagnosis and Prognosis",
+    "venue": "IEEE Transactions on Automation Science and Engineering",
+    "label": "IEEE TASE",
+    "doi": "10.1109/tase.2017.2666202",
+    "link": "https://doi.org/10.1109/tase.2017.2666202",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:87b8910f8f9f643dc28a": {
+    "title": "Amplified Locality-Sensitive Hashing for Privacy-Preserving Distributed Service Recommendation",
+    "venue": "Security, Privacy, and Anonymity in Computation, Communication, and Storage",
+    "label": "SpaCCS",
+    "doi": "10.1007/978-3-319-72389-1_23",
+    "link": "https://doi.org/10.1007/978-3-319-72389-1_23",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:429faa01e71a85ee7877": {
+    "title": "Two-Phase Locality-Sensitive Hashing for Privacy-Preserving Distributed Service Recommendation",
+    "venue": "Cyberspace Safety and Security",
+    "label": "CSS",
+    "doi": "10.1007/978-3-319-69471-9_13",
+    "link": "https://doi.org/10.1007/978-3-319-69471-9_13",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d70bd263e7ea8bd18ed2": {
+    "title": "Data Placement for Privacy-Aware Applications over Big Data in Hybrid Clouds",
+    "venue": "Security and Communication Networks",
+    "label": "Security and Communication Networks",
+    "doi": "10.1155/2017/2376484",
+    "link": "https://doi.org/10.1155/2017/2376484",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:64b4cba3c372b6016dea": {
+    "title": "A balanced virtual machine scheduling method for energy-performance trade-offs in cyber-physical cloud systems",
+    "venue": "Future Generation Computer Systems",
+    "label": "Future Generation Computer Systems",
+    "doi": "10.1016/j.future.2017.08.057",
+    "link": "https://doi.org/10.1016/j.future.2017.08.057",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:5464968f9fd2d7010876": {
+    "title": "A traffic hotline discovery method over cloud of things using big taxi GPS data",
+    "venue": "Software: Practice and Experience",
+    "label": "Software: Practice and Experience",
+    "doi": "10.1002/spe.2412",
+    "link": "https://doi.org/10.1002/spe.2412",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:0b036d3625ab93e55776": {
+    "title": "How to shutdown a cloud: a DDoS attack in a private infrastructure-as-a-service cloud",
+    "venue": "International Journal of Autonomous and Adaptive Communications Systems",
+    "label": "International Journal of Autonomous and Adaptive Communications Systems",
+    "doi": "10.1504/ijaacs.2017.082734",
+    "link": "https://doi.org/10.1504/ijaacs.2017.082734",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:ff6b54b1b93e49ef2980": {
+    "title": "Privacy-Preserving Distributed Service Recommendation Based on Locality-Sensitive Hashing",
+    "venue": "2017 IEEE International Conference on Web Services (ICWS)",
+    "label": "ICWS",
+    "doi": "10.1109/icws.2017.15",
+    "link": "https://doi.org/10.1109/icws.2017.15",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:013db09cb12b4f5b0f09": {
+    "title": "Big data challenges and opportunities in the hype of Industry 4.0",
+    "venue": "2017 IEEE International Conference on Communications (ICC)",
+    "label": "ICC",
+    "doi": "10.1109/icc.2017.7996801",
+    "link": "https://doi.org/10.1109/icc.2017.7996801",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:af15f9735b83fef17588": {
+    "title": "Personalized Quality Centric Service Recommendation",
+    "venue": "Service-Oriented Computing",
+    "label": "ICSOC",
+    "doi": "10.1007/978-3-319-69035-3_39",
+    "link": "https://doi.org/10.1007/978-3-319-69035-3_39",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:78ac4c22e38935809815": {
+    "title": "Towards energy-fairness for broadcast scheduling with minimum delay in low-duty-cycle sensor networks",
+    "venue": "Computer Communications",
+    "label": "Computer Communications",
+    "doi": "10.1016/j.comcom.2015.09.012",
+    "link": "https://doi.org/10.1016/j.comcom.2015.09.012",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:b1e54024f443b14a0d50": {
+    "title": "Omnidirectional chargability with directional antennas",
+    "venue": "2016 IEEE 24th International Conference on Network Protocols (ICNP)",
+    "label": "ICNP",
+    "doi": "10.1109/icnp.2016.7784435",
+    "link": "https://doi.org/10.1109/icnp.2016.7784435",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:4fdfe40dd4dd42bb51fe": {
+    "title": "Noisy Bloom Filters for Multi-Set Membership Testing",
+    "venue": "Proceedings of the 2016 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Science",
+    "label": "SIGMETRICS",
+    "doi": "10.1145/2896377.2901451",
+    "link": "https://doi.org/10.1145/2896377.2901451",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:e995073d688d0287caff": {
+    "title": "Radiation constrained wireless charger placement",
+    "venue": "IEEE INFOCOM 2016 - The 35th Annual IEEE International Conference on Computer Communications",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2016.7524385",
+    "link": "https://doi.org/10.1109/infocom.2016.7524385",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:63413709566010ae7997": {
+    "title": "Structural Balance Theory-Based E-Commerce Recommendation over Big Rating Data",
+    "venue": "IEEE Transactions on Big Data",
+    "label": "IEEE TBD",
+    "doi": "10.1109/tbdata.2016.2602849",
+    "link": "https://doi.org/10.1109/tbdata.2016.2602849",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:f482d00eb32cd7a24893": {
+    "title": "A Deployment Optimization Scheme Over Multimedia Big Data for Large-Scale Media Streaming Application",
+    "venue": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+    "label": "ACM TOMM",
+    "doi": "10.1145/2983642",
+    "link": "https://doi.org/10.1145/2983642",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d3f33151bf68e6319258": {
+    "title": "EnReal: An Energy-Aware Resource Allocation Method for Scientific Workflow Executions in Cloud Environment",
+    "venue": "IEEE Transactions on Cloud Computing",
+    "label": "IEEE TCC",
+    "doi": "10.1109/tcc.2015.2453966",
+    "link": "https://doi.org/10.1109/tcc.2015.2453966",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:8c8c0c4bf2b9115b2f5b": {
+    "title": "Lebesgue-Sampling-Based Diagnosis and Prognosis for Lithium-Ion Batteries",
+    "venue": "IEEE Transactions on Industrial Electronics",
+    "label": "IEEE TIE",
+    "doi": "10.1109/tie.2015.2494529",
+    "link": "https://doi.org/10.1109/tie.2015.2494529",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:91c4bbe6d843b4ba899d": {
+    "title": "A Context-Aware Service Evaluation Approach over Big Data for Cloud Applications",
+    "venue": "IEEE Transactions on Cloud Computing",
+    "label": "IEEE TCC",
+    "doi": "10.1109/tcc.2015.2511764",
+    "link": "https://doi.org/10.1109/tcc.2015.2511764",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:16476c98529507b5f791": {
+    "title": "A Virtual Machine Scheduling Method for Trade-Offs Between Energy and Performance in Cloud Environment",
+    "venue": "2016 International Conference on Advanced Cloud and Big Data (CBD)",
+    "label": "CBD",
+    "doi": "10.1109/cbd.2016.050",
+    "link": "https://doi.org/10.1109/cbd.2016.050",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:55421f1a5b8aae7c3e19": {
+    "title": "Scalable Local-Recoding Anonymization using Locality Sensitive Hashing for Big Data Privacy Preservation",
+    "venue": "Proceedings of the 25th ACM International on Conference on Information and Knowledge Management",
+    "label": "CIKM",
+    "doi": "10.1145/2983323.2983841",
+    "link": "https://doi.org/10.1145/2983323.2983841",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:ca32ec60e74f9ecb7511": {
+    "title": "A scalable and automatic mechanism for resource allocation in self-organizing cloud",
+    "venue": "Peer-to-Peer Networking and Applications",
+    "label": "Peer-to-Peer Networking and Applications",
+    "doi": "10.1007/s12083-014-0309-8",
+    "link": "https://doi.org/10.1007/s12083-014-0309-8",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:2934d5208bfec46643dc": {
+    "title": "A method for real-time trajectory monitoring to improve taxi service using GPS big data",
+    "venue": "Information & Management",
+    "label": "Information & Management",
+    "doi": "10.1016/j.im.2016.04.004",
+    "link": "https://doi.org/10.1016/j.im.2016.04.004",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:9374acd6ee516f29b725": {
+    "title": "Combined Cloud: A Mixture of Voluntary Cloud and Reserved Instance Marketplace",
+    "venue": "Journal of Computer Science and Technology",
+    "label": "Journal of Computer Science and Technology",
+    "doi": "10.1007/s11390-016-1686-7",
+    "link": "https://doi.org/10.1007/s11390-016-1686-7",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:930efd8d41e450364410": {
+    "title": "Time-Aware IoE Service Recommendation on Sparse Data",
+    "venue": "Mobile Information Systems",
+    "label": "Mobile Information Systems",
+    "doi": "10.1155/2016/4397061",
+    "link": "https://doi.org/10.1155/2016/4397061",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:f94892b56a524420d31d": {
+    "title": "Combining Social Balance Theory and Collaborative Filtering for Service Recommendation in Sparse Environment",
+    "venue": "Advances in Services Computing",
+    "label": "APSCC",
+    "doi": "10.1007/978-3-319-49178-3_28",
+    "link": "https://doi.org/10.1007/978-3-319-49178-3_28",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:6ac7f304fe422c481760": {
+    "title": "A Novel Node Selection Method for Real-Time Collaborative Computation in Cloud",
+    "venue": "2016 International Conference on Advanced Cloud and Big Data (CBD)",
+    "label": "CBD",
+    "doi": "10.1109/cbd.2016.027",
+    "link": "https://doi.org/10.1109/cbd.2016.027",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:d0fe49eda228c7e86886": {
+    "title": "An Adaptive Cloudlet Placement Method for Mobile Applications over GPS Big Data",
+    "venue": "2016 IEEE Global Communications Conference (GLOBECOM)",
+    "label": "GLOBECOM",
+    "doi": "10.1109/glocom.2016.7841576",
+    "link": "https://doi.org/10.1109/glocom.2016.7841576",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:e73ca395bfd5e001967d": {
+    "title": "A Task Scheduling Method for Energy-Performance Trade-Off in Clouds",
+    "venue": "2016 IEEE 18th International Conference on High Performance Computing and Communications; IEEE 14th International Conference on Smart City; IEEE 2nd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)",
+    "label": "HPCC/SmartCity/DSS",
+    "doi": "10.1109/hpcc-smartcity-dss.2016.0146",
+    "link": "https://doi.org/10.1109/hpcc-smartcity-dss.2016.0146",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:549dc5bf8e25d1dd2d51": {
+    "title": "Service Recommendation Based on Social Balance Theory and Collaborative Filtering",
+    "venue": "Service-Oriented Computing",
+    "label": "ICSOC",
+    "doi": "10.1007/978-3-319-46295-0_43",
+    "link": "https://doi.org/10.1007/978-3-319-46295-0_43",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:6e1333ba8cc1191a8509": {
+    "title": "An Uncertainty-Aware Evolutionary Scheduling Method for Cloud Service Provisioning",
+    "venue": "2016 IEEE International Conference on Web Services (ICWS)",
+    "label": "ICWS",
+    "doi": "10.1109/icws.2016.72",
+    "link": "https://doi.org/10.1109/icws.2016.72",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:61fda93f7a60bd616701": {
+    "title": "Practical scheduling for stochastic event capture in energy harvesting sensor networks",
+    "venue": "International Journal of Sensor Networks",
+    "label": "International Journal of Sensor Networks",
+    "doi": "10.1504/ijsnet.2015.069862",
+    "link": "https://doi.org/10.1504/ijsnet.2015.069862",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:f63bb1c9b6e613d06476": {
+    "title": "Simultaneous Query for Wireless Sensor Networks: A Power Based Solution",
+    "venue": "IEEE Transactions on Mobile Computing",
+    "label": "IEEE TMC",
+    "doi": "10.1109/tmc.2015.2416173",
+    "link": "https://doi.org/10.1109/tmc.2015.2416173",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:19d5c9a08fe7372c97e1": {
+    "title": "A low-delay energy-efficient decision strategy in duty-cycled wireless sensor networks",
+    "venue": "International Journal of Sensor Networks",
+    "label": "International Journal of Sensor Networks",
+    "doi": "10.1504/ijsnet.2015.067865",
+    "link": "https://doi.org/10.1504/ijsnet.2015.067865",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:59d15e6f49289f0a2e90": {
+    "title": "Optimizing Energy Efficiency for Minimum Latency Broadcast in Low-Duty-Cycle Sensor Networks",
+    "venue": "ACM Transactions on Sensor Networks",
+    "label": "ACM TOSN",
+    "doi": "10.1145/2753763",
+    "link": "https://doi.org/10.1145/2753763",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:ccc32665505e83682450": {
+    "title": "Minimizing Transient Congestion during Network Update in Data Centers",
+    "venue": "2015 IEEE 23rd International Conference on Network Protocols (ICNP)",
+    "label": "ICNP",
+    "doi": "10.1109/icnp.2015.33",
+    "link": "https://doi.org/10.1109/icnp.2015.33",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:47ad7dd3932413bcccd0": {
+    "title": "On Maximizing Reliability of Lifetime Constrained Data Aggregation Tree in Wireless Sensor Networks",
+    "venue": "2015 44th International Conference on Parallel Processing",
+    "label": "ICPP",
+    "doi": "10.1109/icpp.2015.17",
+    "link": "https://doi.org/10.1109/icpp.2015.17",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:f721ba3594d21888a11b": {
+    "title": "Network coding-based multicast in multi-hop CRNs under uncertain spectrum availability",
+    "venue": "2015 IEEE Conference on Computer Communications (INFOCOM)",
+    "label": "INFOCOM",
+    "doi": "10.1109/infocom.2015.7218448",
+    "link": "https://doi.org/10.1109/infocom.2015.7218448",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:35ce54e57e56a5b1006c": {
+    "title": "HireSome-II: Towards Privacy-Aware Cross-Cloud Service Composition for Big Data Applications",
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "label": "IEEE TPDS",
+    "doi": "10.1109/tpds.2013.246",
+    "link": "https://doi.org/10.1109/tpds.2013.246",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:66b9b121dbab2f5e5c0a": {
+    "title": "Proximity-Aware Local-Recoding Anonymization with MapReduce for Scalable Big Data Privacy Preservation in Cloud",
+    "venue": "IEEE Transactions on Computers",
+    "label": "IEEE TC",
+    "doi": "10.1109/tc.2014.2360516",
+    "link": "https://doi.org/10.1109/tc.2014.2360516",
+    "verification": "Reviewed publisher record and original citation",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:a476223d58ad3377c885": {
+    "title": "A cloud-based framework for Home-diagnosis service over big medical data",
+    "venue": "Journal of Systems and Software",
+    "label": "Journal of Systems and Software",
+    "doi": "10.1016/j.jss.2014.05.068",
+    "link": "https://doi.org/10.1016/j.jss.2014.05.068",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:56821b110884d5e8ae08": {
+    "title": "A service evaluation method for cross‐cloud service choreography",
+    "venue": "Concurrency and Computation: Practice and Experience",
+    "label": "CCPE",
+    "doi": "10.1002/cpe.3091",
+    "link": "https://doi.org/10.1002/cpe.3091",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "manual:615b136213e4dc9beb33": {
+    "title": "vGraph: Graph Virtualization towards Big Data",
+    "venue": "2015 Third International Conference on Advanced Cloud and Big Data",
+    "label": "CBD",
+    "doi": "10.1109/cbd.2015.33",
+    "link": "https://doi.org/10.1109/cbd.2015.33",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7212371370": {
+    "title": "TFS: Tile-Aware SpMM–GeMM Fusion for Accelerating GNN Inference on Intel AMX",
+    "venue": "Proceedings of the 55th International Conference on Parallel Processing",
+    "label": "ICPP",
+    "doi": "10.1145/3832810.3832855",
+    "link": "https://doi.org/10.1145/3832810.3832855",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7203473359": {
+    "title": "GWBP: Accelerating Weighted Back-Projection for Image Reconstruction via Efficient GPU Parallel Optimization",
+    "venue": "Euro-Par 2026: Parallel Processing",
+    "label": "Euro-Par",
+    "doi": "10.1007/978-3-032-35248-4_40",
+    "link": "https://doi.org/10.1007/978-3-032-35248-4_40",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7169886154": {
+    "title": "Residual Embedding for Sparse Subspace Clustering",
+    "venue": "Neurocomputing",
+    "label": "Neurocomputing",
+    "doi": "10.1016/j.neucom.2026.134525",
+    "link": "https://doi.org/10.1016/j.neucom.2026.134525",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7168089161": {
+    "title": "OSOW: A Resource-Efficient Parallelization of the Winograd Algorithm on Multicore CPUs",
+    "venue": "Knowledge Science, Engineering and Management",
+    "label": "KSEM",
+    "doi": "10.1007/978-981-92-2864-5_13",
+    "link": "https://doi.org/10.1007/978-981-92-2864-5_13",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7167011161": {
+    "title": "SVSIG: Incremental Streaming Graph Processing with Source Vertex Suppression",
+    "venue": "Proceedings of the 40th ACM International Conference on Supercomputing",
+    "label": "ICS",
+    "doi": "10.1145/3797905.3807850",
+    "link": "https://doi.org/10.1145/3797905.3807850",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7164831364": {
+    "title": "Parameter-Efficient Adaptation with Proxy Anchors for Cross-Domain Few-Shot Learning",
+    "venue": "Proceedings of the 2026 International Conference on Multimedia Retrieval",
+    "label": "ICMR",
+    "doi": "10.1145/3805622.3810786",
+    "link": "https://doi.org/10.1145/3805622.3810786",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7162307771": {
+    "title": "Feml: a feature enhancement and machine learning framework for HPC job power consumption prediction",
+    "venue": "The Journal of Supercomputing",
+    "label": "The Journal of Supercomputing",
+    "doi": "10.1007/s11227-026-08591-6",
+    "link": "https://doi.org/10.1007/s11227-026-08591-6",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4415916008": {
+    "title": "Hierarchical fusion of local and global visual features with mixture-of-experts for remote sensing image scene classification",
+    "venue": "Neurocomputing",
+    "label": "Neurocomputing",
+    "doi": "10.1016/j.neucom.2026.134039",
+    "link": "https://doi.org/10.1016/j.neucom.2026.134039",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7155063071": {
+    "title": "HEMD-SegNet: A Hierarchical Encoder-Mixer-Decoder Segmentation Network for Extracting Lakes from Remote Sensing Images",
+    "venue": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "label": "ICASSP",
+    "doi": "10.1109/icassp55912.2026.11463931",
+    "link": "https://doi.org/10.1109/icassp55912.2026.11463931",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7135016088": {
+    "title": "Dynamic pivotal node attention for spatio-temporal wind speed forecasting",
+    "venue": "Neurocomputing",
+    "label": "Neurocomputing",
+    "doi": "10.1016/j.neucom.2026.133276",
+    "link": "https://doi.org/10.1016/j.neucom.2026.133276",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7118167819": {
+    "title": "PHFedDA: Personalized Hierarchical Federated Learning Framework Based on Heterogeneous Data Aggregation in Vehicular Networks",
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "label": "IEEE TVT",
+    "doi": "10.1109/tvt.2025.3650582",
+    "link": "https://doi.org/10.1109/tvt.2025.3650582",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7196929861": {
+    "title": "Efficient 3D MAC Array with Pipelining for PIM",
+    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "label": "IEEE TCAD",
+    "doi": "10.1109/tcad.2026.3717166",
+    "link": "https://doi.org/10.1109/tcad.2026.3717166",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7160024246": {
+    "title": "Spatiotemporal Dual-Graph Interaction Network for Wind-Speed Forecasting",
+    "venue": "Proceedings of the 2025 5th International Conference on Big Data, Artificial Intelligence and Risk Management",
+    "label": "ICBAR",
+    "doi": "10.1145/3800227.3800280",
+    "link": "https://doi.org/10.1145/3800227.3800280",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7124973060": {
+    "title": "FE-ES-Transformer: Frequency-Enhanced Exponential Smoothing Transformer for Smart Grid Energy Consumption Forecasting",
+    "venue": "2025 7th International Conference on Frontier Technologies of Information and Computer (ICFTIC)",
+    "label": "ICFTIC",
+    "doi": "10.1109/icftic68075.2025.11324761",
+    "link": "https://doi.org/10.1109/icftic68075.2025.11324761",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4416863094": {
+    "title": "Redundancy reduction with gradient-weighted pruning for cross-domain few-shot learning",
+    "venue": "CCF Transactions on High Performance Computing",
+    "label": "CCF THPC",
+    "doi": "10.1007/s42514-025-00264-9",
+    "link": "https://doi.org/10.1007/s42514-025-00264-9",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4416765436": {
+    "title": "A novel spatiotemporal transformer network with multivariate fusion for short-term precipitation forecasting",
+    "venue": "Scientific Reports",
+    "label": "Scientific Reports",
+    "doi": "10.1038/s41598-025-29415-2",
+    "link": "https://doi.org/10.1038/s41598-025-29415-2",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4416263018": {
+    "title": "Enhancing multivariate weather forecasting via temporal attention and spatiotemporal fusion",
+    "venue": "Engineering Applications of Artificial Intelligence",
+    "label": "EAAI",
+    "doi": "10.1016/j.engappai.2025.113133",
+    "link": "https://doi.org/10.1016/j.engappai.2025.113133",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7125959953": {
+    "title": "Imputing Missing Temperature Data of Meteorological Stations Based on Global Spatiotemporal Attention Neural Network",
+    "venue": "2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "label": "SMC",
+    "doi": "10.1109/smc58881.2025.11342713",
+    "link": "https://doi.org/10.1109/smc58881.2025.11342713",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4414299600": {
+    "title": "TransMambaCNN: A Spatiotemporal Transformer Network Fusing State-Space Models and CNNs for Short-Term Precipitation Forecasting",
+    "venue": "Remote Sensing",
+    "label": "Remote Sensing",
+    "doi": "10.3390/rs17183200",
+    "link": "https://doi.org/10.3390/rs17183200",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4413122553": {
+    "title": "LSTMConvSR: Joint Long–Short-Range Modeling via LSTM-First–CNN-Next Architecture for Remote Sensing Image Super-Resolution",
+    "venue": "Remote Sensing",
+    "label": "Remote Sensing",
+    "doi": "10.3390/rs17152745",
+    "link": "https://doi.org/10.3390/rs17152745",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4412564893": {
+    "title": "Dynamic adaptive attention optimization for cross-domain few-shot learning",
+    "venue": "Expert Systems with Applications",
+    "label": "ESWA",
+    "doi": "10.1016/j.eswa.2025.129139",
+    "link": "https://doi.org/10.1016/j.eswa.2025.129139",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4416251974": {
+    "title": "Exploring Linear Attention Alternative for Single Image Super-Resolution*",
+    "venue": "2025 International Joint Conference on Neural Networks (IJCNN)",
+    "label": "IJCNN",
+    "doi": "10.1109/ijcnn64981.2025.11227911",
+    "link": "https://doi.org/10.1109/ijcnn64981.2025.11227911",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4416251068": {
+    "title": "Enhanced Short-Term Precipitation Forecasting Using the Advanced TripFormer Measure",
+    "venue": "2025 International Joint Conference on Neural Networks (IJCNN)",
+    "label": "IJCNN",
+    "doi": "10.1109/ijcnn64981.2025.11227912",
+    "link": "https://doi.org/10.1109/ijcnn64981.2025.11227912",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4416844310": {
+    "title": "The Exploration and Practice of Classroom Teaching of Computer Major Courses in Colleges and Universities under the Innovative Teaching Mode of “Four in One”",
+    "venue": "Proceedings of the 2nd International Conference on Intelligent Education and Computer Technology",
+    "label": "Proceedings of the 2nd International Conference on Intelligent Education and Computer Technology",
+    "doi": "10.1145/3764206.3764230",
+    "link": "https://doi.org/10.1145/3764206.3764230",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4411523035": {
+    "title": "Vector knowledge transfer-driven representation learning for heterogeneous hypernetworks",
+    "venue": "Knowledge and Information Systems",
+    "label": "Knowledge and Information Systems",
+    "doi": "10.1007/s10115-025-02512-4",
+    "link": "https://doi.org/10.1007/s10115-025-02512-4",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4409076302": {
+    "title": "CPAT: cross-patch aggregated transformer for time series forecasting",
+    "venue": "Machine Learning",
+    "label": "Machine Learning",
+    "doi": "10.1007/s10994-025-06758-5",
+    "link": "https://doi.org/10.1007/s10994-025-06758-5",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4408663784": {
+    "title": "Parallel solution and optimization of microphysics module in GRAPES physics process",
+    "venue": "Second International Conference on Big Data, Computational Intelligence, and Applications (BDCIA 2024)",
+    "label": "BDCIA",
+    "doi": "10.1117/12.3059237",
+    "link": "https://doi.org/10.1117/12.3059237",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4408625830": {
+    "title": "Research on GPU transplantation optimization of PRM scalar advection scheme in GRAPES global forecast system",
+    "venue": "CCF Transactions on High Performance Computing",
+    "label": "CCF THPC",
+    "doi": "10.1007/s42514-025-00216-3",
+    "link": "https://doi.org/10.1007/s42514-025-00216-3",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4409724119": {
+    "title": "A Study on Short-Term Nowcasting Precipitation Forecasting Methods Based on Radar Echo Maps",
+    "venue": "2025 IEEE 8th Information Technology and Mechatronics Engineering Conference (ITOEC)",
+    "label": "ITOEC",
+    "doi": "10.1109/itoec63606.2025.10968611",
+    "link": "https://doi.org/10.1109/itoec63606.2025.10968611",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4408116205": {
+    "title": "Quantization Parameter Cascading for Lossy Point Cloud Attribute Compression in G-PCC",
+    "venue": "APSIPA Transactions on Signal and Information Processing",
+    "label": "APSIPA TSIP",
+    "doi": "10.1561/116.20240063",
+    "link": "https://doi.org/10.1561/116.20240063",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4412446533": {
+    "title": "A Self-Supervised Pre-Training Method Combining Sequential Reconstruction and Contrastive Learning for Time Series Forecasting",
+    "venue": "2025 5th International Conference on Neural Networks, Information and Communication Engineering (NNICE)",
+    "label": "NNICE",
+    "doi": "10.1109/nnice64954.2025.11063892",
+    "link": "https://doi.org/10.1109/nnice64954.2025.11063892",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4414856531": {
+    "title": "GDSR: Global-Detail Integration Through Dual-Branch Network With Wavelet Losses for Remote Sensing Image Super-Resolution",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "label": "IEEE TGRS",
+    "doi": "10.1109/tgrs.2025.3617006",
+    "link": "https://doi.org/10.1109/tgrs.2025.3617006",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4410602078": {
+    "title": "Research on Temperature Forecasting Model Based on BiLSTM-Attention Algorithm",
+    "venue": "Proceedings of International Conference on Image, Vision and Intelligent Systems 2024 (ICIVIS 2024)",
+    "label": "ICIVIS",
+    "doi": "10.1007/978-981-96-2528-4_36",
+    "link": "https://doi.org/10.1007/978-981-96-2528-4_36",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W4410536086": {
+    "title": "Mobility-Aware Cooperative Caching in Vehicular Edge Computing Based on Federated Distillation and Deep Reinforcement Learning",
+    "venue": "IEEE Transactions on Network Science and Engineering",
+    "label": "IEEE TNSE",
+    "doi": "10.1109/tnse.2025.3571902",
+    "link": "https://doi.org/10.1109/tnse.2025.3571902",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-10-10"
+  }
+}

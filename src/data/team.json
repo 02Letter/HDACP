@@ -704,198 +704,264 @@
     "students": [
         {
             "name": "姚自强",
+            "status": "current",
+            "degree": "master",
             "year": "2020-present",
             "research": "人工智能与深度学习",
             "photo": "yaoziqiang.jpg"
         },
         {
             "name": "吴达黎",
+            "status": "current",
+            "degree": "master",
             "year": "2020-present",
             "research": "人工智能与深度学习",
             "photo": "wudali.jpg"
         },
         {
             "name": "董润婷",
+            "status": "current",
+            "degree": "master",
             "year": "2020-present",
             "research": "人工智能与深度学习",
             "photo": "dongrunting.jpg"
         },
         {
             "name": "刘令斌",
+            "status": "current",
+            "degree": "master",
             "year": "2020-present",
             "research": "大规模图计算系统",
             "photo": "liulingbin.jpg"
         },
         {
             "name": "黄东强",
+            "status": "current",
+            "degree": "master",
             "year": "2020-present",
             "research": "高性能计算",
             "photo": "huangdongqiang.jpg"
         },
         {
             "name": "侯天瑞",
+            "status": "current",
+            "degree": "master",
             "year": "2021-present",
             "research": "人工智能与深度学习",
             "photo": "houtianrui.jpg"
         },
         {
             "name": "姜佳凡",
+            "status": "current",
+            "degree": "master",
             "year": "2021-present",
             "research": "高性能计算",
             "photo": "jiangjiafan.jpg"
         },
         {
             "name": "张文轩",
+            "status": "current",
+            "degree": "master",
             "year": "2021-present",
             "research": "人工智能与深度学习",
             "photo": "zhangwenxuan.jpg"
         },
         {
             "name": "李博录",
+            "status": "current",
+            "degree": "master",
             "year": "2021-present",
             "research": "人工智能与深度学习",
             "photo": "libolu.jpg"
         },
         {
             "name": "马晨昱",
+            "status": "current",
+            "degree": "master",
             "year": "2021-present",
             "research": "人工智能与深度学习",
             "photo": "machenyu.jpg"
         },
         {
             "name": "唐嘉豪",
+            "status": "current",
+            "degree": "master",
             "year": "2021-present",
             "research": "高性能计算",
             "photo": "tangjiahao.jpg"
         },
         {
             "name": "余航",
+            "status": "current",
+            "degree": "master",
             "year": "2021-present",
             "research": "高性能计算",
             "photo": "yuhang.jpg"
         },
         {
             "name": "李博",
+            "status": "current",
+            "degree": "master",
             "year": "2021-present",
             "research": "高性能计算",
             "photo": "libo.jpg"
         },
         {
             "name": "宁争胜",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "高性能计算",
             "photo": "ningzhengsheng.jpg"
         },
         {
             "name": "李志雄",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "高性能计算",
             "photo": "lizhixiong.jpg"
         },
         {
             "name": "刘杰",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "人工智能与深度学习",
             "photo": "liujie.jpg"
         },
         {
             "name": "赵海翔",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "人工智能与深度学习",
             "photo": "zhaohaixiang.jpg"
         },
         {
             "name": "潭张杰",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "高性能计算",
             "photo": "tanzhangjie.jpg"
         },
         {
             "name": "李金雯",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "人工智能与深度学习",
             "photo": "lijinwen.jpg"
         },
         {
             "name": "刘君",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "人工智能与深度学习",
             "photo": "liujun.jpg"
         },
         {
             "name": "涂进兴",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "高性能计算",
             "photo": "tujinxing.jpg"
         },
         {
             "name": "刘冰燕",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "人工智能与深度学习",
             "photo": "liubingyan.jpg"
         },
         {
             "name": "徐澳康",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "高性能计算与深度学习",
             "photo": "xuaokang.jpg"
         },
         {
             "name": "陈闽昊",
+            "status": "current",
+            "degree": "master",
             "year": "2022-present",
             "research": "高性能计算",
             "photo": "chenminghao.jpg"
         },
         {
             "name": "吴环",
+            "status": "graduated",
+            "degree": "master",
             "year": "2018届毕业生",
             "research": "美国波特兰州立大学",
             "photo": "wuhuan.jpg"
         },
         {
             "name": "杨雪娇",
+            "status": "graduated",
+            "degree": "master",
             "year": "2019届毕业生",
             "research": "新华三集团",
             "photo": "yangxuejiao.jpg"
         },
         {
             "name": "罗佩聪",
+            "status": "graduated",
+            "degree": "master",
             "year": "2020届毕业生",
             "research": "中国人民银行",
             "photo": "luopeicong.jpg"
         },
         {
             "name": "李玉玲",
+            "status": "graduated",
+            "degree": "master",
             "year": "2020届毕业生",
             "research": "青海省电力公司电力科学研究院",
             "photo": "liyuling.jpg"
         },
         {
             "name": "严文昕",
+            "status": "graduated",
+            "degree": "master",
             "year": "2021届毕业生",
             "research": "广州北羊信息技术有限公司",
             "photo": "yanwenxin.jpg"
         },
         {
             "name": "黄鼎昌",
+            "status": "graduated",
+            "degree": "master",
             "year": "2021届毕业生",
             "research": "国家电投五凌电力有限公司",
             "photo": "huangdingchang.jpg"
         },
         {
             "name": "赵梦梦",
+            "status": "graduated",
+            "degree": "master",
             "year": "2022届毕业生",
             "research": "小米公司",
             "photo": "zhaomengmeng.jpg"
         },
         {
             "name": "张琨",
+            "status": "graduated",
+            "degree": "master",
             "year": "2022届毕业生",
             "research": "联想公司",
             "photo": "zhangkun.jpg"
         },
         {
             "name": "李凯",
+            "status": "graduated",
+            "degree": "undergraduate",
             "year": "2020届毕业生（本科）",
             "research": "清华大学",
             "photo": "likai.jpg",
@@ -903,18 +969,24 @@
         },
         {
             "name": "杨圣豪",
+            "status": "graduated",
+            "degree": "undergraduate",
             "year": "2020届毕业生（本科）",
             "research": "清华大学",
             "photo": "yangshenghao.jpg"
         },
         {
             "name": "凌龙",
+            "status": "graduated",
+            "degree": "undergraduate",
             "year": "2021届毕业生（本科）",
             "research": "北京航空航天大学",
             "photo": "linglong.jpg"
         },
         {
             "name": "陈玉婷",
+            "status": "graduated",
+            "degree": "undergraduate",
             "year": "2021届毕业生（本科）",
             "research": "青海电信",
             "photo": "chenyuting.jpg"

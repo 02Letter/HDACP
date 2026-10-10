@@ -9,6 +9,7 @@ const navItems = [
   { path: '/team', name: '团队成员' },
   { path: '/papers', name: '论文成果' },
   { path: '/projects', name: '科研项目' },
+  { path: '/teaching', name: '教学' },
   { path: '/news', name: '最新动态' },
   { path: '/life', name: '学术活动' },
   { path: '/contact', name: '加入我们' }

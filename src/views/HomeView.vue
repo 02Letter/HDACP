@@ -19,8 +19,8 @@ const newsLink = link => /^https?:\/\//.test(link) ? link : baseUrl + link
     <section class="lab-hero" aria-labelledby="lab-title">
       <HeroAmbient />
       <div class="hero-content container">
-        <h1 id="lab-title">HDACP Lab</h1>
-        <p class="hero-lead"><strong>青海大学高性能与云计算研究所</strong>致力于<span>高性能计算</span>、<span>云计算与大数据</span>及<span>人工智能</span>等前沿技术的研究与应用。</p>
+        <h1 id="lab-title">HDACP</h1>
+        <p class="hero-lead"><strong>绿色算力创新与应用研究团队</strong>致力于<span>高性能计算</span>、<span>云计算与大数据</span>及<span>人工智能</span>等前沿技术的研究与应用。</p>
         <p class="hero-description">探索高效计算，连接智能未来。<br class="mobile-break" />以理论创新与工程实践推动科研发展。</p>
         <div class="hero-actions"><RouterLink to="/research">了解我们的研究 <span aria-hidden="true">→</span></RouterLink><RouterLink to="/contact" class="hero-secondary">加入我们</RouterLink></div>
       </div>

@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import teamData from '@/data/team.json'
-import autoPapers from '@/data/auto-publications.json'
+import { verifiedAutoPapers as autoPapers } from '@/data/content.js'
 import MemberAvatar from '@/components/MemberAvatar.vue'
 
 const route = useRoute()

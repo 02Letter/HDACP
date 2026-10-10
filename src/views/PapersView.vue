@@ -1,9 +1,9 @@
 <script setup>
 import { computed } from 'vue'
+import YearPicker from '@/components/YearPicker.vue'
 import { useRoute, useRouter } from 'vue-router'
 import { papersData as publicationsData } from '@/data/content.js'
 
-const baseUrl = import.meta.env.BASE_URL
 const route = useRoute()
 const router = useRouter()
 
@@ -27,13 +27,8 @@ const selectYear = year => router.replace({ query: { ...route.query, year: Strin
       </div>
       
       <div class="papers-list">
-        <div class="year-picker" role="group" aria-label="选择论文年份">
-          <button v-for="group in papersByYear" :key="group.year" type="button"
-            class="year-option" :class="{ active: selectedGroup?.year === group.year }"
-            :aria-pressed="selectedGroup?.year === group.year" @click="selectYear(group.year)">
-            <span>{{ group.year }}</span><span class="year-count">{{ group.items.length }} 篇</span>
-          </button>
-        </div>
+        <YearPicker :options="papersByYear.map(group => ({ value: String(group.year), count: group.items.length }))"
+          :model-value="String(selectedGroup?.year)" @update:model-value="selectYear" label="选择论文年份" unit="篇" />
         <div v-if="selectedGroup" class="selected-year-heading" aria-live="polite" aria-atomic="true">
           <h2 id="selected-paper-year">{{ selectedGroup.year }} 年</h2>
           <span>{{ selectedGroup.items.length }} 篇论文</span>
@@ -42,11 +37,12 @@ const selectYear = year => router.replace({ query: { ...route.query, year: Strin
           <div class="paper-items">
             <div v-for="(item, index) in selectedGroup.items" :key="item.id || index" class="paper-item">
               <div class="paper-content">
-                <span v-if="item.displayVenue" class="venue-tag" :title="item.venue || item.displayVenue">{{ item.displayVenue }}</span>
-                <span class="paper-text">{{ item.displayTitle }}</span>
-                <a v-if="item.link" :href="/^https?:\/\//.test(item.link) ? item.link : `${baseUrl}${item.link}`" target="_blank" rel="noopener noreferrer" class="paper-link">
-                  [来源]
-                </a>
+                <a class="paper-text" :href="item.link" target="_blank" rel="noopener noreferrer">{{ item.displayTitle }}</a>
+                <span class="venue-tag" :title="item.venue">{{ item.displayVenue }}</span>
+              </div>
+              <div class="paper-sources">
+                <a :href="item.link" target="_blank" rel="noopener noreferrer" class="publication-source">源文档 ↗</a>
+                <a v-if="item.fullText" :href="item.fullText" target="_blank" rel="noopener noreferrer" class="publication-source">完整预印本 ↗</a>
               </div>
             </div>
           </div>
@@ -57,19 +53,10 @@ const selectYear = year => router.replace({ query: { ...route.query, year: Strin
 </template>
 
 <style scoped>
-.year-picker { display: flex; flex-wrap: wrap; gap: 10px; padding-bottom: 28px; border-bottom: 1px solid var(--border-color); }
-.year-option { display: flex; align-items: center; gap: 10px; padding: 10px 16px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-light, #f8fafc); color: var(--text-secondary); font: inherit; font-size: 0.95rem; cursor: pointer; transition: background 160ms ease, border-color 160ms ease, color 160ms ease; }
-.year-option:hover { border-color: var(--primary-color); color: var(--primary-color); }
-.year-option.active { background: var(--primary-color); border-color: var(--primary-color); color: #fff; }
-.year-option:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 3px; }
-.year-count { font-size: 0.75rem; opacity: 0.75; white-space: nowrap; }
 .selected-year-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 28px 0 24px; }
 .selected-year-heading h2 { margin: 0; font-size: 1.55rem; color: var(--primary-color); }
 .selected-year-heading > span { color: var(--text-muted); font-size: 0.9rem; }
-@media (max-width: 600px) {
-  .year-picker { gap: 8px; padding-bottom: 20px; }
-  .year-option { flex: 1 0 calc(33.333% - 8px); justify-content: center; gap: 8px; padding: 10px 8px; }
-  .selected-year-heading { padding-top: 22px; }
-}
-@media (prefers-reduced-motion: reduce) { .year-option { transition: none; } }
+.paper-sources { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px; }
+.paper-sources a { white-space: nowrap; }
+@media (max-width: 600px) { .selected-year-heading { padding-top: 22px; } }
 </style>

@@ -31,7 +31,7 @@ jobs:
           python-version: '3.11'
 
       - name: Verify sync rules
-        run: python -m unittest discover -s scripts -p "test_sync_content.py"
+        run: python -m unittest discover -s scripts -p "test_*.py"
 
       - name: Fetch public papers
         id: sync
@@ -41,18 +41,25 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python scripts/sync_content.py --report sync-report.json
 
+      - name: Verify new publication metadata
+        if: github.event_name != 'push'
+        run: python scripts/audit_publications.py --update --report publication-audit-report.json
+
       - name: Save sync report
         if: always() && github.event_name != 'push'
         uses: actions/upload-artifact@v4
         with:
           name: content-sync-report
-          path: sync-report.json
+          path: |
+            sync-report.json
+            publication-audit-report.json
           retention-days: 30
 
       - name: Commit new content
         if: github.event_name != 'push'
         run: |
-          git add src/data/auto-publications.json
+          python scripts/update_visits.py
+          git add src/data/auto-publications.json src/data/publication-metadata.json src/data/visits.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

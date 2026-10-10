@@ -4,6 +4,7 @@ import { RouterLink } from 'vue-router'
 import AppNavbar from './AppNavbar.vue'
 import SiteSearch from './SiteSearch.vue'
 const searchOpen = ref(false)
+const baseUrl = import.meta.env.BASE_URL
 function skipToContent() {
   const content = document.getElementById('site-content')
   content?.focus({ preventScroll: true })
@@ -15,12 +16,9 @@ function skipToContent() {
   <a class="skip-link" href="#site-content" @click.prevent="skipToContent">跳转到正文</a>
   <header class="site-header">
     <div class="header-inner">
-      <RouterLink to="/" class="site-brand" aria-label="HDACP 实验室首页">
-        <svg class="brand-mark" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-          <rect x="7" y="7" width="30" height="30" rx="7" stroke="currentColor" stroke-width="2.5" />
-          <path d="M15 14v16m14-16v16M15 22h14M1 16h6M1 28h6M37 16h6M37 28h6M16 1v6M28 1v6M16 37v6M28 37v6" stroke="currentColor" stroke-width="2.5" />
-        </svg>
-        <span class="brand-copy"><strong>HDACP<span> Lab</span></strong><small>青海大学 · 高性能与云计算研究所</small></span>
+      <RouterLink to="/" class="site-brand" aria-label="绿色算力创新与应用研究团队首页">
+        <img class="brand-mark" :src="`${baseUrl}team-logo.jpg`" alt="绿色算力创新与应用研究团队标志" width="56" height="56" />
+        <span class="brand-copy"><strong>HDACP</strong><small>绿色算力创新与应用研究团队</small></span>
       </RouterLink>
       <AppNavbar />
       <button class="search-toggle" aria-label="搜索网站" @click="searchOpen = true">
