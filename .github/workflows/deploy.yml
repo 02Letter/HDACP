@@ -58,8 +58,7 @@ jobs:
       - name: Commit new content
         if: github.event_name != 'push'
         run: |
-          python scripts/update_visits.py
-          git add src/data/auto-publications.json src/data/publication-metadata.json src/data/visits.json
+          git add src/data/auto-publications.json src/data/publication-metadata.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -77,9 +76,13 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
+      - name: Verify visitor client
+        run: node --test scripts/test_visit_counter.mjs
+
       - name: Build
         env:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_VISITOR_API_URL: https://www.xcfqms.com/hdacp-visits/api/visits
         run: npm run build
 
       - name: Deploy

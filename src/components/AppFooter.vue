@@ -1,6 +1,21 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import { ref, onMounted } from 'vue'
 import visits from '@/data/visits.json'
+import { fetchVisitorCount } from '@/services/visitCounter.js'
+// Enabled only after the HTTPS backend has been deployed and verified.
+const visitorEndpoint = import.meta.env.VITE_VISITOR_API_URL
+const totalVisits = ref(visitorEndpoint ? null : visits.count)
+onMounted(async () => {
+  if (!visitorEndpoint) return
+  let storage
+  try { storage = window.localStorage } catch { storage = null }
+  try {
+    totalVisits.value = await fetchVisitorCount(visitorEndpoint, { storage, cryptoApi: window.crypto })
+  } catch {
+    totalVisits.value = null
+  }
+})
 const links = [
   { name: '青海大学', url: 'https://www.qhu.edu.cn/' },
   { name: '青海大学计算机技术与应用系', url: 'https://cs.qhu.edu.cn/' },
@@ -15,6 +30,6 @@ const links = [
       <div><h3>相关链接</h3><ul><li v-for="link in links" :key="link.url"><a :href="link.url" target="_blank" rel="noopener noreferrer">{{ link.name }} ↗</a></li><li><a href="https://github.com/02Letter/HDACP" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li></ul></div>
       <div class="footer-qr"><img src="@/assets/images/qrcode.jpg" alt="青海大学计算机系公众号二维码" loading="lazy" /><p>关注青海大学计算机系</p></div>
     </div>
-    <div class="footer-bottom">© {{ new Date().getFullYear() }} 绿色算力创新与应用研究团队 · HDACP<br /><span class="visit-counter">总访问量：{{ visits.count.toLocaleString('zh-CN') }}</span></div>
+    <div class="footer-bottom">© {{ new Date().getFullYear() }} 绿色算力创新与应用研究团队 · HDACP<br /><span class="visit-counter">总访问量：{{ totalVisits === null ? '—' : totalVisits.toLocaleString('zh-CN') }}</span></div>
   </footer>
 </template>

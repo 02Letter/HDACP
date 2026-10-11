@@ -1,0 +1,21 @@
+[Unit]
+Description=HDACP persistent visitor counter
+After=network.target
+
+[Service]
+Type=simple
+DynamicUser=yes
+StateDirectory=hdacp-visits
+StateDirectoryMode=0700
+ExecStart=/usr/bin/python3 /opt/hdacp-visits/visits.py --data-dir /var/lib/hdacp-visits --port 8787
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target
