@@ -12,7 +12,7 @@ const activeDirection = computed(() => directions.find(item => item.id === route
   <div class="research-page">
     <div class="container">
       <template v-if="!route.params.id">
-        <div class="section-title" v-reveal><h1>研究方向</h1><p>高性能计算、图计算、人工智能与绿色计算</p></div>
+        <div class="section-title" v-reveal><h1>研究方向</h1><p>高性能计算、图计算、人工智能、绿色计算与算电协同</p></div>
         <div class="research-directory">
           <article v-for="direction in directions" :key="direction.id" class="research-directory-item" v-reveal>
             <RouterLink :to="'/research/' + direction.id" class="research-image"><img :src="baseUrl + 'research/' + direction.icon" :alt="direction.name" loading="lazy" /></RouterLink>
