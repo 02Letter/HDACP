@@ -558,10 +558,48 @@
             ]
         },
         {
+            "id": "bxj",
+            "name": "白小军",
+            "title": "讲师",
+            "photo": "bxj.png",
+            "email": "xiaojunbai@qhu.edu.cn",
+            "education": "燕山大学工学博士",
+            "research": "算电协同、多目标优化方法、深度强化学习",
+            "bio": [
+                "主要从事绿色算力中心以及云边端协同环境的资源分配和任务调度的应用基础研究，担任Frontiers of InformationTechnology& Electronic Engineering 期刊审稿人。主要研究方向为算电协同、多目标优化方法、深度强化学习。"
+            ],
+
+            "papers": [
+                {
+                    "year": "发表论文",
+                    "items": [
+                        "Xiaojun Bai, et al. Performance analysis of an energy-saving strategy in cloud data centers based on a MMAP[K]/M[K]/N1+N2 non-preemptive priority queue, Future Generation Computer Systems, 2022, 136: 205-220. (CCF C/中科院SCI二区Top期刊 / IF= 6.2)",
+                        "Xiaojun Bai, et al. A cloud-edge-device collaborative offloading strategy with heterogeneous tasks and its performance evaluation, Frontiers of Information Technology & Electronic Engineering, 2024, 25(05): 664-684. (CCF C/中科院SCI三区期刊 / IF= 2.7)"
+                    ]
+                }
+            ],
+            "projects": [
+                {
+                    "name": "国家自然科学基金",
+                    "title": "青海省 2024 年“揭榜挂帅”项目:青海省绿电溯源与异构算力一体化关键技术研究与应用",
+                    "period": "2024",
+                    "role": "参与"
+                }
+            ],
+             "patents":[
+            "金顺福，白小军，等.云数据中心中基于双阈值滞后集群调度机制的节能策略:中国,202210665311.4[P1.2023-09-15.(已授权)。"
+            ],
+            "awards": [
+                "2022 年获得燕山大学博士研究生国家奖学金。"
+            ]
+
+
+    },
+    {
             "id": "wzc",
             "name": "王哲诚",
             "title": "讲师",
-            "photo": "bxj.png",
+            "photo": "wzc.png",
             "email": "zhecheng.wang@qhu.edu.cn",
             "education": "西北工业大学工学博士",
             "research": "数据压缩和存储、多媒体通信、计算机视觉",
@@ -661,44 +699,6 @@
                 }
                 
             ]
-    },
-    {
-            "id": "bxj",
-            "name": "白小军",
-            "title": "讲师",
-            "photo": "wzc.png",
-            "email": "xiaojunbai@qhu.edu.cn",
-            "education": "燕山大学工学博士",
-            "research": "算电协同、多目标优化方法、深度强化学习",
-            "bio": [
-                "主要从事绿色算力中心以及云边端协同环境的资源分配和任务调度的应用基础研究，担任Frontiers of InformationTechnology& Electronic Engineering 期刊审稿人。主要研究方向为算电协同、多目标优化方法、深度强化学习。"
-            ],
-
-            "papers": [
-                {
-                    "year": "发表论文",
-                    "items": [
-                        "Xiaojun Bai, et al. Performance analysis of an energy-saving strategy in cloud data centers based on a MMAP[K]/M[K]/N1+N2 non-preemptive priority queue, Future Generation Computer Systems, 2022, 136: 205-220. (CCF C/中科院SCI二区Top期刊 / IF= 6.2)",
-                        "Xiaojun Bai, et al. A cloud-edge-device collaborative offloading strategy with heterogeneous tasks and its performance evaluation, Frontiers of Information Technology & Electronic Engineering, 2024, 25(05): 664-684. (CCF C/中科院SCI三区期刊 / IF= 2.7)"
-                    ]
-                }
-            ],
-            "projects": [
-                {
-                    "name": "国家自然科学基金",
-                    "title": "青海省 2024 年“揭榜挂帅”项目:青海省绿电溯源与异构算力一体化关键技术研究与应用",
-                    "period": "2024",
-                    "role": "参与"
-                }
-            ],
-             "patents":[
-            "金顺福，白小军，等.云数据中心中基于双阈值滞后集群调度机制的节能策略:中国,202210665311.4[P1.2023-09-15.(已授权)。"
-            ],
-            "awards": [
-                "2022 年获得燕山大学博士研究生国家奖学金。"
-            ]
-          
-
     }
     ],
     "students": [
