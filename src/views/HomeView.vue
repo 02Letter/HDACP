@@ -5,12 +5,17 @@ import HeroAmbient from '@/components/HeroAmbient.vue'
 import { newsData, papersData, dateValue } from '@/data/content.js'
 import researchData from '@/data/research.json'
 import teamData from '@/data/team.json'
+import featuredPaperIds from '@/data/featured-publications.json'
 
 const baseUrl = import.meta.env.BASE_URL
 const teachers = teamData.teachers
 const latestNews = [...newsData.news].sort((a, b) => dateValue(b.date) - dateValue(a.date)).slice(0, 5)
-const latestPapers = [...papersData].sort((a, b) => Number(b.year) - Number(a.year))
-  .flatMap(group => group.items.map(paper => ({ ...paper, year: group.year }))).slice(0, 5)
+const allPapers = papersData.flatMap(group => group.items.map(paper => ({ ...paper, year: group.year })))
+const featured = new Set(featuredPaperIds)
+const latestPapers = [
+  ...allPapers.filter(paper => featured.has(paper.id)),
+  ...allPapers.filter(paper => !featured.has(paper.id)).slice(0, 5)
+]
 const newsLink = link => /^https?:\/\//.test(link) ? link : baseUrl + link
 </script>
 

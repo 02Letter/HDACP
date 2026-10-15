@@ -561,7 +561,7 @@
             "id": "wzc",
             "name": "王哲诚",
             "title": "讲师",
-            "photo": "wzc.png",
+            "photo": "bxj.png",
             "email": "zhecheng.wang@qhu.edu.cn",
             "education": "西北工业大学工学博士",
             "research": "数据压缩和存储、多媒体通信、计算机视觉",
@@ -666,12 +666,12 @@
             "id": "bxj",
             "name": "白小军",
             "title": "讲师",
-            "photo": "bxj.png",
-            "email": "xiaojunbai2023@163.com",
+            "photo": "wzc.png",
+            "email": "xiaojunbai@qhu.edu.cn",
             "education": "燕山大学工学博士",
-            "research": "云计算、边缘计算、排队论、多目标优化方法、联邦深度强化学习",
+            "research": "算电协同、多目标优化方法、深度强化学习",
             "bio": [
-                "主要从事绿色算力中心以及云边端协同环境的资源分配和任务调度的应用基础研究，担任Frontiers of InformationTechnology& Electronic Engineering 期刊审稿人。主要研究方向为算电协同、云边缘计算、排队论、多目标优化方法、深度强化学习。"
+                "主要从事绿色算力中心以及云边端协同环境的资源分配和任务调度的应用基础研究，担任Frontiers of InformationTechnology& Electronic Engineering 期刊审稿人。主要研究方向为算电协同、多目标优化方法、深度强化学习。"
             ],
 
             "papers": [

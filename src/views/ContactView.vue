@@ -2,11 +2,11 @@
 const contactInfo = {
   address: {
     province: '青海省西宁市宁大路251号',
-    building: '青海大学计算机技术与应用系111实验室'
+    building: '青海大学计算机技术与应用学院111实验室'
   },
   links: [
     { name: '青海大学', url: 'https://www.qhu.edu.cn/' },
-    { name: '青海大学计算机技术与应用系', url: 'https://cs.qhu.edu.cn/' },
+    { name: '青海大学计算机技术与应用学院', url: 'https://cs.qhu.edu.cn/' },
     { name: '中国计算机学会', url: 'https://www.ccf.org.cn/' }
   ]
 }
@@ -18,7 +18,7 @@ const teachers = [
   { name: '张国晶', email: 'Zhanggj@qhu.edu.cn' },
   { name: '吴利', email: 'wuli_qhu@163.com' },
   { name: '边浩东', email: 'hpc_bhd@163.com' },
-  { name: '白小军', email: 'xiaojunbai2023@163.com'},
+  { name: '白小军', email: 'xiaojunbai@qhu.edu.cn'},
   { name: '王哲诚', email: 'zhecheng.wang@qhu.edu.cn'}
 
 ]
@@ -44,7 +44,7 @@ const teachers = [
         <div class="contact-card qrcode-card">
           <div class="card-icon">📱</div>
           <h4>关注我们</h4>
-          <p>扫描二维码关注青海大学计算机系公众号</p>
+          <p>扫描二维码关注青海大学计算机学院公众号</p>
           <div class="qrcode-wrap">
             <img src="@/assets/images/qrcode.jpg" alt="公众号二维码" />
           </div>
@@ -103,7 +103,7 @@ const teachers = [
         <div class="map-placeholder">
           <div class="map-content">
             <span class="map-icon">🗺️</span>
-            <p>青海大学 · 计算机技术与应用系</p>
+            <p>青海大学 · 计算机技术与应用学院</p>
             <p class="map-address">青海省西宁市宁大路251号</p>
           </div>
         </div>
