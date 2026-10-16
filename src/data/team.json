@@ -994,9 +994,23 @@
         {
             "name": "王卓",
             "status": "graduated",
-            "year": "已毕业",
+            "year": "2023级毕业生",
             "research": "天津大学读博",
             "photo": "wangzhuo.jpg"
+        },
+        {
+            "name": "桑文迪",
+            "status": "graduated",
+            "year": "2023级毕业生",
+            "research": "清华大学科研助理",
+            "photo": "sangwendi.jpg"
+        },
+        {
+            "name": "万仁乾",
+            "status": "graduated",
+            "year": "2023级毕业生",
+            "research": "日照钢铁控股集团有限公司",
+            "photo": "wanrenqian.jpg"
         }
     ]
 }
