@@ -1120,6 +1120,14 @@
             "year": "本科毕业生",
             "research": "清华大学深圳研究所",
             "photo": "yanxiao.jpg"
+        },
+        {
+            "name": "班照钦",
+            "status": "graduated",
+            "degree": "undergraduate",
+            "year": "本科毕业生",
+            "research": "直博华中科技大学",
+            "photo": "banzhaoqin.jpg"
         }
     ]
 }
