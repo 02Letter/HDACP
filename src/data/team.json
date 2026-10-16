@@ -1059,6 +1059,27 @@
             "year": "2023级毕业生",
             "research": "日照钢铁控股集团有限公司",
             "photo": "wanrenqian.jpg"
+        },
+        {
+            "name": "刘天静",
+            "status": "graduated",
+            "year": "2023级毕业生",
+            "research": "青海省气象局",
+            "photo": "liutianjing.jpg"
+        },
+        {
+            "name": "石松",
+            "status": "graduated",
+            "year": "2023级毕业生",
+            "research": "青海电信",
+            "photo": "shisong.jpg"
+        },
+        {
+            "name": "张建龙",
+            "status": "graduated",
+            "year": "2023级毕业生",
+            "research": "青海电信",
+            "photo": "zhangjianlong.jpg"
         }
     ]
 }
