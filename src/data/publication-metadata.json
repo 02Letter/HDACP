@@ -1770,8 +1770,17 @@
     "verification": "Crossref publisher deposit; Springer author affiliations",
     "checkedOn": "2026-10-15",
     "verificationUrl": "https://link.springer.com/article/10.1007/s11227-026-08591-6#author-information",
-    "authors": ["Heng Guo", "Xiaojun Bai", "Ji Zhou", "Wei Zhang", "Jianqiang Huang"],
-    "members": ["白小军", "黄建强"]
+    "authors": [
+      "Heng Guo",
+      "Xiaojun Bai",
+      "Ji Zhou",
+      "Wei Zhang",
+      "Jianqiang Huang"
+    ],
+    "members": [
+      "白小军",
+      "黄建强"
+    ]
   },
   "https://openalex.org/W4415916008": {
     "title": "Hierarchical fusion of local and global visual features with mixture-of-experts for remote sensing image scene classification",
