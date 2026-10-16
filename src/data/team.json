@@ -990,6 +990,13 @@
             "year": "2021届毕业生（本科）",
             "research": "青海电信",
             "photo": "chenyuting.jpg"
+        },
+        {
+            "name": "王卓",
+            "status": "graduated",
+            "year": "已毕业",
+            "research": "天津大学读博",
+            "photo": "wangzhuo.jpg"
         }
     ]
 }
