@@ -967,6 +967,14 @@
             "photo": "wangweiyan.jpg"
         },
         {
+            "name": "唐新云",
+            "status": "current",
+            "degree": "phd",
+            "year": "2026级",
+            "research": "",
+            "photo": "tangxinyun.jpg"
+        },
+        {
             "name": "吴环",
             "status": "graduated",
             "degree": "master",
@@ -1067,7 +1075,7 @@
             "name": "王卓",
             "status": "graduated",
             "year": "2023级毕业生",
-            "research": "天津大学读博",
+            "research": "天津大学",
             "photo": "wangzhuo.jpg"
         },
         {
@@ -1104,6 +1112,14 @@
             "year": "2023级毕业生",
             "research": "青海电信",
             "photo": "zhangjianlong.jpg"
+        },
+        {
+            "name": "颜笑",
+            "status": "graduated",
+            "degree": "undergraduate",
+            "year": "本科毕业生",
+            "research": "清华大学深圳研究所",
+            "photo": "yanxiao.jpg"
         }
     ]
 }
