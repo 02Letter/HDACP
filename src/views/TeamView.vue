@@ -1,12 +1,25 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { RouterLink } from 'vue-router'
 import teamData from '@/data/team.json'
 import MemberAvatar from '@/components/MemberAvatar.vue'
+import { studentProgress } from '@/services/studentProgress.js'
 
 const activeTab = ref('master')
 const baseUrl = import.meta.env.BASE_URL
 const teachers = teamData.teachers
+const currentDate = ref(new Date())
+const refreshDate = () => { currentDate.value = new Date() }
+let calendarTimer
+onMounted(() => {
+  calendarTimer = window.setInterval(refreshDate, 60_000)
+  document.addEventListener('visibilitychange', refreshDate)
+})
+onUnmounted(() => {
+  window.clearInterval(calendarTimer)
+  document.removeEventListener('visibilitychange', refreshDate)
+})
+const students = computed(() => teamData.students.map(s => studentProgress(s, currentDate.value)))
 const categories = [
   { value: 'master', label: '在读硕士生' },
   { value: 'phd', label: '在读博士' },
@@ -16,9 +29,9 @@ const categories = [
 const inCategory = (student, category) => category === 'graduated'
   ? student.status === 'graduated'
   : student.status === 'current' && student.degree === category
-const selectedStudents = computed(() => teamData.students.filter(s => inCategory(s, activeTab.value)))
+const selectedStudents = computed(() => students.value.filter(s => inCategory(s, activeTab.value)))
 const selectedLabel = computed(() => categories.find(c => c.value === activeTab.value)?.label)
-const count = category => teamData.students.filter(s => inCategory(s, category)).length
+const count = category => students.value.filter(s => inCategory(s, category)).length
 </script>
 
 <template>

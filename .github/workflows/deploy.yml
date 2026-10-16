@@ -79,6 +79,9 @@ jobs:
       - name: Verify visitor client
         run: node --test scripts/test_visit_counter.mjs
 
+      - name: Verify student academic calendar
+        run: node --test scripts/test_student_progress.mjs
+
       - name: Build
         env:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/

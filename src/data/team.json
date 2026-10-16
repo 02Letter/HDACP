@@ -704,193 +704,193 @@
     "students": [
         {
             "name": "姚自强",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2020-present",
+            "year": "2020级毕业生",
             "research": "人工智能与深度学习",
             "photo": "yaoziqiang.jpg"
         },
         {
             "name": "吴达黎",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2020-present",
+            "year": "2020级毕业生",
             "research": "人工智能与深度学习",
             "photo": "wudali.jpg"
         },
         {
             "name": "董润婷",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2020-present",
+            "year": "2020级毕业生",
             "research": "人工智能与深度学习",
             "photo": "dongrunting.jpg"
         },
         {
             "name": "刘令斌",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2020-present",
+            "year": "2020级毕业生",
             "research": "大规模图计算系统",
             "photo": "liulingbin.jpg"
         },
         {
             "name": "黄东强",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2020-present",
+            "year": "2020级毕业生",
             "research": "高性能计算",
             "photo": "huangdongqiang.jpg"
         },
         {
             "name": "侯天瑞",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2021-present",
+            "year": "2021级毕业生",
             "research": "人工智能与深度学习",
             "photo": "houtianrui.jpg"
         },
         {
             "name": "姜佳凡",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2021-present",
+            "year": "2021级毕业生",
             "research": "高性能计算",
             "photo": "jiangjiafan.jpg"
         },
         {
             "name": "张文轩",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2021-present",
+            "year": "2021级毕业生",
             "research": "人工智能与深度学习",
             "photo": "zhangwenxuan.jpg"
         },
         {
             "name": "李博录",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2021-present",
+            "year": "2021级毕业生",
             "research": "人工智能与深度学习",
             "photo": "libolu.jpg"
         },
         {
             "name": "马晨昱",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2021-present",
+            "year": "2021级毕业生",
             "research": "人工智能与深度学习",
             "photo": "machenyu.jpg"
         },
         {
             "name": "唐嘉豪",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2021-present",
+            "year": "2021级毕业生",
             "research": "高性能计算",
             "photo": "tangjiahao.jpg"
         },
         {
             "name": "余航",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2021-present",
+            "year": "2021级毕业生",
             "research": "高性能计算",
             "photo": "yuhang.jpg"
         },
         {
             "name": "李博",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2021-present",
+            "year": "2021级毕业生",
             "research": "高性能计算",
             "photo": "libo.jpg"
         },
         {
             "name": "宁争胜",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "高性能计算",
             "photo": "ningzhengsheng.jpg"
         },
         {
             "name": "李志雄",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "高性能计算",
             "photo": "lizhixiong.jpg"
         },
         {
             "name": "刘杰",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "人工智能与深度学习",
             "photo": "liujie.jpg"
         },
         {
             "name": "赵海翔",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "人工智能与深度学习",
             "photo": "zhaohaixiang.jpg"
         },
         {
             "name": "潭张杰",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "高性能计算",
             "photo": "tanzhangjie.jpg"
         },
         {
             "name": "李金雯",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "人工智能与深度学习",
             "photo": "lijinwen.jpg"
         },
         {
             "name": "刘君",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "人工智能与深度学习",
             "photo": "liujun.jpg"
         },
         {
             "name": "涂进兴",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "高性能计算",
             "photo": "tujinxing.jpg"
         },
         {
             "name": "刘冰燕",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "人工智能与深度学习",
             "photo": "liubingyan.jpg"
         },
         {
             "name": "徐澳康",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "高性能计算与深度学习",
             "photo": "xuaokang.jpg"
         },
         {
             "name": "陈闽昊",
-            "status": "current",
+            "status": "graduated",
             "degree": "master",
-            "year": "2022-present",
+            "year": "2022级毕业生",
             "research": "高性能计算",
             "photo": "chenminghao.jpg"
         },
