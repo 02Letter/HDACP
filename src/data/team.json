@@ -1122,6 +1122,20 @@
             "photo": "zhangjianlong.jpg"
         },
         {
+            "name": "陈嘉言",
+            "status": "graduated",
+            "year": "2023级毕业生",
+            "research": "上海烟草集团有限责任公司",
+            "photo": "chenjiayan.jpg"
+        },
+        {
+            "name": "朱启威",
+            "status": "graduated",
+            "year": "2023级毕业生",
+            "research": "浙江农业商贸职业学院（教师）",
+            "photo": "zhuqiwei.jpg"
+        },
+        {
             "name": "颜笑",
             "status": "graduated",
             "degree": "undergraduate",
