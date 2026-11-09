@@ -1,5 +1,25 @@
 [
   {
+    "id": "https://openalex.org/W7225456400",
+    "title": "FTSD-SegNet: A Frequency-Token-Spatial Domain Segmentation Network for Remote Sensing Images",
+    "date": "2026-11-07",
+    "year": "2026",
+    "venue": "Lecture notes in computer science",
+    "link": "https://doi.org/10.1007/978-981-92-7192-4_39",
+    "doi": "https://doi.org/10.1007/978-981-92-7192-4_39",
+    "authors": [
+      "Zijie Feng",
+      "Zhecheng Wang",
+      "Jun Ma"
+    ],
+    "members": [
+      "王哲诚"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W7225456400"
+  },
+  {
     "id": "https://openalex.org/W7212371370",
     "title": "TFS: Tile-Aware SpMM–GeMM Fusion for Accelerating GNN Inference on Intel AMX",
     "date": "2026-09-13",

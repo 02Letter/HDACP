@@ -2024,5 +2024,14 @@
     "link": "https://doi.org/10.1109/tnse.2025.3571902",
     "verification": "Crossref publisher deposit",
     "checkedOn": "2026-10-10"
+  },
+  "https://openalex.org/W7225456400": {
+    "title": "FTSD-SegNet: A Frequency-Token-Spatial Domain Segmentation Network for Remote Sensing Images",
+    "venue": "Image and Graphics",
+    "label": "Image and Graphics",
+    "doi": "10.1007/978-981-92-7192-4_39",
+    "link": "https://doi.org/10.1007/978-981-92-7192-4_39",
+    "verification": "Crossref publisher deposit",
+    "checkedOn": "2026-11-09"
   }
 }
