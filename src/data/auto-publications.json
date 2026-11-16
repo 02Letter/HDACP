@@ -575,6 +575,26 @@
     "sourceUrl": "https://openalex.org/W4411523035"
   },
   {
+    "id": "https://openalex.org/W4410602078",
+    "title": "Research on Temperature Forecasting Model Based on BiLSTM-Attention Algorithm",
+    "date": "2025-05-22",
+    "year": "2025",
+    "venue": "Lecture notes in electrical engineering",
+    "link": "https://doi.org/10.1007/978-981-96-2528-4_36",
+    "doi": "https://doi.org/10.1007/978-981-96-2528-4_36",
+    "authors": [
+      "Shun Zhang",
+      "Ming Du",
+      "Guojing Zhang"
+    ],
+    "members": [
+      "张国晶"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4410602078"
+  },
+  {
     "id": "https://openalex.org/W4409076302",
     "title": "CPAT: cross-patch aggregated transformer for time series forecasting",
     "date": "2025-03-31",
@@ -738,26 +758,6 @@
     "studentCoauthors": [],
     "source": "OpenAlex",
     "sourceUrl": "https://openalex.org/W4414856531"
-  },
-  {
-    "id": "https://openalex.org/W4410602078",
-    "title": "Research on Temperature Forecasting Model Based on BiLSTM-Attention Algorithm",
-    "date": "2025-01-01",
-    "year": "2025",
-    "venue": "Lecture notes in electrical engineering",
-    "link": "https://doi.org/10.1007/978-981-96-2528-4_36",
-    "doi": "https://doi.org/10.1007/978-981-96-2528-4_36",
-    "authors": [
-      "Shun Zhang",
-      "Ming Du",
-      "Guojing Zhang"
-    ],
-    "members": [
-      "张国晶"
-    ],
-    "studentCoauthors": [],
-    "source": "OpenAlex",
-    "sourceUrl": "https://openalex.org/W4410602078"
   },
   {
     "id": "https://openalex.org/W4410536086",
