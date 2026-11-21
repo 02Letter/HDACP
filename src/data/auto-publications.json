@@ -2,7 +2,7 @@
   {
     "id": "https://openalex.org/W7225456400",
     "title": "FTSD-SegNet: A Frequency-Token-Spatial Domain Segmentation Network for Remote Sensing Images",
-    "date": "2026-11-07",
+    "date": "2026-11-08",
     "year": "2026",
     "venue": "Lecture notes in computer science",
     "link": "https://doi.org/10.1007/978-981-92-7192-4_39",
@@ -22,7 +22,7 @@
   {
     "id": "https://openalex.org/W7212371370",
     "title": "TFS: Tile-Aware SpMM–GeMM Fusion for Accelerating GNN Inference on Intel AMX",
-    "date": "2026-09-13",
+    "date": "2026-09-27",
     "year": "2026",
     "venue": "Proceedings of the International Conference on Parallel Processing",
     "link": "https://doi.org/10.1145/3832810.3832855",
@@ -46,7 +46,7 @@
   {
     "id": "https://openalex.org/W7203473359",
     "title": "GWBP: Accelerating Weighted Back-Projection for Image Reconstruction via Efficient GPU Parallel Optimization",
-    "date": "2026-08-14",
+    "date": "2026-08-15",
     "year": "2026",
     "venue": "Lecture notes in computer science",
     "link": "https://doi.org/10.1007/978-3-032-35248-4_40",
@@ -84,7 +84,7 @@
   {
     "id": "https://openalex.org/W7168089161",
     "title": "OSOW: A Resource-Efficient Parallelization of the Winograd Algorithm on Multicore CPUs",
-    "date": "2026-07-12",
+    "date": "2026-07-13",
     "year": "2026",
     "venue": "Lecture notes in computer science",
     "link": "https://doi.org/10.1007/978-981-92-2864-5_13",
@@ -106,7 +106,7 @@
   {
     "id": "https://openalex.org/W7167011161",
     "title": "SVSIG: Incremental Streaming Graph Processing with Source Vertex Suppression",
-    "date": "2026-07-02",
+    "date": "2026-07-05",
     "year": "2026",
     "venue": "International Conference on Supercomputing",
     "link": "https://doi.org/10.1145/3797905.3807850",
@@ -577,7 +577,7 @@
   {
     "id": "https://openalex.org/W4410602078",
     "title": "Research on Temperature Forecasting Model Based on BiLSTM-Attention Algorithm",
-    "date": "2025-05-22",
+    "date": "2025-05-23",
     "year": "2025",
     "venue": "Lecture notes in electrical engineering",
     "link": "https://doi.org/10.1007/978-981-96-2528-4_36",
@@ -593,6 +593,27 @@
     "studentCoauthors": [],
     "source": "OpenAlex",
     "sourceUrl": "https://openalex.org/W4410602078"
+  },
+  {
+    "id": "https://openalex.org/W4408116205",
+    "title": "Quantization Parameter Cascading for Lossy Point Cloud Attribute Compression in G-PCC",
+    "date": "2025-04-23",
+    "year": "2025",
+    "venue": "APSIPA Transactions on Signal and Information Processing",
+    "link": "https://doi.org/10.1561/116.20240063",
+    "doi": "https://doi.org/10.1561/116.20240063",
+    "authors": [
+      "Lei Wei",
+      "Zhiwei Zhu",
+      "Zhecheng Wang",
+      "Shuai Wan"
+    ],
+    "members": [
+      "王哲诚"
+    ],
+    "studentCoauthors": [],
+    "source": "OpenAlex",
+    "sourceUrl": "https://openalex.org/W4408116205"
   },
   {
     "id": "https://openalex.org/W4409076302",
@@ -689,27 +710,6 @@
     ],
     "source": "OpenAlex",
     "sourceUrl": "https://openalex.org/W4409724119"
-  },
-  {
-    "id": "https://openalex.org/W4408116205",
-    "title": "Quantization Parameter Cascading for Lossy Point Cloud Attribute Compression in G-PCC",
-    "date": "2025-03-03",
-    "year": "2025",
-    "venue": "APSIPA Transactions on Signal and Information Processing",
-    "link": "https://doi.org/10.1561/116.20240063",
-    "doi": "https://doi.org/10.1561/116.20240063",
-    "authors": [
-      "Lei Wei",
-      "Zhiwei Zhu",
-      "Zhecheng Wang",
-      "Shuai Wan"
-    ],
-    "members": [
-      "王哲诚"
-    ],
-    "studentCoauthors": [],
-    "source": "OpenAlex",
-    "sourceUrl": "https://openalex.org/W4408116205"
   },
   {
     "id": "https://openalex.org/W4412446533",
